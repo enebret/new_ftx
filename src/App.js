@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+//errors are due to js file extension
+
 function App() {
   return (
     <div className="App">
@@ -8,6 +10,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          {/*only make this type of comments inside components*/}
+          {/*ignore the syntax error in the code tag*/}
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          New React
         </a>
       </header>
     </div>
