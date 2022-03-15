@@ -1,28 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Nav from 'react-bootstrap/Nav'
 //errors are due to js file extension
 
 function App() {
+{/*logic lives here*/}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          {/*only make this type of comments inside components*/}
-          {/*ignore the syntax error in the code tag*/}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          New React
-        </a>
-      </header>
-    </div>
+    <Nav variant="pills" defaultActiveKey="/home">
+    <Nav.Item>
+      <Nav.Link href="/home">Active</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="disabled" disabled>
+        Disabled
+      </Nav.Link>
+    </Nav.Item>
+  </Nav>
   );
 }
 
