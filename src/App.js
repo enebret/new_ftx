@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+import React, {Component} from 'react'
 import './App.css';
 import Nav from 'react-bootstrap/Nav'
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 //errors are due to js file extension
 
 function App() {
