@@ -11,3 +11,5 @@ npx create-react-app <app-name> ::to create react app
 11) use text-align to move divs to particular positions in the screen
 12. use width to ajust responsive screen 
 13. use percentage not pixels to move elements across screen
+!4. always use capital letters to when creating a component. also use .jsx extension for react scripts to prevent error
+15. Install react-router-dom in other to use routes
