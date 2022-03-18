@@ -28,11 +28,11 @@ function Body () {
   </div>
 
   <div class="col-6 col-s-9">
-    <h1>The City</h1>
+    <h1>Table data below this but before register button</h1>
     <button id = 'btx' onClick={() => navigate("registration")}>
         Register here
       </button>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <h3>All about ftx in a nutshell</h3>
   </div>
 
   <div class="col-3 col-s-12">
