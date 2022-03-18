@@ -22,3 +22,4 @@ npx create-react-app <app-name> ::to create react app
 22. insert table component within a div after importing to body.js. pad div by 20%.
 23. every other page including about us, and contact pages will come with the same header and footer 
 24. to test a script, you can run it individually on a different shell
+25. use border radius to shape button edges
