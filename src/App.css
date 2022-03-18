@@ -12,9 +12,9 @@
 }
 #btx {
   position:static;
-  margin-left: 36%;
+ margin-left: 45%;
   top: 50%;
-  width: 30%;
+  
 }
 .row::after {
   content: "";
