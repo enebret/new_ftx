@@ -11,17 +11,26 @@
   box-sizing: border-box;
 }
 #btx {
-  left: 26%;
+  position:static;
+  margin-left: 36%;
   top: 50%;
+  width: 30%;
 }
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-.pow {
-  position: absolute;
-  top: 200px;
+.cr {
+  display: block;
+  margin-top: 30%;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+
+#gd {
+  text-align: center
 }
 [class*="col-"] {
   float: left;
