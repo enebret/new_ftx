@@ -1,7 +1,8 @@
 import * as React from 'react';
 import './App.css';
 import Body from './components/body.jsx'
-import Form from './components/login.jsx'
+import Form from './components/login.js'
+import Reg from './components/signup.jsx'
 import { Routes, Route, Link } from "react-router-dom"
 //errors are due to js file extension
 /* eslint no-unused-vars : "off" */
@@ -13,7 +14,8 @@ function App() {
         <div>
           <Routes>
           <Route path="/" element={<Body />}></Route>
-          <Route path="about" element={<Form />}></Route>
+          <Route path="form" element={<Form />}></Route>
+          <Route path="registration" element={<Reg />}></Route>
         </Routes>
           
         </div>

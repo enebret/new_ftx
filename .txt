@@ -13,3 +13,11 @@ npx create-react-app <app-name> ::to create react app
 13. use percentage not pixels to move elements across screen
 !4. always use capital letters to when creating a component. also use .jsx extension for react scripts to prevent error
 15. Install react-router-dom in other to use routes
+16. use display grid to show testimonials
+17> when importing files within a component eg css inside a js folder in the same folder, ensure to use the relative path eg ./login.css
+18. when using input tags in react, ensure to put a closing tag
+19. always use percentage for element sizing and movement
+20. send confirmation email after registration
+21. use transparent background with border color for buttons and hover green background with no border color
+22. insert table component within a div after importing to body.js. pad div by 20%.
+23. every other page including about us, and contact pages will come with the same header and footer 

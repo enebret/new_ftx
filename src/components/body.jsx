@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom'
+
+
 function Body () {
   const navigate = useNavigate()
 
@@ -8,8 +10,8 @@ function Body () {
         <div>
     <div class="header">
   <div class ='chania'>
-  <button onClick={() => navigate("about")}>
-        Go Home
+  <button onClick={() => navigate("form")}>
+        login
       </button>
   </div>
   <h3>logo</h3>
@@ -27,6 +29,9 @@ function Body () {
 
   <div class="col-6 col-s-9">
     <h1>The City</h1>
+    <button id = 'btx' onClick={() => navigate("registration")}>
+        Register here
+      </button>
     <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
   </div>
 
