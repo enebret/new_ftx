@@ -1,19 +1,19 @@
 import React, {useState, useEffect} from 'react';
-
+import Xrp from './util/getXrp.js';
+import Btc from './util/getBtc.js';
 function Table () {
     const [btx, newBtx] = useState(null);
-    const [th, newTH] = useState(null);
-    const [cd, newCD] = useState(null);
+    //const [th, newTH] = useState(null);
+    //const [cd, newCD] = useState(null);
     const [rp, newRP] = useState(null);
     useEffect(()=>{
       async function getApi (){
         try{
-          const dt = await addtheBoth();
-          //comma separator funct for digits greater than 4
-          newBtx(dt.finalBtc);
+          
+          newBtx(Btc);
           //newTH(dt.data.tether.usd);
-          newCD(dt.finalAda);
-          newRP(dt.finalXrp);
+          //newCD(dt.finalAda);
+          newRP(Xrp);
         }
         catch (error) {
           console.error(error)
@@ -36,10 +36,7 @@ function Table () {
           <td>bitcoin</td>
           <td>NGN{btx}</td>
           </tr>
-          <tr>
-          <td>cardano</td>
-           <td>NGN{cd}</td>
-          </tr>
+          
           <tr>
           <td>ripple</td>
            <td>NGN{rp}</td>

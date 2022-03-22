@@ -1,4 +1,5 @@
 import axios from "axios";
+//const axios = require('axios')
 const url = "https://api3.binance.com/api/v3/avgPrice?symbol=";
 
 async function Xrp () {
@@ -14,4 +15,5 @@ async function Xrp () {
       console.log (error)
     }
   }
+  //Xrp()
   export default Xrp;

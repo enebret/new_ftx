@@ -16,6 +16,10 @@
   top: 50%;
   
 }
+table{
+  display: block;
+  position: absolute;
+}
 .row::after {
   content: "";
   clear: both;

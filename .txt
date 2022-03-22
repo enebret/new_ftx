@@ -23,3 +23,5 @@ npx create-react-app <app-name> ::to create react app
 23. every other page including about us, and contact pages will come with the same header and footer 
 24. to test a script, you can run it individually on a different shell
 25. use border radius to shape button edges
+26. ensure that when importing new functions invogue the function inside the use-effect hook first before passing to state
+27. use setinterval inside the use-effect hook to make price data dynamic
