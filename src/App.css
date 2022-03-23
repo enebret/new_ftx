@@ -10,15 +10,17 @@
 * {
   box-sizing: border-box;
 }
-#btx {
-  position:static;
- margin-left: 45%;
-  top: 50%;
-  
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.tb{
+  padding: 5%;
 }
 table{
-  display: block;
-  position: absolute;
+  width: 100%;
 }
 .row::after {
   content: "";
@@ -27,10 +29,14 @@ table{
 }
 .cr {
   display: block;
-  margin-top: 30%;
   width: 100%;
   padding: 5%;
   text-align: center;
+}
+
+#tbr{
+  position: relative;
+  
 }
 
 #gd {
@@ -114,6 +120,10 @@ h3 {
   width: 100%;
 }
 
+@media only screen and (min-width: 100px) {
+  #tbr {left: 38%}
+}
+
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -128,6 +138,7 @@ h3 {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  #tbr {left: 46%}
 }
 
 @media only screen and (min-width: 768px) {
@@ -144,6 +155,7 @@ h3 {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  #tbr {left: 46%}
 }
 
 @media (prefers-reduced-motion: no-preference) {

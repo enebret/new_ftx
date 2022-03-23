@@ -25,3 +25,5 @@ npx create-react-app <app-name> ::to create react app
 25. use border radius to shape button edges
 26. ensure that when importing new functions invogue the function inside the use-effect hook first before passing to state
 27. use setinterval inside the use-effect hook to make price data dynamic
+28. set table width at 100%, put in a div element and pad div at 5%
+29. use css media query to manage screen size across devices
