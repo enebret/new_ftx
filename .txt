@@ -28,4 +28,5 @@ npx create-react-app <app-name> ::to create react app
 28. set table width at 100%, put in a div element and pad div at 5%
 29. use css media query to manage screen size across devices
 30. cadright (Change language from can-be to should-be (instructional),prd summary should be under registration )
+31. to reduce the table width, change the padding in the div element
   

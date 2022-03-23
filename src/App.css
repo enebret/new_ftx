@@ -17,7 +17,7 @@ td, th {
   padding: 8px;
 }
 .tb{
-  padding: 5%;
+  padding: 10%;
 }
 table{
   width: 100%;
@@ -123,7 +123,7 @@ h3 {
 }
 
 @media only screen and (min-width: 100px) {
-  #tbr {left: 38%}
+  #tbr {left: 33%}
   .cr {margin-bottom: 2px;}
 }
 
