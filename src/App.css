@@ -32,6 +32,8 @@ table{
   width: 100%;
   padding: 5%;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
 
 #tbr{
@@ -122,6 +124,7 @@ h3 {
 
 @media only screen and (min-width: 100px) {
   #tbr {left: 38%}
+  .cr {margin-bottom: 2px;}
 }
 
 @media only screen and (min-width: 600px) {

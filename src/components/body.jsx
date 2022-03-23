@@ -29,7 +29,7 @@ function Body () {
       newRP(vg);
       newCd(cg);
     })();
-   }, 3500);
+   }, 5000);
     
   }, [dfx,rp]);
 
@@ -74,11 +74,10 @@ function Body () {
                         </button>
        
          <div class='cr'>
-           <h1 class="qr">Table data below this but before register button</h1>
-          
+           <h2 class="qr">Table data below this but before register button</h2>
                  <h3 id="gd">All about ftx in a nutshell</h3>
            </div>
-        
+           
          
 
       <div class="footer">
