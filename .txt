@@ -29,4 +29,6 @@ npx create-react-app <app-name> ::to create react app
 29. use css media query to manage screen size across devices
 30. cadright (Change language from can-be to should-be (instructional),prd summary should be under registration )
 31. to reduce the table width, change the padding in the div element
-  
+32. this.props.match.params.id ,this is the id passed as the parameter to the url route (eg user/1 where 1 = id) <Route path='/show-book/:id' component={ShowBookDetails} /> id parameter is passed to the ShowBookDetails component as a prop. 
+33. use alert() to display backend respond
+34. signin/login will use the get rest parameter with user details as payload
