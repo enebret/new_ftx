@@ -2,6 +2,7 @@ import * as React from 'react';
 import './signupStyles.css';
 
 function Reg () {
+    
     return (
         <div class='pd'>
             <div class = 'fr'>

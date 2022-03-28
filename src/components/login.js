@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import './loginStyles.css';
 import axios from 'axios';
-
+import { useNavigate } from 'react-router-dom';
 
 function Form () {
     const [Email, setUserEmail] = useState('');
     const [Password, setPassword] = useState('');
-   
-
+    
+    const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         const user = {
@@ -16,7 +16,15 @@ function Form () {
           };
           //console logging here is browser console
           axios.post('http://localhost:8082/login', user)
-            .then(response => console.log(response.data))
+            .then(response => {
+              if(response.data==='welcome'){
+                //redirect to homepage or dashboard page
+                navigate('/')
+              }else if(response.data!=='welcome'){
+                //display error msg to user here by updating the dom
+                console.log(response.data)
+              }
+            })
             
             .catch(err => {
               console.error(err);
