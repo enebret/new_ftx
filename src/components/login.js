@@ -1,3 +1,4 @@
+/*jshint esversion: 8 */
 import React, {useState} from 'react';
 import './loginStyles.css';
 import axios from 'axios';
@@ -19,17 +20,17 @@ function Form () {
             .then(response => {
               if(response.data==='welcome'){
                 //redirect to homepage or dashboard page
-                navigate('/')
+                navigate('/');
               }else if(response.data!=='welcome'){
                 //display error msg to user here by updating the dom
-                console.log(response.data)
+                console.log(response.data);
               }
             })
             
             .catch(err => {
               console.error(err);
           });
-      }
+      };
     
 
     return (
