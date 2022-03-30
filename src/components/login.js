@@ -39,7 +39,7 @@ function Form () {
             <form onSubmit={handleSubmit}>
               <label for="fname">Enter Email address</label>
               <input type="text" name ='email' value ={Email} onChange={e => setUserEmail(e.target.value)} />
-              <input type="password" name ='password' value ={Password} onChange={e => setPassword(e.target.value)} />
+              <input type="text" name ='password' value ={Password} onChange={e => setPassword(e.target.value)} />
               <input type="submit" value="Submit"></input>
               </form>
             </div>

@@ -36,9 +36,23 @@ table{
   margin-bottom: 2px;
 }
 
+  
 #tbr{
   position: relative;
-  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+#tbr:hover{
+  background-color: #003153;
+  color: white;
 }
 
 #gd {
@@ -54,20 +68,26 @@ html {
 }
 
 
-button {
+#cbr {
   position: absolute;
   top: 40px;
   left: 80%;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 15px;
   text-align: center;
   display: grid;
   font-size: 16px;
-  font-weight: bold;
-  
+  font-weight: normal;
+  border-radius: 8px;
 }
+
+#cbr:hover{
+  background-color: #003153;
+  color: white;
+}
+
 h3 {
   text-align: left;
   
@@ -123,7 +143,7 @@ h3 {
 }
 
 @media only screen and (min-width: 100px) {
-  #tbr {left: 33%}
+  #tbr {left: 29%}
   .cr {margin-bottom: 2px;}
 }
 
@@ -158,7 +178,7 @@ h3 {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  #tbr {left: 46%}
+  #tbr {left: 43%}
 }
 
 @media (prefers-reduced-motion: no-preference) {

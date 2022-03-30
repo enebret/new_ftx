@@ -37,7 +37,7 @@ function Body () {
      <div>
           <div class="header">
             <div class ='chania'>
-               <button onClick={() => navigate("form")}>login</button>
+               <button id = 'cbr' onClick={() => navigate("form")}>Login</button>
               </div>
               <h3>logo</h3>
             </div>
