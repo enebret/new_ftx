@@ -76,8 +76,8 @@ function Body () {
                         </button>
        
          <div class='cr'>
-           <h4 class="qr">Table data below this but before register button</h4>
-                 <h5 id="gd">All about ftx in a nutshell</h5>
+           <h4 class="first-text">GET DOUBLE DIGIT RETURNS ON EVERY INVESTMENT</h4>
+                 <h7 id="second-text">WE MAKE TRADING EASY AND RELIABLE</h7>
            </div>
            
          
