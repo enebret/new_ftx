@@ -36,21 +36,26 @@ table{
   margin-bottom: 2px;
 }
 
-  
-#tbr{
-  position: relative;
+ img.one{
+  height: 5%;
+  width: 5%;
+ } 
+
+#register-button{
+  position: absolute;
+  top: 99%;
+  left: 40%;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 8px;
 }
 
-#tbr:hover{
+#register-button:hover{
   background-color: #003153;
   color: white;
 }
@@ -68,9 +73,9 @@ html {
 }
 
 
-#cbr {
+#login-button {
   position: absolute;
-  top: 40px;
+  top: 20%;
   left: 80%;
   background-color: #4CAF50; /* Green */
   border: none;
@@ -83,7 +88,7 @@ html {
   border-radius: 8px;
 }
 
-#cbr:hover{
+#login-button:hover{
   background-color: #003153;
   color: white;
 }
@@ -93,9 +98,11 @@ h3 {
   
 }
 .header {
-  background-color: #9933cc;
+  /*contains logo and login*/
+  background-color: #000024;
   color: #ffffff;
-  padding: 15px;
+  padding: 30px;
+  height: 20%;
 }
 
 .menu ul {
@@ -126,7 +133,7 @@ h3 {
 }
 
 .footer {
-  background-color: #0099cc;
+  background-color: #000024;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
@@ -144,7 +151,15 @@ h3 {
 
 @media only screen and (min-width: 100px) {
   #tbr {left: 29%}
-  .cr {margin-bottom: 2px;}
+  .cr {position: absolute}
+  .cr {top: 60%}
+  #register-button{left: 25%}
+  img.one {width: 20%}
+  img.one {height: 20%}
+  #login-button{top: 5%;}
+  #register-button {left: 30%;}
+  #register-button {position: absolute}
+  #register-button {top: 58%;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -161,7 +176,10 @@ h3 {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
-  #tbr {left: 46%}
+  #register-button {left: 40%;}
+  #register-button {position: absolute}
+  #register-button {top: 65%;}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -178,7 +196,10 @@ h3 {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  #tbr {left: 43%}
+  #register-button {left: 43%}
+  #register-button {position: absolute}
+  #register-button {top: 80%;}
+  #login-button{top: 20%;}
 }
 
 @media (prefers-reduced-motion: no-preference) {

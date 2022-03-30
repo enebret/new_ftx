@@ -9,6 +9,8 @@ import Xrp from './util/getXrp.js';
 
 import Ada from './util/getAda.js';
 
+import logo from './util/logo.JPG';
+
 function Body () {
   const navigate = useNavigate();
   const [dfx, newDfx] = useState(null);
@@ -37,9 +39,9 @@ function Body () {
      <div>
           <div class="header">
             <div class ='chania'>
-               <button id = 'cbr' onClick={() => navigate("form")}>Login</button>
+               <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
               </div>
-              <h3>logo</h3>
+              <img class="one" src={logo} alt="logo" />
             </div>
         <div class='tb'>
         <table>
@@ -69,19 +71,19 @@ function Body () {
           </tbody>
         </table>
         </div>
-        <button  id = 'tbr' onClick={() => navigate("registration")}>
+        <button  id = 'register-button' onClick={() => navigate("registration")}>
                  Register here
                         </button>
        
          <div class='cr'>
-           <h2 class="qr">Table data below this but before register button</h2>
-                 <h3 id="gd">All about ftx in a nutshell</h3>
+           <h4 class="qr">Table data below this but before register button</h4>
+                 <h5 id="gd">All about ftx in a nutshell</h5>
            </div>
            
          
 
       <div class="footer">
-           <p>Resize the browser window to see how the content respond to the resizing.</p>
+           <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
       </div>
 </div>
     )
