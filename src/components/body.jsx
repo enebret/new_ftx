@@ -24,6 +24,11 @@ function Body () {
   const [meth, newMEth] = useState(null);
   const [mrp, newMRp] = useState(null);
   
+  //vol
+  const [vbtc, newVBtc] = useState(null);
+  const [veth, newVEth] = useState(null);
+  const [vrp, newVRp] = useState(null);
+
   useEffect(() => {
    setInterval(() => {
     (async()=>{
@@ -37,6 +42,11 @@ function Body () {
       let eth_market_cap = main_object.data[1].market_cap;
       let rp_market_cap = main_object.data[2].market_cap;
 
+      //market vol
+      let btc_vol = main_object.data[0].vol;
+      let eth_vol = main_object.data[1].vol;
+      let rp_vol = main_object.data[2].vol;
+
       newBtc(plain_btc);
       newEth(plain_eth);
       newRp(plain_rp);
@@ -44,6 +54,11 @@ function Body () {
       newMBtc(btc_market_cap);
       newMEth(eth_market_cap);
       newMRp(rp_market_cap);
+
+      //
+      newVBtc(btc_vol);
+      newVEth(eth_vol);
+      newVRp(rp_vol);
 
     })();
    }, 5000);
@@ -65,7 +80,8 @@ function Body () {
             <th>logo</th>
            <th>cryptocurrency</th>
            <th>price</th>
-           <th>market_cap</th>
+           <th>market cap</th>
+           <th>market volume</th>
            
           </tr>
           </thead>
@@ -76,7 +92,7 @@ function Body () {
           <td>bitcoin</td>
           <td>{btc}</td>
           <td>{mbtc}</td>
-          
+          <td>{vbtc}</td>
           </tr>
           
           <tr>
@@ -84,6 +100,7 @@ function Body () {
           <td>ethereum</td>
           <td>{eth}</td>
           <td>{meth}</td>
+          <td>{veth}</td>
           </tr>
           
           <tr>
@@ -91,6 +108,7 @@ function Body () {
           <td>ripple</td>
           <td>{rp}</td>
           <td>{mrp}</td>
+          <td>{vrp}</td>
           </tr>
 
           </tbody>
