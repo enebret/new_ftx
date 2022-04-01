@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 //import Xrp from './util/getXrp.js';
 //import Ada from './util/getAda.js';
 import Cg from './coingecko/cg.js';
-import Img from './coingecko/img.js';
+//import Img from './coingecko/img.js';
 
 
 import logo from './util/logo.JPG';
@@ -46,6 +46,8 @@ function Body () {
       let btc_vol = main_object.data[0].vol;
       let eth_vol = main_object.data[1].vol;
       let rp_vol = main_object.data[2].vol;
+
+      //%
 
       newBtc(plain_btc);
       newEth(plain_eth);
