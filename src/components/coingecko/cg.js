@@ -1,7 +1,9 @@
 //animal farm - george orwell, tuesdays with morrie - mitch albom, to kill a mocking bird - harper lee, the kite runner - khaled hosseini, wild - cheryl strayed, pride and prejudice - jane austen, 1984 - george orwell, brave new world - aldous huxley, a short history of nearly everything - bill bryson, 
 /*jshint esversion: 8 */
-const axios = require ('axios');
+import axios from "axios";
+//const axios = require ('axios');
 const url = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cripple&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true';
+
 const get_data = async function () {
     let data = await axios.get(url);
     let object_to_array = Object.values(data.data);
@@ -33,12 +35,13 @@ const get_data = async function () {
        return fts;
    };
 
-   let main = {
+   var main = {
        data: figures_to_string(),
        convert: convert_to_percent()
    };
-   console.log(main);
-    //console.log(data.data);
+   //console.log(main);
+    return main;
 };
 
-get_data();
+export default get_data;
+//get_data();

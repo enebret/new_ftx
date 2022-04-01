@@ -3,38 +3,53 @@
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Btc from './util/getBtc.js';
+//import Btc from './util/getBtc.js';
+//import Xrp from './util/getXrp.js';
+//import Ada from './util/getAda.js';
+import Cg from './coingecko/cg.js';
+import Img from './coingecko/img.js';
 
-import Xrp from './util/getXrp.js';
-
-import Ada from './util/getAda.js';
 
 import logo from './util/logo.JPG';
 
 function Body () {
   const navigate = useNavigate();
-  const [dfx, newDfx] = useState(null);
-  const [rp, newRP] = useState(null);
-  const [cd, newCd] = useState(null);
 
-  /** setInterval(() => {
-      Btc()
-    .then(data=>newDfx(data));
-    }, 3200); */
+
+  const [btc, newBtc] = useState(null);
+  const [eth, newEth] = useState(null);
+  const [rp, newRp] = useState(null);
+  //marketcap
+  const [mbtc, newMBtc] = useState(null);
+  const [meth, newMEth] = useState(null);
+  const [mrp, newMRp] = useState(null);
+  
   useEffect(() => {
    setInterval(() => {
     (async()=>{
-      let pg = await Btc();
-      let vg = await Xrp();
-      let cg = await Ada(); 
-      newDfx(pg);
-      newRP(vg);
-      newCd(cg);
+      let main_object = await Cg();
+      let plain_btc = main_object.data[0].usd;
+      let plain_eth = main_object.data[1].usd;
+      let plain_rp = main_object.data[2].usd; 
+
+      //marketcap
+      let btc_market_cap = main_object.data[0].market_cap;
+      let eth_market_cap = main_object.data[1].market_cap;
+      let rp_market_cap = main_object.data[2].market_cap;
+
+      newBtc(plain_btc);
+      newEth(plain_eth);
+      newRp(plain_rp);
+      //
+      newMBtc(btc_market_cap);
+      newMEth(eth_market_cap);
+      newMRp(rp_market_cap);
+
     })();
    }, 5000);
-    
-  }, [dfx,rp]);
+  }, [btc,eth,rp]);
 
+  
     return (
      <div>
           <div class="header">
@@ -47,25 +62,35 @@ function Body () {
         <table>
           <thead>
           <tr>
-           <th>data</th>
+            <th>logo</th>
+           <th>cryptocurrency</th>
            <th>price</th>
+           <th>market_cap</th>
+           
           </tr>
           </thead>
           <tbody>
          
           <tr>
+          <td><img src='https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579' alt='td' width="40"></img></td>
           <td>bitcoin</td>
-          <td>$  {dfx}</td>
+          <td>{btc}</td>
+          <td>{mbtc}</td>
+          
           </tr>
           
           <tr>
+          <td><img src='https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880' alt='td' width="40"></img></td>
+          <td>ethereum</td>
+          <td>{eth}</td>
+          <td>{meth}</td>
+          </tr>
+          
+          <tr>
+          <td><img src='https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1605778731' alt='td' width="40"></img></td>
           <td>ripple</td>
-          <td>$  {rp}</td>
-          </tr>
-          
-          <tr>
-          <td>cardano</td>
-          <td>$  {cd}</td>
+          <td>{rp}</td>
+          <td>{mrp}</td>
           </tr>
 
           </tbody>
