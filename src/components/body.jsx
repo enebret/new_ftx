@@ -1,5 +1,5 @@
 /*jshint esversion: 8 */
-
+//{/* use this to comment inside jsx*/}
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -149,7 +149,8 @@ function Body () {
         </div>
         <div class= 'mid_bg_img'>
         <img id="up" src={usplash} alt="unsplash" />
-        /**stroke image located here with id */
+        
+        {/* stroke image located here with id */}
           <div class= 'capture_write_up'>
             <h2>Automate Cryptocurrency trading, forecasting and hedging with our Simple
             & flexible platform.
@@ -161,7 +162,20 @@ function Body () {
                  Get Started Today
                         </button>
        
-
+        <div class = 'mid_div'>
+           <div class = 'first_ad'>
+             {/*svg img*/}
+             <h1>Trading made easy with us</h1>
+             <p>With us trading has been made easy. Choose from 250+ financial instruments with a trusted, award-winning broker.</p>
+           </div>
+           <div class = 'second_ad'>
+             {/*svg img*/}
+           </div>
+           <div class = 'third_ad'></div>
+           <div class = 'fourth_ad'></div>
+           <div class = 'fifth_ad'></div>
+           <div class = 'sixth_ad'></div>
+        </div>
       <div class="footer">
            <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
       </div>

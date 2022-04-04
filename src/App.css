@@ -298,9 +298,11 @@ h3 {
 
     .capture_write_up{
       position: absolute;
-      top: 320px;
+      top: 160px;
       color: white;
       padding:30px ;
+      width: 400px;
+      left: 160px;
     }
 
     /*unsplash image for resizing*/
@@ -309,16 +311,49 @@ h3 {
     }
 
     /*register button*/
-  #register-button {left: 43%}
+  #register-button {left: 200px;}
   #register-button {top: 980px;}
   #register-button {font-weight: bold;}
 
-   li{
-     display: inline;
-     padding-left: 50px;
-     margin-top: 300px;
-   }
-  
+  .mid_div{
+    position: absolute;
+    top: 800px;
+    height: 800px;
+  }
+
+  .first_ad{
+    position: absolute;
+    font-weight: 700;
+    font-family: cursive, sans-serif;
+    width: 300px;
+
+  }
+
+  .second_ad{
+    position: absolute;
+    width: 400px;
+  }
+
+  .third_ad{
+    position: absolute;
+    width: 400px;
+  }
+
+  .fourth_ad{
+    position: absolute;
+    width: 300px;
+  }
+
+  fifth_ad{
+    position: absolute;
+    width: 200px;
+  }
+
+  sixth_ad{
+    position: absolute;
+    width: 300px;
+  }
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
