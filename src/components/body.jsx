@@ -149,6 +149,7 @@ function Body () {
         </div>
         <div class= 'mid_bg_img'>
         <img id="up" src={usplash} alt="unsplash" />
+        /**stroke image located here with id */
           <div class= 'capture_write_up'>
             <h2>Automate Cryptocurrency trading, forecasting and hedging with our Simple
             & flexible platform.
