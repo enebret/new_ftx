@@ -34,3 +34,4 @@ npx create-react-app <app-name> ::to create react app
 34. signin/login will use the get rest parameter with user details as payload
 35. when exporting use var not let to hold an arguement
 36. to increase the width of a table cell, use width in pixels
+37. css takes priority of css properties wrapped under a query rather than css properties under no query

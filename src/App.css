@@ -1,7 +1,21 @@
+/*design for only two screen type; min 100 and min 768*/
+
 .App {
   text-align: center;
 }
 
+/*overall div holding body*/
+.main{
+  height: 2000px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+/*overall div holding body*/
+
+
+
+
+
+ /*header*/
 
 .App-logo {
   height: 40vmin;
@@ -17,12 +31,8 @@ td, th {
   padding: 5px;
   width: 100px;
 }
-.tb{
-  padding: 5%;
-  position:absolute;
-  top: 25%;
-  left: 26%;
-}
+
+
 table{
   width: 100%;
   
@@ -33,22 +43,16 @@ table{
   display: table;
 }
 .cr {
-  display: block;
-  width: 100%;
+
   padding: 5%;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 2px;
+  margin-top: 25px;
 }
 
- img.one{
-  height: 5%;
-  width: 5%;
- } 
+
 
 #register-button{
-  position: absolute;
-  top: 100%;
+  
+  top: 700px;
   left: 40%;
   background-color: #4CAF50; /* Green */
   border: none;
@@ -65,18 +69,6 @@ table{
   color: white;
 }
 
-#first-text{
-  position: absolute;
-  top: 10%;
-  left: 43%; 
-}
-
-#second-text {
-  text-align: center;
-  position: absolute;
-  top: 42%;
-  left: 70%;
-}
 
 
 [class*="col-"] {
@@ -89,20 +81,7 @@ html {
 }
 
 
-#login-button {
-  position: absolute;
-  top: 20%;
-  left: 80%;
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  display: grid;
-  font-size: 16px;
-  font-weight: normal;
-  border-radius: 8px;
-}
+
 
 #login-button:hover{
   background-color: #003153;
@@ -113,13 +92,7 @@ h3 {
   text-align: left;
   
 }
-.header {
-  /*contains logo and login*/
-  background-color: #000024;
-  color: #ffffff;
-  padding: 30px;
-  height: 20%;
-}
+
 
 .menu ul {
   list-style-type: none;
@@ -165,27 +138,24 @@ h3 {
   width: 100%;
 }
 
+/* For simulating mobike phone on computer screen >100px*/
 @media only screen and (min-width: 100px) {
   #tbr {left: 29%}
-  .cr {position: absolute}
-  .cr {top: 50%}
+  
   #register-button{left: 25%}
-  img.one {width: 20%}
-  img.one {height: 20%}
-  #login-button{top: 5%;}
+ 
+  
   #register-button {left: 30%;}
   #register-button {position: absolute}
   #register-button {top: 70%;}
-  #second-text {
-    position: absolute;
-    top: 5%;
-    left: 15%;
-  }
+
   
 }
 
+
+/* For tablets: */
 @media only screen and (min-width: 600px) {
-  /* For tablets: */
+  
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
@@ -199,11 +169,25 @@ h3 {
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
   #register-button {left: 40%;}
-  #register-button {position: absolute}
+  
   #register-button {top: 65%;}
+  
+  
+  
 
+  #first-text{
+    position: absolute;
+    top: 60%;
+    left: 70%; 
+  }
+
+ 
+  
 }
 
+
+
+/* laptop and desktop screen */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -218,25 +202,122 @@ h3 {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  #register-button {left: 43%}
-  #register-button {position: absolute}
-  #register-button {top: 80%;}
-  #login-button{top: 20%;}
+
+  
+
+  
+   /* div for both texts*/
   .cr {position: absolute}
-  .cr {top: 60%}
+  .cr {top: 420px}
+  .cr {left: 410px;}
+  
+   /*coin weight*/
+   #ft{
+    font-weight: bold;
+  }
+
 
   #first-text{
-    position: absolute;
-    top: 100%;
-    left: 20%; 
+    text-align: center;
+    margin-left: 300px;
   }
 
   #second-text {
-    text-align: center;
     position: absolute;
-    top: 55%;
-    left: 40%;
+    margin-left: 50px;
+    top: 110px;
   }
+
+  /*header*/
+.header {
+  /*contains logo and login*/
+  background-color: #000024;
+  color: #ffffff;
+  padding-left: 30px;
+  height: 200px;
+}
+
+   /*logo image*/
+  #lg{
+    display: absolute;
+    height: 50px;
+    width: 100px;
+    margin-top: 92px;
+    margin-right: 60px;
+   } 
+
+  
+   /*nav*/
+   nav{
+    display: absolute;
+     margin-bottom: 200px;
+     right: 700px;
+   }
+
+   a{
+     margin-left: 50px;
+     text-decoration: none;
+   }
+
+   a:hover{
+    background-color: #003153;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+  }
+    /*login button*/
+    #login-button {
+      position: absolute;
+      top: 115px;
+      left: 1200px;
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      display: grid;
+      font-size: 16px;
+      font-weight: normal;
+      border-radius: 8px;
+    }
+
+    .tb{
+      padding: 5%;
+      position:absolute;
+      top: 200px;
+      left: 260px;
+    }
+
+    /*mid div that contains bg image*/
+    .mid_bg_img{
+      position: absolute;
+      top: 500px;
+    }
+
+    .capture_write_up{
+      position: absolute;
+      top: 320px;
+      color: white;
+      padding:30px ;
+    }
+
+    /*unsplash image for resizing*/
+    #up{
+      height: 800px;
+    }
+
+    /*register button*/
+  #register-button {left: 43%}
+  #register-button {top: 980px;}
+  #register-button {font-weight: bold;}
+
+   li{
+     display: inline;
+     padding-left: 50px;
+     margin-top: 300px;
+   }
   
 }
 
