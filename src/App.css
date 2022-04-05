@@ -6,7 +6,7 @@
 
 /*overall div holding body*/
 .main{
-  height: 2000px;
+  height: 3000px;
   font-family: "Open Sans", Arial, sans-serif;
 }
 /*overall div holding body*/
@@ -207,28 +207,16 @@ h3 {
 
   
    /* div for both texts*/
-  .cr {position: absolute}
-  .cr {top: 420px}
-  .cr {left: 410px;}
   
-   /*coin weight*/
-   #ft{
-    font-weight: bold;
-  }
+ 
 
 
-  #first-text{
-    text-align: center;
-    margin-left: 300px;
-  }
 
-  #second-text {
-    position: absolute;
-    margin-left: 50px;
-    top: 110px;
-  }
+  /*xxxxxxxxxxxxxxxxxxxxxxx*/
+  /*xxxxxxxxxxxxxxxxxxxxxxx*/
 
-  /*header*/
+  /*beginning of header*/
+
 .header {
   /*contains logo and login*/
   background-color: #000024;
@@ -290,69 +278,120 @@ h3 {
       left: 260px;
     }
 
-    /*mid div that contains bg image*/
-    .mid_bg_img{
-      position: absolute;
-      top: 500px;
-    }
+      /*coin weight*/
+   #ft{
+    font-weight: bold;
+  }
 
-    .capture_write_up{
-      position: absolute;
-      top: 160px;
-      color: white;
-      padding:30px ;
-      width: 400px;
-      left: 160px;
-    }
 
-    /*unsplash image for resizing*/
-    #up{
-      height: 800px;
-    }
+    /*end of header*/
 
-    /*register button*/
-  #register-button {left: 200px;}
-  #register-button {top: 980px;}
-  #register-button {font-weight: bold;}
+/*xxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxx*/
 
+
+  /*mid div*/
   .mid_div{
     position: absolute;
-    top: 800px;
-    height: 800px;
+    top: 1300px;
+    border-top: #000024;
+    height: 1000px;
+    
   }
+      /*mid div that contains bg image*/
+      .mid_bg_img{
+        position: absolute;
+        top: 500px;
+      }
+  
+      .capture_write_up{
+        position: absolute;
+        top: 160px;
+        color: white;
+        padding:30px ;
+        width: 400px;
+        left: 160px;
+      }
+  
+      /*unsplash image for resizing*/
+      #up{
+        height: 800px;
+      }
+
+
+
+      /*register button*/
+      #register-button {left: 200px;}
+      #register-button {top: 980px;}
+      #register-button {font-weight: bold;}
 
   .first_ad{
     position: absolute;
     font-weight: 700;
     font-family: cursive, sans-serif;
     width: 300px;
-
+    left: 100px;
+    top: 70px;
   }
 
   .second_ad{
     position: absolute;
-    width: 400px;
+    width: 300px;
+    left: 600px;
+
+    font-family: "Open Sans", Arial, sans-serif;
   }
 
   .third_ad{
     position: absolute;
-    width: 400px;
+    width: 300px;
+    left: 600px;
+    top: 180px;
   }
 
   .fourth_ad{
     position: absolute;
     width: 300px;
+    left: 600px;
+    top: 350px;
   }
 
-  fifth_ad{
+  .fifth_ad{
     position: absolute;
     width: 200px;
+    left: 1100px;
   }
 
-  sixth_ad{
+  .sixth_ad{
     position: absolute;
-    width: 300px;
+    width: 200px;
+    left: 1100px;
+    top: 180px;
   }
+
+/*end of mid div*/
+
+/*xxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*beginning of second mid div*/
+.mid_div_two{
+  position: absolute;
+  top: 1800px;
+}
+
+.security_reliability{
+  position: absolute;
+  left: 100px;
+  width: 400px;
+}
+
+.laptop_image{
+  position: absolute;
+  left: 800px;
+  width: 400px;
+}
+
+/*end of second mid div*/
 
 }
 

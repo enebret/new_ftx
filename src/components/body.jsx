@@ -170,11 +170,35 @@ function Body () {
            </div>
            <div class = 'second_ad'>
              {/*svg img*/}
+             <h2>Gold</h2>
+             <p>We offer a wide range of gold stock trading. Based on our business model we ensure and guarantee returns on every trade</p>
            </div>
-           <div class = 'third_ad'></div>
-           <div class = 'fourth_ad'></div>
-           <div class = 'fifth_ad'></div>
-           <div class = 'sixth_ad'></div>
+           <div class = 'third_ad'>
+              {/*svg img*/}
+             <h2>Cryptocurrency</h2>
+             <p>We also trade on other Cryptocurrencies to help increase our clients profit margin.</p>
+           </div>
+           <div class = 'fourth_ad'>
+              {/*svg img*/}
+             <h3>Cannabis</h3>
+             <p>TradeMax LTD has turned cannabis stock trading into a very comfortable, speedy, easy, safe, and relatively risk free process</p>
+           </div>
+           <div class = 'fifth_ad'>
+             {/*svg img*/}
+             <h3>Forex</h3>
+             <p>With our experience in trading, we have been able to build trust with over 4k clients all over the world, as we do the tasking job for you.</p>
+           </div>
+           <div class = 'sixth_ad'>
+             {/*svg img*/}
+             <h3>Stock Bond</h3>
+             <p>Invest in Stock and Bonds, the safest and widely accepted investment platform.</p>
+           </div>
+        </div>
+        <div class = 'mid_div_two'>
+          <div class = 'security_reliability'></div>
+          <div class = 'laptop_image'>
+            
+          </div>
         </div>
       <div class="footer">
            <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
