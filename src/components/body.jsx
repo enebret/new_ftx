@@ -234,10 +234,18 @@ function Body () {
           <div class = 'fun_facts'>
             <h2>Some fun facts about our company</h2>
           </div>
-          <div class = 'years_of_excellence'></div>
+          <div class = 'years_of_excellence'>
+            <h3>5+</h3>
+          </div>
+          <div class = 'sub_years'>
+            <p>Years of Excellence</p>
+            </div>
           <div class = 'client_satisfaction'></div>
+          <div class = 'sub_client_satisfaction'></div>
           <div class = 'active_clients'></div>
+          <div class = 'sub_active_clients'></div>
           <div class = 'payouts'></div>
+          <div class = 'sub_payouts'></div>   
         </div>
       <div class="footer">
            <p>FTX cloud mining is a fully registered company.All rights reserved.</p>

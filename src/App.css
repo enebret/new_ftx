@@ -246,6 +246,8 @@ h3 {
    a{
      margin-left: 50px;
      text-decoration: none;
+     color: #ffffff;
+     font-weight: bold;
    }
 
    a:hover{
@@ -261,9 +263,11 @@ h3 {
       position: absolute;
       top: 115px;
       left: 1200px;
-      background-color: #4CAF50; /* Green */
-      border: none;
+      ; /* Green */
+      border: 1px solid white;
+      background-color: #000024;
       color: white;
+      
       padding: 10px 15px;
       text-align: center;
       display: grid;
@@ -480,7 +484,35 @@ h3 {
   color: #023E8A;
 }
 
+.fun_facts{
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  width: 700px;
+}
 
+.years_of_excellence{
+  position: absolute; 
+  top: 150px;
+  left: 400px;
+  
+}
+.sub_years{
+  position: absolute; 
+  top: 200px;
+  left: 330px;
+  
+  width: 700px;
+}
+.client_satisfaction{
+  position: absolute;
+}
+.active_clients{
+  position: absolute;
+}
+.payouts{
+  position: absolute;
+}
 
 
 /*end of map div*/
