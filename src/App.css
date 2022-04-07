@@ -6,7 +6,7 @@
 
 /*overall div holding body*/
 .main{
-  height: 3000px;
+  height: 4000px;
   font-family: "Open Sans", Arial, sans-serif;
 }
 /*overall div holding body*/
@@ -223,6 +223,7 @@ h3 {
   color: #ffffff;
   padding-left: 30px;
   height: 200px;
+  width: 1800px;
 }
 
    /*logo image*/
@@ -302,6 +303,8 @@ h3 {
       .mid_bg_img{
         position: absolute;
         top: 500px;
+        height: 600px;
+        width: 1800px;
       }
   
       .capture_write_up{
@@ -315,7 +318,8 @@ h3 {
   
       /*unsplash image for resizing*/
       #up{
-        height: 800px;
+        height: 600px;
+        width: 1800px;
       }
 
 
@@ -360,6 +364,7 @@ h3 {
     position: absolute;
     width: 200px;
     left: 1100px;
+    top: 20px;
   }
 
   .sixth_ad{
@@ -376,22 +381,109 @@ h3 {
 /*beginning of second mid div*/
 .mid_div_two{
   position: absolute;
-  top: 1800px;
+  top: 1900px;
+  background-color: #E1E8ED;
+  height: 600px;
+  width: 1800px;
 }
 
 .security_reliability{
   position: absolute;
   left: 100px;
-  width: 400px;
+  width: 700px;
+  font-family: cursive;
+  top: 20px;
 }
 
 .laptop_image{
   position: absolute;
   left: 800px;
-  width: 400px;
+  width: 600px;
+  top: 10px;
+  
 }
 
 /*end of second mid div*/
+/***********************/
+/*beginning of third mid div*/
+.mid_div_three{
+  position: absolute;
+  top: 2500px;
+  height: 500px;
+  width: 1800px;
+}
+
+.features_writeup{
+  position: absolute;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #1C304A;
+  color: #ffffff;
+  top: 20px;
+  border-radius: 5px;
+  left: 600px;
+  width: 300px;
+  text-align: center;
+}
+
+.model_portfolio{
+  position: absolute;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  left: 100px;
+  width: 400px;
+  top:100px;
+}
+
+.stock_analysis{
+  position: absolute;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  left: 600px;
+  width: 400px;
+  top:100px;
+}
+
+.access_to_expert{
+  position: absolute;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  left: 1100px;
+  width: 400px;
+  top:90px;
+}
+
+/*end of third mid div*/
+
+/***********************/
+/*beginning of map div*/
+.map_div{
+  position: absolute;
+  top: 2900px;
+}
+
+.map{
+  position: absolute;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+#map_image{
+  height: 400px;
+  width: 1000px;
+  
+}
+
+.company_success{
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 1500;
+  left: 600px;
+  width: 600px;
+  color: #023E8A;
+}
+
+
+
+
+/*end of map div*/
 
 }
 

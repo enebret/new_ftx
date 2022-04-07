@@ -14,6 +14,10 @@ import logo from './util/logo.JPG';
 
 import usplash from './util/usplash.jpg';
 
+import fx from './util/fx.png';
+
+import map from './util/map.png';
+
 function Body () {
   const navigate = useNavigate();
 
@@ -195,10 +199,45 @@ function Body () {
            </div>
         </div>
         <div class = 'mid_div_two'>
-          <div class = 'security_reliability'></div>
-          <div class = 'laptop_image'>
-            
+          <div class = 'security_reliability'>
+            <h1>Reliability & Security</h1>
+            <p>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
           </div>
+          <div class = 'laptop_image'>
+          <img id="fx_image" src={fx} alt="forex_image" />
+          </div>
+        </div>
+        <div class = 'mid_div_three'>
+          <div class = 'features_writeup'>
+            <h2>OUR FEATURES</h2>
+          </div>
+          <div class = 'model_portfolio'>
+            <h2>Model Portfolio</h2>
+            <p>Diversified portfolio of cannabis stock hand-picked and thoroughly researched</p>
+          </div>
+          <div class = 'stock_analysis'>
+            <h2>Stock Analysis</h2>
+            <p>We tell you exactly when we're buying or selling a stock for our model portfolio</p>
+          </div>
+          <div class = 'access_to_expert'>
+            <h1>Access to an expert</h1>
+            <p>Ask questions, make requests, and even chat with our customer service via life chat support</p>
+          </div>
+        </div>
+        <div class = 'map_div'>
+          <div class = 'map'>
+          <img id="map_image" src={map} alt="map_image" />
+          </div>
+          <div class = 'company_success'>
+            <h1>Company Success</h1>
+          </div>
+          <div class = 'fun_facts'>
+            <h2>Some fun facts about our company</h2>
+          </div>
+          <div class = 'years_of_excellence'></div>
+          <div class = 'client_satisfaction'></div>
+          <div class = 'active_clients'></div>
+          <div class = 'payouts'></div>
         </div>
       <div class="footer">
            <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
