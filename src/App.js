@@ -3,11 +3,13 @@ import './App.css';
 import Body from './components/body.jsx';
 import Form from './components/login.js';
 import Reg from './components/signup.jsx';
+import AboutUs from './components/AboutUs.js';
+import Investment from './components/Investment.js';
 import { Routes, Route, Link } from "react-router-dom";
 //errors are due to js file extension
 /* eslint no-unused-vars : "off" */
 function App() {
-{/*logic lives here*/}
+/*logic lives here*/
 
   return (
      
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Body />}></Route>
           <Route path="form" element={<Form />}></Route>
           <Route path="registration" element={<Reg />}></Route>
+          <Route path="aboutus" element={<AboutUs />}></Route>
+          <Route path="investment" element={<Investment />}></Route>
         </Routes>
           
         </div>

@@ -95,13 +95,13 @@ function Body () {
             <div class ='nav'>
                <nav>
                  <img id="lg" src={logo} alt="logo" />
-                 <a href="/html/">HOME</a>
-                 <a href="/html/">COMPANY</a>
-                 <a href="/html/">INVESTMENT</a>
-                 <a href="/html/">FAQ</a>
-                 <a href="/html/">PLATFORM</a>
-                 <a href="/html/">PARTNERSHIP</a>
-                 <a href="/html/">CONTACT US</a>
+                 <a href="#" >HOME</a>
+                 <a  onClick={() => navigate('aboutus')}>COMPANY</a>
+                 <a onClick={ () => navigate('investment')}>INVESTMENT</a>
+                 <a href="#">FAQ</a>
+                 <a href="#">PLATFORM</a>
+                 <a href="#">PARTNERSHIP</a>
+                 <a href="#">CONTACT US</a>
                  <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
                </nav>
               </div>
@@ -240,17 +240,64 @@ function Body () {
           <div class = 'sub_years'>
             <p>Years of Excellence</p>
             </div>
-          <div class = 'client_satisfaction'></div>
-          <div class = 'sub_client_satisfaction'></div>
-          <div class = 'active_clients'></div>
-          <div class = 'sub_active_clients'></div>
-          <div class = 'payouts'></div>
-          <div class = 'sub_payouts'></div>   
+          <div class = 'client_satisfaction'>100%</div>
+          <div class = 'sub_client'>Client Satisfaction</div>
+          <div class = 'active_clients'>1089k</div>
+          <div class = 'sub_active'>Active clients</div>
+          <div class = 'payouts'>6700056</div>
+          <div class = 'sub_payouts'>Payouts(USD)</div>   
         </div>
-      <div class="footer">
-           <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
+
+     <div class = 'main_footer'>
+     <div class = 'mid_footer'>
+       <div class = 'first_box'>
+         <ul id = 'footer'>
+           <li id = 'margin'>Our Company</li>
+           <li>About Us</li>
+           <li>Terms of Use</li>
+           <li>Privacy Policy</li>
+         </ul>
+       </div>
+       <div class = 'sec_box'>
+       <ul id = 'footer'>
+           <li id = 'margin'>Earning Opportunities</li>
+           <li>Investment Packages</li>
+           <li>Partnership Program</li>
+         </ul>
+       </div>
+       <div class = 'third_box'>
+       <ul id = 'footer'>
+           <li id = 'margin'>Support</li>
+           <li>Contact Us</li>
+           <li>Frequently asked questions</li>
+           <li>Platform</li>
+         </ul>
+       </div>
+       <div class = 'fourth_box'>
+       <ul id = 'footer'>
+           <li id = 'margin'>Account Management</li>
+           <li>Create Account</li>
+           <li>Login</li>
+           <li>Forgot Password</li>
+         </ul>
+       </div>
+       <div class = 'fifth_box'>
+       <ul id = 'footer'>
+           <li id = 'margin'>Contact us</li>
+           <li>Address: 4096 N Highland St, Arlington, Tx, USA.</li>
+           <li>support@fxt.com</li>
+         </ul>
+
+       </div>
+       <div class = 'sixth_box'></div>
       </div>
-</div>
+      <div class="footer">
+      <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
+       </div>
+          </div>
+
+            {/*the below div is last div/ function component div*/}
+          </div>
     )
 }
 
