@@ -81,9 +81,9 @@
         object-position:50% 50%;
     }
 
-    .img_tcc{
+    .img_ttc{
         position: absolute;
-        left: 600px;
+        left:10px;
     }
 
 
@@ -183,6 +183,94 @@
         top: 2500px;
         
     }
+
+
+
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .first_tier_content{
+        position: absolute;
+        top: 210px;
+        height: 600px;
+    }
+
+    a{
+        margin-left: 70px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+        /*login button*/
+    #login-button {
+        position: absolute;
+        top: 115px;
+        left: 1350px;
+        ; /* Green */
+        border: 1px solid white;
+        background-color: #000024;
+        color: white;
+        
+        padding: 10px 15px;
+        text-align: center;
+        display: grid;
+        font-size: 16px;
+        font-weight: normal;
+        border-radius: 8px;
+      }
+
+    img#fd{
+        height: 200px;
+        width: 1600px;
+         /* use props below so that image quality will not be distorted */
+        object-fit:cover;
+        object-position:50% 50%;
+    }
+
+     /* end of first tier */
+ 
+    img#sd{
+        height: 400px;
+        width: 600px;
+         /* use props below so that image quality will not be distorted */
+        object-fit:cover;
+        object-position:50% 50%;
+    }
+
+    .first_ttc{
+        position: absolute;
+        width: 400px;
+        left: 30px;
+    }
+
+    .second_ttc{
+        top: 100px;
+        position: absolute;
+        width: 700px;
+        left: 30px;
+    }
+
+    .img_ttc{
+        position: absolute;
+        left: 800px;  
+    }
+
+/* end of third tier */ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
