@@ -252,13 +252,117 @@
         width: 700px;
         left: 30px;
     }
-
+   
     .img_ttc{
         position: absolute;
         left: 800px;  
     }
 
-/* end of third tier */ 
+    .first_text{
+        position: absolute;
+        top: 10px;
+        left: 550px
+    }
+
+    .second_text{
+        position: absolute;
+        top: 50px;
+        left: 500px;
+    }
+
+    .main_text{
+        position: absolute;
+        width: 700px;
+        top: 100px;
+        left: 400px;
+    }
+
+   
+
+/* end of second tier */ 
+
+
+.third_tier_content{
+    position: absolute;
+    top: 800px;
+    height: 700px;
+}
+
+/*end of third tier*/
+
+.fourth_tier_content{
+    position: absolute;
+    top: 1290px;
+    height: 700px;
+}
+
+.ft_heading{
+    position: absolute;
+    width: 400px;
+    left: 900px;
+}
+
+.ft_main{
+    position: absolute;
+    width: 700px;
+    top: 50px;
+    left: 900px;
+}
+
+.ft_img{
+    position: absolute;
+    left: 50px;
+}
+
+img#fg{
+    height: 400px;
+    width: 400px;
+     /* use props below so that image quality will not be distorted */
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+/*end of fourth tier*/
+
+.fifth_tier_content{
+    position: absolute;
+    top: 1700px;
+    height: 700px;
+}
+
+.fc_heading{
+    position: absolute;
+    width: 700px;
+    left: 50px;
+}
+
+.fc_text{
+    position: absolute;
+    width: 500px;
+    left: 50px;
+    top: 80px;
+}
+
+.fc_img{
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+
+img#fv{
+    height: 400px;
+    width: 700px;
+     /* use props below so that image quality will not be distorted */
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+
+
+
+
+
+
 
 
 
