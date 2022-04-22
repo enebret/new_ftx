@@ -20,7 +20,7 @@ function AboutUs () {
             <div class ='nav'>
                <nav>
                  <img id="lg" src={logo} alt="logo" />
-                 <a href="#" >HOME</a>
+                 <a onClick={ () => navigate('/')}>HOME</a>
                  <a >COMPANY</a>
                  <a href="#">INVESTMENT</a>
                  <a href="#">FAQ</a>

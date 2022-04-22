@@ -20,6 +20,7 @@ function App() {
           <Route path="registration" element={<Reg />}></Route>
           <Route path="aboutus" element={<AboutUs />}></Route>
           <Route path="investment" element={<Investment />}></Route>
+          
         </Routes>
           
         </div>

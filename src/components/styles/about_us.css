@@ -243,19 +243,22 @@
     .first_ttc{
         position: absolute;
         width: 400px;
-        left: 30px;
+        left: 200px;
     }
 
     .second_ttc{
         top: 100px;
         position: absolute;
-        width: 700px;
-        left: 30px;
+        width: 500px;
+        left: 200px;
+        text-align: justify;
+        line-height: 150%;
     }
    
     .img_ttc{
         position: absolute;
-        left: 800px;  
+        left: 800px;
+        top: 70px;  
     }
 
     .first_text{
@@ -273,8 +276,9 @@
     .main_text{
         position: absolute;
         width: 700px;
-        top: 100px;
+        top: 150px;
         left: 400px;
+        line-height: 150%;
     }
 
    
@@ -299,19 +303,21 @@
 .ft_heading{
     position: absolute;
     width: 400px;
-    left: 900px;
+    left: 800px;
 }
 
 .ft_main{
     position: absolute;
-    width: 700px;
+    width: 500px;
     top: 50px;
-    left: 900px;
+    left: 800px;
+    text-align: justify;
+    line-height: 150%;
 }
 
 .ft_img{
     position: absolute;
-    left: 50px;
+    left: 250px;
 }
 
 img#fg{
@@ -333,14 +339,18 @@ img#fg{
 .fc_heading{
     position: absolute;
     width: 700px;
-    left: 50px;
+    left: 200px;
+    top: 50px;
+    
 }
 
 .fc_text{
     position: absolute;
     width: 500px;
-    left: 50px;
-    top: 80px;
+    left: 200px;
+    top: 100px;
+    text-align: justify;
+    line-height: 150%;
 }
 
 .fc_img{
@@ -351,15 +361,53 @@ img#fg{
 
 img#fv{
     height: 400px;
-    width: 700px;
+    width: 500px;
      /* use props below so that image quality will not be distorted */
     object-fit:cover;
     object-position:50% 50%;
 }
 
+.sixth_tier_content{
+    position: absolute;
+    top: 2300px;
+    height: 700px;
+}
 
+.sc_heading{
+    position: absolute; 
+    width: 400px; 
+    left: 800px;
+}
 
+.sc_main{
+    position: absolute;  
+    width: 400px;
+    left: 800px;
+    top: 100px;
+    text-align: justify;
+    line-height: 150%;
+}
 
+.sc_img{
+    position: absolute;  
+    left: 200px;
+}
+
+img#qn{
+    height: 400px;
+    width: 500px;
+     /* use props below so that image quality will not be distorted */
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+ /* end of sixth tier */
+ .svc{
+    position: absolute;
+    top: 2800px;
+    left: 700px;
+    
+}
 
 
 
