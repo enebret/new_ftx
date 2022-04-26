@@ -101,7 +101,7 @@ function Body () {
                  <a href="#">FAQ</a>
                  <a href="#">PLATFORM</a>
                  <a onClick={ () => navigate('partnership')}>PARTNERSHIP</a>
-                 <a href="#">CONTACT US</a>
+                 <a onClick={ () => navigate('contactus')}>CONTACT US</a>
                  <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
                </nav>
               </div>
