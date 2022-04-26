@@ -20,12 +20,25 @@
         height: 700px;
     }
 
+    
     .form{
         position: absolute;
         top: 10px;
         left: 600px;
     }
 
+
+     /* end of second tier */
+     .formclass{
+        position: absolute;
+        top: 600px;
+        left: 300px;
+    }
+
+    #fnam{
+        size: 700px;
+    }
+    
 
 
 

@@ -41,8 +41,11 @@ function ContactUs () {
             </div>
           </div>
 
-          <div class = 'third_tier_content'>
-
+          <div class = 'formclass'>
+              <form>
+              <label for="fnam">First Name</label>
+              <input type="text" id="fnam" name="firstname" placeholder="Your name.."></input>
+              </form>
           </div>
 
           <div class = 'fourth_tier_content'>
