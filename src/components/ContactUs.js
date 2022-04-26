@@ -2,7 +2,7 @@
 
 
 import firstDiv from './util/aboutusimages/first_div.jpg';
-import './styles/partnership.css';
+import './styles/contactus.css';
 import './styles/about_us.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
