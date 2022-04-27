@@ -1,5 +1,9 @@
 /*jshint esversion: 8 */
 
+
+import './styles/investment.css';
+import firstDiv from './util/aboutusimages/first_div.jpg';
+import vgDiv from './util/investment/undraw.png';
 import './styles/about_us.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
@@ -26,28 +30,31 @@ function Investment () {
               </div>
             </div>
             <div class = 'first_tier_content'>
-
+            <img id="fd" src={firstDiv} alt="firstDiv" />
+            <div class = 'firstDivText'>
+              <h2>Investment Plans</h2>
+            </div>
             </div>
 
-          <div class = 'second_tier_content'>
-
+          <div class = 'svc'>
+          <div class = 'ft'>
+              <h1>Start with an Investment Plan</h1>
+            </div>
+            <div class = 'bt'>
+              <h1>What You need to know to get started</h1>
+            </div>
+            <div class = 'mt'>
+              <p>The FTX Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
+            </div>
+            <div class = 'igt'>
+            <img id="tg" src={vgDiv} alt="secondDiv" />
+            </div>
           </div>
 
           <div class = 'third_tier_content'>
 
           </div>
 
-          <div class = 'fourth_tier_content'>
-
-          </div>
-
-          <div class = 'fifth_tier_content'>
-
-          </div>
-
-          <div class = 'sixth_tier_content'>
-
-          </div>
 
           <div class = 'seventh_tier_content'>
 

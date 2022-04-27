@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1600px) {
+    .svc{
+        position: absolute;
+        top: 440px;
+        height: 700px;
+    }
+
+    .ft{
+        position: absolute;
+        top: 10px;
+        left: 400px
+    }
+
+    .bt{
+        position: absolute;
+        top: 50px;
+        width: 400px;
+        left: 400px;
+    }
+
+    .mt{
+        position: absolute;
+        width: 400px;
+        top: 200px;
+        left: 800px;
+    }
+
+
+    .igt{
+        position: absolute;
+        left:100px;
+    }
+
+    img#tg{
+        height: 400px;
+        width: 700px;
+         /* use props below so that image quality will not be distorted */
+        object-fit:cover;
+        object-position:50% 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
