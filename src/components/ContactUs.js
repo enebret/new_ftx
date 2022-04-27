@@ -35,16 +35,50 @@ function ContactUs () {
             </div>
             </div>
 
-          <div class = 'second_tier_content'>
-          <div class = 'form'>
+        
+          <div class = 'fm'>
               <h1>Contact Form</h1>
             </div>
-          </div>
+      
 
           <div class = 'formclass'>
               <form>
-              <label for="fnam">First Name</label>
+                <div class = 'lb'>
+              <label for="fnam">First Name*</label>
+                </div>
+              <div class = 'tb'> 
               <input type="text" id="fnam" name="firstname" placeholder="Your name.."></input>
+              </div>
+              
+              <div class = 'cb'>
+              <label for="fnam">Your Email Address*</label>
+                </div>
+              <div class = 'db'> 
+              <input type="text" id="fdb" name="firstname" placeholder="Your email.."></input>
+              </div>
+
+
+              <div class = 'sb'>
+              <label for="fnam">Subject*</label>
+                </div>
+              <div class = 'vb'> 
+              <input type="text" id="sdb" name="firstname" placeholder="Enter subject.."></input>
+              </div>
+
+
+              <div class = 'mb'>
+              <label for="fnam">Message*</label>
+                </div>
+              <div class = 'xb'> 
+              <input type="text" id="mdb" name="firstname" placeholder=".."></input>
+              </div>
+
+
+              <div class = 'btz'>
+              <button class = 'btx'>Submit</button>
+                </div>
+
+
               </form>
           </div>
 

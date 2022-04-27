@@ -14,35 +14,112 @@
 
     /* end of first tier */
 
-    .second_tier_content{
+    .stc{
         position: absolute;
         top: 440px;
         height: 700px;
     }
 
     
-    .form{
-        position: absolute;
-        top: 10px;
-        left: 600px;
+    .fm{
+        position:absolute;
+        top: 470px;
+        left: 500px;
     }
 
 
      /* end of second tier */
      .formclass{
-        position: absolute;
-        top: 600px;
-        left: 300px;
+        left: 500px;
     }
 
     #fnam{
-        size: 700px;
+        width: 400px;
     }
     
+    .lb{
+        position: absolute;
+        top: 550px; 
+        left: 340px;
+    }
+    .tb{
+        position: absolute;
+        top: 500px; 
+        
+    }
+
+    .cb{
+        position: absolute;
+        top: 550px; 
+        left: 800px;
+    }
+    .db{
+        position: absolute;
+        top: 580px; 
+        left: 800px;
+        
+    }
+
+    #fdb{
+        width: 400px; 
+    }
 
 
 
+    .sb{
+        position: absolute;
+        top: 670px; 
+        left: 335px;
+    }
+    .vb{
+        position: absolute;
+        top: 690px; 
+        left: 330px;
+        
+    }
 
+    #sdb{
+        width: 880px; 
+    }
+
+
+    .mb{
+        position: absolute;
+        top: 770px; 
+        left: 335px;
+    }
+    .xb{
+        position: absolute;
+        top: 790px; 
+        left: 330px;
+        
+    }
+
+    #mdb{
+        width: 880px; 
+        height: 400px;
+    }
+
+
+    .btz{
+        position: absolute;
+        top: 1300px;
+        left: 350px;
+    }
+
+   .btx{
+    border: 1px solid white;
+    background-color: #000024;
+    color: white;
+    
+    padding: 10px 15px;
+    text-align: center;
+    display: grid;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 200px;
+   }
 
 
 
