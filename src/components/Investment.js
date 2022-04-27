@@ -4,7 +4,6 @@
 import './styles/investment.css';
 import firstDiv from './util/aboutusimages/first_div.jpg';
 import vgDiv from './util/investment/undraw.png';
-import './styles/about_us.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 
@@ -36,17 +35,20 @@ function Investment () {
             </div>
             </div>
 
-          <div class = 'svc'>
-          <div class = 'ft'>
+          <div class = 'secondgroup'>
+          <div class = 'firstt'>
               <h1>Start with an Investment Plan</h1>
             </div>
-            <div class = 'bt'>
+            <div class = 'secondd'>
               <h1>What You need to know to get started</h1>
             </div>
-            <div class = 'mt'>
-              <p>The FTX Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
+            <div class = 'mainn'>
+              <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests. Our support team will get assistance from AI-powered suggestions.</p>
+              <p>FTX's investment strategy is designed to deliver a well-balanced and globally diversified portfolio that will maximize sustained long-term returns without incurring undue risk. We offer a simple attitude to stock trading with an extraordinary Managed Account Platform that allows users to watch their accounts grow by logging in 24 hours a day. Clients have the ability to view their account anytime but are not required to make any trade accomplishment decisions on their own behalf.</p>
+              <p>To reach the target of this strategy, our trading expert have designed multiple investment packages for you to choose from based on your financial needs. You can choose yourself which plan to invest into. But if you have some doubts and hesitate which plan to take, you can consult with our expert trading team.</p>
+              <p>Our expert trading team studies the clients’ portfolio, financial history and stability of each investor and before recommending any package to you they look through all the aspects of your account. If you follow the expert advice you for sure get stable profit.</p>
             </div>
-            <div class = 'igt'>
+            <div class = 'imgg'>
             <img id="tg" src={vgDiv} alt="secondDiv" />
             </div>
           </div>

@@ -1,34 +1,37 @@
 @media only screen and (max-width: 1600px) {
-    .svc{
+    .secondgroup{
         position: absolute;
-        top: 440px;
-        height: 700px;
+        top: 460px;
+        
     }
 
-    .ft{
+    .firstt{
         position: absolute;
         top: 10px;
-        left: 400px
-    }
-
-    .bt{
-        position: absolute;
-        top: 50px;
-        width: 400px;
-        left: 400px;
-    }
-
-    .mt{
-        position: absolute;
-        width: 400px;
-        top: 200px;
+        width: 500px;
         left: 800px;
     }
 
+    .secondd{
+        position: absolute;
+        top: 50px;
+        width: 500px;
+        left: 800px;
+    }
 
-    .igt{
+    .mainn{
+        position: absolute;
+        width: 500px;
+        top: 160px;
+        left: 800px;
+        text-align: justify;
+    }
+
+
+    .imgg{
         position: absolute;
         left:100px;
+        top: 100px;
     }
 
     img#tg{
