@@ -4,6 +4,7 @@
 import './styles/investment.css';
 import firstDiv from './util/aboutusimages/first_div.jpg';
 import vgDiv from './util/investment/undraw.png';
+import pgDiv from './util/investment/external.png';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 
@@ -55,32 +56,44 @@ function Investment () {
 
           <div class = 'thirdgroup'>
             <div class = 'firstcontainer'>
-               
-               
             </div>
 
             <div class = 'tgpfirstext'>
-
+              <h4>Classic</h4>
             </div>
 
             <div class = 'firstimg'>
-
+            <img id="fig" src={pgDiv} alt="firsttxPng" />
             </div>
             
             <div class = 'firstamt'>
-
+              <h5>$300 - $9,999K</h5>
             </div>
             
             <div class = 'tgpsecondtext'>
-
+                <ul>
+                <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
+                </ul>
             </div>
 
+            <div class = 'line'>
+            </div>
             <div class = 'tgproi'>
-
+            <ul>
+                <li id = 'list'>12% ROI</li>
+                </ul>
             </div>
+            <div class = 'secondline'>
+            </div>
+
+
+
+
+
+
 
             <div class = 'tgpdailytrade'>
-
+              
             </div>
 
             <div class = 'tgpaccountmgt'>
@@ -136,7 +149,7 @@ function Investment () {
 
 
 
-          
+
           
             <div class = 'main_footer'>
      <div class = 'mid_footer'>

@@ -46,32 +46,83 @@
     /* beginning of third group*/
     .thirdgroup{
         position: absolute;
-        top: 1300px;
+        top: 1100px;
         height: 800px;
     }
 
     .firstcontainer{
-
+       position: absolute;
+       width: 300px; 
+       height: 600px;
+       left: 100px;
+       border: 1px solid;
+       border-color: #21A8F3;
+       border-radius: 8px;
+       padding: 5px;
     }
 
     .tgpfirstext{
-
+        position: absolute;
+        top: 10px;
+        left: 210px;
     }
 
     .firstimg{
+        position: absolute; 
+        left: 200px;
+        top: 70px;
+    }
 
+    img#fig{
+        height: 100px;
+        width: 100px;
+         /* use props below so that image quality will not be distorted */
+        object-fit:cover;
+        object-position:50% 50%;
     }
 
     .firstamt{
-
+        position: absolute; 
+        left: 200px;
+        top: 170px;
+        width: 200px;
     }
 
-    .tgpsecondtext{
 
+    .tgpsecondtext{
+        position: absolute;
+        left: 55px;
+        top: 220px;
+       
+    }
+
+    .line{
+        position: absolute;
+        left: 105px;
+        top: 290px;
+        border-bottom: 1px solid;
+        width: 280px;
+    }
+
+    #list{
+        width: 300px;
+        list-style-type: none;
+        text-align: center;
+        
     }
 
     .tgproi{
+        position: absolute;
+        top: 300px; 
+        left: 50px;
+    }
 
+    .secondline{
+        position: absolute;
+        left: 105px;
+        top: 350px;
+        border-bottom: 1px solid;
+        width: 280px;
     }
 
     .tgpdailytrade{
