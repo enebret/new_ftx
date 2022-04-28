@@ -2,7 +2,7 @@
     .secondgroup{
         position: absolute;
         top: 460px;
-        
+        height: 800px;
     }
 
     .firstt{
@@ -40,6 +40,51 @@
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
+    }
+
+
+    /* beginning of third group*/
+    .thirdgroup{
+        position: absolute;
+        top: 1300px;
+        height: 800px;
+    }
+
+    .firstcontainer{
+
+    }
+
+    .tgpfirstext{
+
+    }
+
+    .firstimg{
+
+    }
+
+    .firstamt{
+
+    }
+
+    .tgpsecondtext{
+
+    }
+
+    .tgproi{
+
+    }
+
+    .tgpdailytrade{
+
+    }
+
+
+    .tgpaccountmgt{
+
+    }
+
+    .tgpbutton{
+
     }
 
 

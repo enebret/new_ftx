@@ -53,14 +53,90 @@ function Investment () {
             </div>
           </div>
 
-          <div class = 'third_tier_content'>
+          <div class = 'thirdgroup'>
+            <div class = 'firstcontainer'>
+               
+               
+            </div>
 
+            <div class = 'tgpfirstext'>
+
+            </div>
+
+            <div class = 'firstimg'>
+
+            </div>
+            
+            <div class = 'firstamt'>
+
+            </div>
+            
+            <div class = 'tgpsecondtext'>
+
+            </div>
+
+            <div class = 'tgproi'>
+
+            </div>
+
+            <div class = 'tgpdailytrade'>
+
+            </div>
+
+            <div class = 'tgpaccountmgt'>
+
+            </div>
+
+            <div class = 'tgpbutton'>
+
+            </div>
+
+            </div>
+
+
+          <div class = 'fourthgroup'>
+          <div class = 'secondcontainer'>
+               
+               
+               </div>
+   
+               <div class = 'tgpfirstext'>
+   
+               </div>
+   
+               <div class = 'firstimg'>
+   
+               </div>
+               
+               <div class = 'firstamt'>
+   
+               </div>
+               
+               <div class = 'tgpsecondtext'>
+   
+               </div>
+   
+               <div class = 'tgproi'>
+   
+               </div>
+   
+               <div class = 'tgpdailytrade'>
+   
+               </div>
+   
+               <div class = 'tgpaccountmgt'>
+   
+               </div>
+   
+               <div class = 'tgpbutton'>
+   
+               </div>
+   
           </div>
 
 
-          <div class = 'seventh_tier_content'>
 
-          </div>
+          
           
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
