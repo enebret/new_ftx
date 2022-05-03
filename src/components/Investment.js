@@ -53,7 +53,7 @@ function Investment () {
             <img id="tg" src={vgDiv} alt="secondDiv" />
             </div>
           </div>
-
+          {/* third group */}
           <div class = 'thirdgroup'>
             <div class = 'firstcontainer'>
             </div>
@@ -109,7 +109,7 @@ function Investment () {
             </div>
 
 
-         
+          {/* fourth group */}
             <div class = 'fourthgroup'>
           <div class = 'secondcontainer'>
                </div>
@@ -164,7 +164,7 @@ function Investment () {
    
           </div>
 
-
+          {/* fifth group */}
           <div class = 'fifthgroup'>
           <div class = 'thirdcontainer'>
                </div>
@@ -220,7 +220,7 @@ function Investment () {
           </div>
 
 
-
+          {/* sixth group */}
           <div class = 'sixthgroup'>
           <div class = 'fourthcontainer'>
                </div>

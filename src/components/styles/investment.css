@@ -54,7 +54,7 @@
        position: absolute;
        width: 300px; 
        height: 600px;
-       left: 100px;
+       left: 160px;
        border: 1px solid;
        border-color: #21A8F3;
        border-radius: 8px;
@@ -64,13 +64,13 @@
     .tgpfirstext{
         position: absolute;
         top: 10px;
-        left: 210px;
+        left: 280px;
     }
 
     .firstimg{
         position: absolute; 
-        left: 200px;
-        top: 70px;
+        left: 250px;
+        top: 90px;
     }
 
     img#fig{
@@ -83,7 +83,7 @@
 
     .firstamt{
         position: absolute; 
-        left: 200px;
+        left: 250px;
         top: 170px;
         width: 200px;
     }
@@ -91,14 +91,14 @@
 
     .tgpsecondtext{
         position: absolute;
-        left: 55px;
+        left: 115px;
         top: 220px;
        
     }
 
     .line{
         position: absolute;
-        left: 105px;
+        left: 165px;
         top: 290px;
         border-bottom: 1px solid;
         width: 280px;
@@ -114,12 +114,12 @@
     .tgproi{
         position: absolute;
         top: 300px; 
-        left: 50px;
+        left: 105px;
     }
 
     .secondline{
         position: absolute;
-        left: 105px;
+        left: 165px;
         top: 350px;
         border-bottom: 1px solid;
         width: 280px;
@@ -128,12 +128,12 @@
     .tgpdailytrade{
         position: absolute;
         top: 350px; 
-        left: 50px;
+        left: 110px;
     }
 
     .thirdline{
         position: absolute;
-        left: 105px;
+        left: 165px;
         top: 400px;
         border-bottom: 1px solid;
         width: 280px;
@@ -143,7 +143,7 @@
     .tgpaccountmgt{
         position: absolute;
         top: 420px; 
-        left: 50px;
+        left: 120px;
     }
 
     .gtx{
@@ -163,7 +163,7 @@
     .tgpbutton{
         position: absolute;
         top: 480px; 
-        left: 160px;
+        left: 220px;
     }
 
 
@@ -178,7 +178,7 @@
    position: absolute;
    width: 300px; 
    height: 600px;
-   left: 420px;
+   left: 480px;
    border: 1px solid;
    border-color: #21A8F3;
    border-radius: 8px;
@@ -220,7 +220,7 @@
    position: absolute;
    width: 300px; 
    height: 600px;
-   left: 740px;
+   left: 800px;
    border: 1px solid;
    border-color: #21A8F3;
    border-radius: 8px;
@@ -260,7 +260,7 @@
    position: absolute;
    width: 300px; 
    height: 600px;
-   left: 1070px;
+   left: 1120px;
    border: 1px solid;
    border-color: #21A8F3;
    border-radius: 8px;
