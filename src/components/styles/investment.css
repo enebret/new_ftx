@@ -105,10 +105,10 @@
     }
 
     #list{
-        width: 300px;
+        width: 280px;
         list-style-type: none;
         text-align: center;
-        
+        font-size: 12px;
     }
 
     .tgproi{
@@ -126,19 +126,64 @@
     }
 
     .tgpdailytrade{
+        position: absolute;
+        top: 350px; 
+        left: 50px;
+    }
 
+    .thirdline{
+        position: absolute;
+        left: 105px;
+        top: 400px;
+        border-bottom: 1px solid;
+        width: 280px;
     }
 
 
     .tgpaccountmgt{
-
+        position: absolute;
+        top: 420px; 
+        left: 50px;
     }
+
+    .gtx{
+        border: 1px solid white;
+        background-color: #000024;
+        color: white;
+        
+        padding: 10px;
+        text-align: center;
+        display: grid;
+        font-size: 16px;
+        font-weight: normal;
+        border-radius: 8px;
+        width: 150px;
+       }
 
     .tgpbutton{
-
+        position: absolute;
+        top: 480px; 
+        left: 160px;
     }
 
 
+   /* beginning of fourth group*/
+   .fourthgroup{
+    position: absolute;
+    top: 1100px;
+    height: 800px;
+}
+
+.secondcontainer{
+   position: absolute;
+   width: 300px; 
+   height: 600px;
+   left: 420px;
+   border: 1px solid;
+   border-color: #21A8F3;
+   border-radius: 8px;
+   padding: 5px;
+}
 
 
 
@@ -146,6 +191,81 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* beginning of fifth group*/
+.fifthgroup{
+    position: absolute;
+    top: 1100px;
+    height: 800px;
+}
+
+.thirdcontainer{
+   position: absolute;
+   width: 300px; 
+   height: 600px;
+   left: 740px;
+   border: 1px solid;
+   border-color: #21A8F3;
+   border-radius: 8px;
+   padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* beginning of sixth group*/
+.sixthgroup{
+    position: absolute;
+    top: 1100px;
+    height: 800px;
+}
+
+.fourthcontainer{
+   position: absolute;
+   width: 300px; 
+   height: 600px;
+   left: 1070px;
+   border: 1px solid;
+   border-color: #21A8F3;
+   border-radius: 8px;
+   padding: 5px;
+}
 
 
 

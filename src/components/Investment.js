@@ -85,67 +85,216 @@ function Investment () {
             </div>
             <div class = 'secondline'>
             </div>
-
-
-
-
-
+               
 
 
             <div class = 'tgpdailytrade'>
-              
+            <ul>
+                <li id = 'list'>Unlimited Daily Trade</li>
+                </ul>
+            </div>
+            <div class = 'thirdline'>
             </div>
 
             <div class = 'tgpaccountmgt'>
-
+            <ul>
+                <li id = 'list'>Personal Account Manager</li>
+                </ul>
             </div>
 
             <div class = 'tgpbutton'>
-
+            <button class = 'gtx'>Invest Now</button>
             </div>
 
             </div>
 
 
-          <div class = 'fourthgroup'>
+         
+            <div class = 'fourthgroup'>
           <div class = 'secondcontainer'>
-               
-               
                </div>
    
                <div class = 'tgpfirstext'>
-   
-               </div>
-   
-               <div class = 'firstimg'>
-   
-               </div>
+              <h4>Classic</h4>
+            </div>
+
+            <div class = 'firstimg'>
+            <img id="fig" src={pgDiv} alt="firsttxPng" />
+            </div>
+            
+            <div class = 'firstamt'>
+              <h5>$300 - $9,999K</h5>
+            </div>
+            
+            <div class = 'tgpsecondtext'>
+                <ul>
+                <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
+                </ul>
+            </div>
+
+            <div class = 'line'>
+            </div>
+            <div class = 'tgproi'>
+            <ul>
+                <li id = 'list'>12% ROI</li>
+                </ul>
+            </div>
+            <div class = 'secondline'>
+            </div>
                
-               <div class = 'firstamt'>
-   
-               </div>
-               
-               <div class = 'tgpsecondtext'>
-   
-               </div>
-   
-               <div class = 'tgproi'>
-   
-               </div>
-   
-               <div class = 'tgpdailytrade'>
-   
-               </div>
-   
-               <div class = 'tgpaccountmgt'>
-   
-               </div>
-   
-               <div class = 'tgpbutton'>
-   
-               </div>
+
+            <div class = 'tgpdailytrade'>
+            <ul>
+                <li id = 'list'>Unlimited Daily Trade</li>
+                </ul>
+            </div>
+            <div class = 'thirdline'>
+            </div>
+
+            <div class = 'tgpaccountmgt'>
+            <ul>
+                <li id = 'list'>Personal Account Manager</li>
+                </ul>
+            </div>
+
+            <div class = 'tgpbutton'>
+            <button class = 'gtx'>Invest Now</button>
+            </div>
+
    
           </div>
+
+
+          <div class = 'fifthgroup'>
+          <div class = 'thirdcontainer'>
+               </div>
+   
+               <div class = 'tgpfirstext'>
+              <h4>Classic</h4>
+            </div>
+
+            <div class = 'firstimg'>
+            <img id="fig" src={pgDiv} alt="firsttxPng" />
+            </div>
+            
+            <div class = 'firstamt'>
+              <h5>$300 - $9,999K</h5>
+            </div>
+            
+            <div class = 'tgpsecondtext'>
+                <ul>
+                <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
+                </ul>
+            </div>
+
+            <div class = 'line'>
+            </div>
+            <div class = 'tgproi'>
+            <ul>
+                <li id = 'list'>12% ROI</li>
+                </ul>
+            </div>
+            <div class = 'secondline'>
+            </div>
+               
+
+            <div class = 'tgpdailytrade'>
+            <ul>
+                <li id = 'list'>Unlimited Daily Trade</li>
+                </ul>
+            </div>
+            <div class = 'thirdline'>
+            </div>
+
+            <div class = 'tgpaccountmgt'>
+            <ul>
+                <li id = 'list'>Personal Account Manager</li>
+                </ul>
+            </div>
+
+            <div class = 'tgpbutton'>
+            <button class = 'gtx'>Invest Now</button>
+            </div>
+
+   
+          </div>
+
+
+
+          <div class = 'sixthgroup'>
+          <div class = 'fourthcontainer'>
+               </div>
+   
+               <div class = 'tgpfirstext'>
+              <h4>Classic</h4>
+            </div>
+
+            <div class = 'firstimg'>
+            <img id="fig" src={pgDiv} alt="firsttxPng" />
+            </div>
+            
+            <div class = 'firstamt'>
+              <h5>$300 - $9,999K</h5>
+            </div>
+            
+            <div class = 'tgpsecondtext'>
+                <ul>
+                <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
+                </ul>
+            </div>
+
+            <div class = 'line'>
+            </div>
+            <div class = 'tgproi'>
+            <ul>
+                <li id = 'list'>12% ROI</li>
+                </ul>
+            </div>
+            <div class = 'secondline'>
+            </div>
+               
+
+            <div class = 'tgpdailytrade'>
+            <ul>
+                <li id = 'list'>Unlimited Daily Trade</li>
+                </ul>
+            </div>
+            <div class = 'thirdline'>
+            </div>
+
+            <div class = 'tgpaccountmgt'>
+            <ul>
+                <li id = 'list'>Personal Account Manager</li>
+                </ul>
+            </div>
+
+            <div class = 'tgpbutton'>
+            <button class = 'gtx'>Invest Now</button>
+            </div>
+
+   
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
