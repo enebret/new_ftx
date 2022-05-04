@@ -67,7 +67,7 @@ function Investment () {
             </div>
             
             <div class = 'firstamt'>
-              <h5>$300 - $9,999K</h5>
+              <h5>$300 - $9,999</h5>
             </div>
             
             <div class = 'tgpsecondtext'>
@@ -114,51 +114,51 @@ function Investment () {
           <div class = 'secondcontainer'>
                </div>
    
-               <div class = 'tgpfirstext'>
-              <h4>Classic</h4>
+               <div class = 'tgpfirstextt'>
+              <h4>Gold</h4>
             </div>
 
-            <div class = 'firstimg'>
+            <div class = 'firstimgg'>
             <img id="fig" src={pgDiv} alt="firsttxPng" />
             </div>
             
-            <div class = 'firstamt'>
-              <h5>$300 - $9,999K</h5>
+            <div class = 'firstamtt'>
+              <h5>$10,000 - $49,999</h5>
             </div>
             
-            <div class = 'tgpsecondtext'>
+            <div class = 'tgpsecondtextt'>
                 <ul>
                 <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
                 </ul>
             </div>
 
-            <div class = 'line'>
+            <div class = 'linee'>
             </div>
-            <div class = 'tgproi'>
+            <div class = 'tgproii'>
             <ul>
-                <li id = 'list'>12% ROI</li>
+                <li id = 'list'>14% ROI</li>
                 </ul>
             </div>
-            <div class = 'secondline'>
+            <div class = 'secondlinee'>
             </div>
                
 
-            <div class = 'tgpdailytrade'>
+            <div class = 'tgpdailytradee'>
             <ul>
                 <li id = 'list'>Unlimited Daily Trade</li>
                 </ul>
             </div>
-            <div class = 'thirdline'>
+            <div class = 'thirdlinee'>
             </div>
 
-            <div class = 'tgpaccountmgt'>
+            <div class = 'tgpaccountmgtt'>
             <ul>
                 <li id = 'list'>Personal Account Manager</li>
                 </ul>
             </div>
 
-            <div class = 'tgpbutton'>
-            <button class = 'gtx'>Invest Now</button>
+            <div class = 'tgpbuttonn'>
+            <button class = 'gtxx'>Invest Now</button>
             </div>
 
    
@@ -169,107 +169,107 @@ function Investment () {
           <div class = 'thirdcontainer'>
                </div>
    
-               <div class = 'tgpfirstext'>
-              <h4>Classic</h4>
+               <div class = 'tgpfirstexttt'>
+              <h4>Platinum</h4>
             </div>
 
-            <div class = 'firstimg'>
+            <div class = 'firstimggg'>
             <img id="fig" src={pgDiv} alt="firsttxPng" />
             </div>
             
-            <div class = 'firstamt'>
-              <h5>$300 - $9,999K</h5>
+            <div class = 'firstamttt'>
+              <h5>$50,000 - $99,999</h5>
             </div>
             
-            <div class = 'tgpsecondtext'>
+            <div class = 'tgpsecondtexttt'>
                 <ul>
                 <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
                 </ul>
             </div>
 
-            <div class = 'line'>
+            <div class = 'lineee'>
             </div>
-            <div class = 'tgproi'>
+            <div class = 'tgproiii'>
             <ul>
-                <li id = 'list'>12% ROI</li>
+                <li id = 'list'>16% ROI</li>
                 </ul>
             </div>
-            <div class = 'secondline'>
+            <div class = 'secondlineee'>
             </div>
                
 
-            <div class = 'tgpdailytrade'>
+            <div class = 'tgpdailytradeee'>
             <ul>
                 <li id = 'list'>Unlimited Daily Trade</li>
                 </ul>
             </div>
-            <div class = 'thirdline'>
+            <div class = 'thirdlineee'>
             </div>
 
-            <div class = 'tgpaccountmgt'>
+            <div class = 'tgpaccountmgttt'>
             <ul>
                 <li id = 'list'>Personal Account Manager</li>
                 </ul>
             </div>
 
-            <div class = 'tgpbutton'>
-            <button class = 'gtx'>Invest Now</button>
+            <div class = 'tgpbuttonnn'>
+            <button class = 'gtxxx'>Invest Now</button>
             </div>
 
    
           </div>
 
 
-          {/* sixth group */}
+          {/* sixth    group */}
           <div class = 'sixthgroup'>
           <div class = 'fourthcontainer'>
                </div>
    
-               <div class = 'tgpfirstext'>
-              <h4>Classic</h4>
+               <div class = 'tgpfirstextttt'>
+              <h4>Diamond</h4>
             </div>
 
-            <div class = 'firstimg'>
-            <img id="fig" src={pgDiv} alt="firsttxPng" />
+            <div class = 'firstimgggg'>
+            <img id="fig" src={pgDiv} alt="firsttxPngggg" />
             </div>
             
-            <div class = 'firstamt'>
-              <h5>$300 - $9,999K</h5>
+            <div class = 'firstamtttt'>
+              <h5>$100,000 - $1,000,000</h5>
             </div>
             
-            <div class = 'tgpsecondtext'>
+            <div class = 'tgpsecondtextttt'>
                 <ul>
                 <li id = 'list'>All contracts are valid for 1 year and 100% guaranteed.</li>
                 </ul>
             </div>
 
-            <div class = 'line'>
+            <div class = 'lineeee'>
             </div>
-            <div class = 'tgproi'>
+            <div class = 'tgproiiii'>
             <ul>
-                <li id = 'list'>12% ROI</li>
+                <li id = 'list'>18% ROI</li>
                 </ul>
             </div>
-            <div class = 'secondline'>
+            <div class = 'secondlineeee'>
             </div>
                
 
-            <div class = 'tgpdailytrade'>
+            <div class = 'tgpdailytradeeee'>
             <ul>
                 <li id = 'list'>Unlimited Daily Trade</li>
                 </ul>
             </div>
-            <div class = 'thirdline'>
+            <div class = 'thirdlineeee'>
             </div>
 
-            <div class = 'tgpaccountmgt'>
+            <div class = 'tgpaccountmgtttt'>
             <ul>
                 <li id = 'list'>Personal Account Manager</li>
                 </ul>
             </div>
 
-            <div class = 'tgpbutton'>
-            <button class = 'gtx'>Invest Now</button>
+            <div class = 'tgpbuttonnnn'>
+            <button class = 'gtxxxx'>Invest Now</button>
             </div>
 
    
