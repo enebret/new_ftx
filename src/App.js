@@ -6,6 +6,7 @@ import Reg from './components/signup.jsx';
 import AboutUs from './components/AboutUs.js';
 import Investment from './components/Investment.js';
 import ContactUs from './components/ContactUs.js';
+import Faq from './components/Faq.js';
 import Partnership from './components/Partnership';
 import { Routes, Route, Link } from "react-router-dom";
 //errors are due to js file extension
@@ -24,6 +25,7 @@ function App() {
           <Route path="investment" element={<Investment />}></Route>
           <Route path="partnership" element={<Partnership />}></Route>
           <Route path="contactus" element={<ContactUs />}></Route>
+          <Route path="faq" element={<Faq />}></Route>
 
           
         </Routes>

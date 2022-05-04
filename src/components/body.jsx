@@ -98,7 +98,7 @@ function Body () {
                  <a href="#" >HOME</a>
                  <a  onClick={() => navigate('aboutus')}>COMPANY</a>
                  <a onClick={ () => navigate('investment')}>INVESTMENT</a>
-                 <a href="#">FAQ</a>
+                 <a onClick={ () => navigate('faq')}>FAQ</a>
                  <a href="#">PLATFORM</a>
                  <a onClick={ () => navigate('partnership')}>PARTNERSHIP</a>
                  <a onClick={ () => navigate('contactus')}>CONTACT US</a>
