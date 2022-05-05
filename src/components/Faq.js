@@ -5,6 +5,9 @@ import firstDiv from './util/aboutusimages/first_div.jpg';
 import './styles/faq.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
+import Dropdown from './Dropdown.js';
+
+
 
 function Faq () {
   const navigate = useNavigate();
@@ -35,7 +38,7 @@ function Faq () {
             </div>
 
           <div class = 'second_tier_content'>
-   
+          <Dropdown name="Cahal" />
           </div>
 
           <div class = 'cantfindquestion'>
