@@ -2,8 +2,8 @@ import './styles/Dropdown.css';
 import { useState } from 'react';
 
 const colors = {
-  Azure: '#151E3D',
-  Gray: '#808080',
+  Azure: '#0087BD',
+  Gray: '#F0F0F0',
 };
 
 function Dropdown(props) {
@@ -19,7 +19,7 @@ function Dropdown(props) {
 
     return (
         <div class = 'dd'  style={{
-          backgroundColor: isActive ? '#F0F0F0' : '',
+          backgroundColor: isActive ? '#0087BD' : '',
         }}
         onClick={handleClick}>
             
