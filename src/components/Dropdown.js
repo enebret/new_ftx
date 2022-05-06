@@ -1,5 +1,5 @@
 import './styles/Dropdown.css';
-import { useState } from 'react';
+import { useState, useRef} from 'react';
 
 const colors = {
   Azure: '#0087BD',
@@ -8,11 +8,13 @@ const colors = {
 
 function Dropdown(props) {
     const [isActive, setIsActive] = useState(false);
+    const box = useRef();
 
     const handleClick = () => {
       // 👇️ toggle
       setIsActive(current => !current);
-  
+      const dm = box.current;
+      dm.style.display = "none";
       // 👇️ or set to true
       // setIsActive(true);
     };
@@ -25,8 +27,8 @@ function Dropdown(props) {
         onClick={handleClick}>
             
         </div>
-       <div class = 'texxt'>
-          <p>we trade on gold, cannabis and bitcoin.</p>
+       <div class = 'texxt' >
+          <p ref={box}>we trade on gold, cannabis and bitcoin.</p>
        </div>
        
       </div>
