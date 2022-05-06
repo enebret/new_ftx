@@ -42,7 +42,7 @@ function Faq () {
           </div>
 
           <div class = 'cantfindquestion'>
-
+          <Dropdown name= "sahal" />
           </div>
 
           <div class = 'generalquestions'>

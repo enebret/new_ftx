@@ -6,7 +6,11 @@
         
     }
 
-    
+    .cantfindquestion{
+        position: absolute;
+        top: 560px;
+        left: 100px;
+    }
     
 }
 
