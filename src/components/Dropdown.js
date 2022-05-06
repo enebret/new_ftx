@@ -8,23 +8,37 @@ const colors = {
 
 function Dropdown(props) {
     const [isActive, setIsActive] = useState(false);
+    const [toggle, setToggle] = useState(false);
     const box = useRef();
 
     const handleClick = () => {
       // 👇️ toggle
       setIsActive(current => !current);
-      const dm = box.current;
-      dm.style.display = "none";
+      
+      
       // 👇️ or set to true
       // setIsActive(true);
+    };
+
+    const toggleF = () => {
+      if(box.current.style.display !== 'none'){
+        box.current.style.display = 'none';
+      }else {
+        box.current.style.display = 'block';
+      }
+      
     };
 
     return (
       <div class = 'qr'>
           <div class = 'dd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
+          
         }}
-        onClick={handleClick}>
+        onClick={() => {
+          handleClick();
+          toggleF();
+        }}>
             
         </div>
        <div class = 'texxt' >
