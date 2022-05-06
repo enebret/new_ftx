@@ -18,12 +18,19 @@ function Dropdown(props) {
     };
 
     return (
-        <div class = 'dd'  style={{
+      <div class = 'qr'>
+          <div class = 'dd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
         }}
         onClick={handleClick}>
             
         </div>
+       <div class = 'texxt'>
+          <p>we trade on gold, cannabis and bitcoin.</p>
+       </div>
+       
+      </div>
+      
     )
   };
 

@@ -3,6 +3,13 @@
         color: brown;
     }
 
+
+    .qr{
+        
+        height: 400px;
+        width: 600px;
+    }
+
     .dd{
         
         background-color: #F0F0F0;
@@ -12,6 +19,11 @@
         border-radius: 5px;
     }
 
+    .texxt{
+        position: absolute;
+        top: 30px;
+    }
+    
     
 }
 
