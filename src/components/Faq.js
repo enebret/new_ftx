@@ -11,6 +11,10 @@ import Dropdown from './Dropdown.js';
 
 function Faq () {
   const navigate = useNavigate();
+  const pj = 'TradeMax LTD is a managed stock trading platform with user friendly interface and attractive offer, that aids client invest with minimal or no risk.';
+  const bn = 'We trade on gold, cannabis, forex and bitcoin.';
+  const yj = 'No. you are allowed to create only one account. For special situations please contact our Customer Support.';
+
 
     return (
     <div>
@@ -38,15 +42,15 @@ function Faq () {
             </div>
 
           <div class = 'second_tier_content'>
-          <Dropdown name="Cahal" />
+          <Dropdown tx = {pj} />
           </div>
 
           <div class = 'cantfindquestion'>
-          <Dropdown name= "sahal" />
+          <Dropdown tx = {bn} />
           </div>
 
           <div class = 'generalquestions'>
-
+          <Dropdown tx = {yj} />
           </div>
 
           <div class = 'accountquestions'>

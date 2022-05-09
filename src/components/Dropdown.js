@@ -7,6 +7,8 @@ const colors = {
 };
 
 function Dropdown(props) {
+    const lk = props.tx;
+
     const [isActive, setIsActive] = useState(false);
     const [toggle, setToggle] = useState(false);
     const box = useRef();
@@ -42,7 +44,7 @@ function Dropdown(props) {
             
         </div>
        <div class = 'texxt' >
-          <p ref={box}>we trade on gold, cannabis and bitcoin.</p>
+          <p ref={box}>{lk}</p>
        </div>
        
       </div>
