@@ -23,10 +23,10 @@ function Dropdown(props) {
     };
 
     const toggleF = () => {
-      if(box.current.style.display !== 'none'){
-        box.current.style.display = 'none';
+      if(box.current.style.maxHeight !== '100px'){
+        box.current.style.maxHeight = '100px';
       }else {
-        box.current.style.display = 'block';
+        box.current.style.maxHeight = '0px';
       }
       
     };
@@ -35,18 +35,20 @@ function Dropdown(props) {
       <div class = 'qr'>
           <div class = 'dd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
-          
         }}
         onClick={() => {
           handleClick();
           toggleF();
-        }}>
-            
+        }}>  
         </div>
-       <div class = 'texxt' >
-          <p ref={box}>{lk}</p>
+
+       <div class = 'texxt' ref={box}>  
+          <p>{lk}</p>
        </div>
        
+
+
+
       </div>
       
     )

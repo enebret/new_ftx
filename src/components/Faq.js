@@ -45,14 +45,6 @@ function Faq () {
           <Dropdown tx = {pj} />
           </div>
 
-          <div class = 'cantfindquestion'>
-          <Dropdown tx = {bn} />
-          </div>
-
-          <div class = 'generalquestions'>
-          <Dropdown tx = {yj} />
-          </div>
-
           <div class = 'accountquestions'>
 
           </div>
