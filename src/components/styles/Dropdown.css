@@ -11,7 +11,7 @@
     }
 
     .dd{
-        
+        margin-bottom: 5px;
         background-color: #F0F0F0;
         height: 40px;
         width: 600px;
@@ -21,7 +21,7 @@
 
    .texxt{
     background-color: white;
-    margin-bottom: 5px;
+    
     padding: 0 20px;
     max-height: 0px;
     overflow: hidden;
