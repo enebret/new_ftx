@@ -28,6 +28,12 @@
         position: absolute;
     }
 
+    .board{
+        position: absolute;
+        top: 530px;
+        left: 980px;
+        
+    }
 
     
 }

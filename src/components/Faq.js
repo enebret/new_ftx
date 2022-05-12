@@ -9,6 +9,7 @@ import Dropdown from './Dropdown.js';
 import Sdd from './Sdd.js';
 import Tdd from './Tdd.js';
 import Fdd from './Fdd.js';
+import Boardcomponent from './Boardcomponent.js';
 
 
 function Faq () {
@@ -63,7 +64,10 @@ function Faq () {
 
           </div>
           
-          
+          <div class = 'board'>
+          <Boardcomponent />
+          </div>
+
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
        <div class = 'first_box'>
