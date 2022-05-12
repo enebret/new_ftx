@@ -6,7 +6,7 @@ import './styles/faq.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 import Dropdown from './Dropdown.js';
-
+import Sdd from './Sdd.js';
 
 
 function Faq () {
@@ -14,9 +14,7 @@ function Faq () {
   const pj = 'TradeMax LTD is a managed stock trading platform with user friendly interface and attractive offer, that aids client invest with minimal or no risk.';
   const bn = 'We trade on gold, cannabis, forex and bitcoin.';
   const yj = 'No. you are allowed to create only one account. For special situations please contact our Customer Support.';
-  const gt = {
-    kj: '0990'
-  }
+ 
 
 
     return (
@@ -45,11 +43,11 @@ function Faq () {
             </div>
 
           <div class = 'second_tier_content'>
-          <Dropdown tx = {pj} />
+          <Dropdown />
           </div>
 
           <div class = 'accountquestions'>
-
+          <Sdd />
           </div>
 
           <div class = 'investmentquestions'>
