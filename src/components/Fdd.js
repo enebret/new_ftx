@@ -6,15 +6,13 @@ const colors = {
   Gray: '#F0F0F0',
 };
 
-function Dropdown(props) {
+function Fdd(props) {
     const lk = props.tx;
 ///
 
   const pj = 'TradeMax LTD is a managed stock trading platform with user friendly interface and attractive offer, that aids client invest with minimal or no risk.';
   const bn = 'We trade on gold, cannabis, forex and bitcoin.';
-  const yj = 'No. you are allowed to create only one account. For special situations please contact our Customer Support.';
-
-
+    
     //hooks for the dropdowns
     const [isActive, setIsActive] = useState(false);
     const [toggle, setToggle] = useState(false);
@@ -130,4 +128,4 @@ function Dropdown(props) {
     )
   };
 
-  export default Dropdown;
+  export default Fdd;

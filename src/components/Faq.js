@@ -7,15 +7,13 @@ import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 import Dropdown from './Dropdown.js';
 import Sdd from './Sdd.js';
+import Tdd from './Tdd.js';
+import Fdd from './Fdd.js';
 
 
 function Faq () {
   const navigate = useNavigate();
-  const pj = 'TradeMax LTD is a managed stock trading platform with user friendly interface and attractive offer, that aids client invest with minimal or no risk.';
-  const bn = 'We trade on gold, cannabis, forex and bitcoin.';
-  const yj = 'No. you are allowed to create only one account. For special situations please contact our Customer Support.';
- 
-
+  
 
     return (
     <div>
@@ -51,11 +49,11 @@ function Faq () {
           </div>
 
           <div class = 'investmentquestions'>
-
+          <Tdd />
           </div>
 
           <div class = 'withdrawalquestions'>
-
+          <Fdd />
           </div>
           <div class = 'affiliatequestions'>
 

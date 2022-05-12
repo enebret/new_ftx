@@ -1,22 +1,29 @@
 @media only screen and (max-width: 1600px) {
     .second_tier_content{
         position: absolute;
-        top: 460px;
-        left: 100px;
+        top: 530px;
+        left: 280px;
         
     }
 
     .accountquestions{
         position: absolute;
-        top: 750px;
-        left: 100px;
+        top: 740px;
+        left: 280px;
     }
 
-    .generalquestions{
+    .investmentquestions{
         position: absolute;
-        top: 660px;
-        left: 100px;
+        top: 950px;
+        left: 280px;
     }
+
+    .withdrawalquestions{
+        position: absolute;
+        top: 1150px;
+        left: 280px;
+    }
+
 
 
     
