@@ -58,6 +58,11 @@ function Faq () {
           <div class = 'affiliatequestions'>
 
           </div>
+
+          <div class = 'ffqtc'>
+
+          </div>
+          
           
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
