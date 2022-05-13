@@ -8,19 +8,19 @@
 
     .accountquestions{
         position: absolute;
-        top: 740px;
+        top: 940px;
         left: 280px;
     }
 
     .investmentquestions{
         position: absolute;
-        top: 950px;
+        top: 1450px;
         left: 280px;
     }
 
     .withdrawalquestions{
         position: absolute;
-        top: 1150px;
+        top: 1750px;
         left: 280px;
     }
 

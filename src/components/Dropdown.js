@@ -18,9 +18,11 @@ function Dropdown(props) {
     //hooks for the dropdowns
     const [isActive, setIsActive] = useState(false);
     const [toggle, setToggle] = useState(false);
+    const [le, setLe] = useState(false);
+
     const box = useRef();
     const nox = useRef();
-
+    const lox = useRef();
 
 
 
@@ -64,7 +66,22 @@ function Dropdown(props) {
     };
 //////////////////////////////////////////////////////////////
 
-
+        //SECOND DIV
+    //function for second div color change onclick
+    const zandleClick = () => {
+      // 👇️ toggle
+      setLe(current => !current);
+      
+    };
+     //function for child element slidedown
+    const zoggleF = () => {
+      if(lox.current.style.maxHeight !== '100px'){
+        lox.current.style.maxHeight = '100px';
+      }else {
+        lox.current.style.maxHeight = '0px';
+      }
+      
+    };
 
 
 
@@ -82,7 +99,7 @@ function Dropdown(props) {
 
     return (
       <div class = 'qr'>
-        {/* comment here */}
+        {/* first bar */}
           <div class = 'dd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
         }}
@@ -96,7 +113,7 @@ function Dropdown(props) {
           <p>{pj}</p>
        </div>
        
-       {/* comment here */}
+       {/* second bar */}
         <div  class = 'dd'     style={{
           backgroundColor: toggle ? '#0087BD' : '',
         }}
@@ -110,14 +127,29 @@ function Dropdown(props) {
           <p>{bn}</p>
        </div>
 
-       {/* comment here */}
+       {/* third bar */}
        <div  class = 'dd'     style={{
+          backgroundColor: le ? '#0087BD' : '',
+        }}
+        onClick={() => {
+          zandleClick();
+          zoggleF();
+        }}>
+        </div>
+
+        <div class = 'texxt' ref={lox}>  
+          <p>{yj}</p>
+       </div>
+
+           {/* ground bar */}
+       <div  class = 'bar'     style={{
           
         }}
         onClick={() => {
           
         }}>
         </div>
+
 
 
 
