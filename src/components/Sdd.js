@@ -1,4 +1,4 @@
-import './styles/Dropdown.css';
+import './styles/sdd.css';
 import { useState, useRef} from 'react';
 
 const colors = {
@@ -226,7 +226,7 @@ function Sdd(props) {
         }}>
         </div>
         <div class = 'texxt' ref={mox}>  
-          <p></p>
+          <p>No. you are allowed to create only one account. For special situations please contact our <a href=''>Customer Support</a></p>
        </div>
 
          {/* comment here */}
