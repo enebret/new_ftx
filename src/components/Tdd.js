@@ -309,7 +309,7 @@ function Tdd() {
         }}>
         </div>
         <div class = 'texxt' ref={mox}>  
-          <p></p>
+          <p>{tg}</p>
        </div>
 
          {/* comment here */}
@@ -358,7 +358,7 @@ function Tdd() {
         }}>
         </div>
         <div class = 'texxt' ref={qox}>  
-          <p>{vn}</p>
+          <p>{xj}</p>
        </div>
 
        {/* comment here */}
@@ -374,7 +374,7 @@ function Tdd() {
         }}>
         </div>
         <div class = 'texxt' ref={xox}>  
-          <p>{vn}</p>
+          <p>{xn}</p>
        </div>
 
 
@@ -391,7 +391,7 @@ function Tdd() {
         }}>
         </div>
         <div class = 'texxt' ref={zox}>  
-          <p>{vn}</p>
+          <p>{xq}</p>
        </div>
 
 
