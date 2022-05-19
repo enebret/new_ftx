@@ -18,14 +18,15 @@ function Tdd() {
 
 ///
 
-  const pj = '';
-  const bn = '';
-  const tj = '';
-  //fourth enter as direct text and use span for link
-  const yj = '';
-  const vn = 'Go to Password Reminder section, enter your registration e-mail address and follow the instructions.';
-  
-
+  const pj = 'To make investments you should register with us, create an account and then you can make your deposit. All the investments are made in your personal account after login.';
+  //const bn = ''; use of bold elements
+  const tj = 'You can start investing with as low as 500 USD.';
+  const tg = 'Transactions will be credited on your account after payment have been confirmed. This might take upto 30 minutes for payment to reflect in your account';
+  const yj = 'Yes, all initial investments are guaranteed to be paid back to the investor when ever he/she wants to withdraw|terminate their contract.';
+  const vn = 'Your interest is calculated every business day based on the \return\'s of your trade.';
+  const xj = 'Yes, but note that all the transactions are handled separately.';
+  const xn = 'There are certain risks in any investment programs. However, there are some simple ways that can help you to reduce risks of losing your money. First, set a certain financial goal and deposit such sum of money that you can afford. Remember that our expert trading team is always ready to help you.';
+  const xq = 'Our expert team of TradeMax LTD are managing your funds.';
 
 
 
@@ -276,7 +277,7 @@ function Tdd() {
         </div>
 
         <div class = 'texxt' ref={nox}>  
-          <p>{bn}</p>
+          <p>We accept <strong>Bitcoin,</strong> <strong>Dollars,</strong> <strong>Euro</strong> and <strong>Pounds.</strong></p>
        </div>
 
        {/* comment here */}
@@ -308,7 +309,7 @@ function Tdd() {
         }}>
         </div>
         <div class = 'texxt' ref={mox}>  
-          <p>No. you are allowed to create only one account. For special situations please contact our <a id = 'pxc' href='' style={mystyle}>Customer Support</a></p>
+          <p></p>
        </div>
 
          {/* comment here */}
