@@ -100,13 +100,13 @@ function Dropdown(props) {
     return (
       <div class = 'qr'>
         {/* first bar */}
-          <div class = 'dd'  style={{
+          <div class = 'kd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
         }}
         onClick={() => {
           handleClick();
           toggleF();
-        }}>  
+        }}>  <span id = 'spw'>What is this website about?</span>
         </div>
 
        <div class = 'texxt' ref={box}>  
@@ -114,13 +114,13 @@ function Dropdown(props) {
        </div>
        
        {/* second bar */}
-        <div  class = 'dd'     style={{
+        <div  class = 'kd'     style={{
           backgroundColor: toggle ? '#0087BD' : '',
         }}
         onClick={() => {
           kandleClick();
           noggleF();
-        }}>
+        }}> <span id = 'spw'>What Markets do you trade?</span>
         </div>
 
         <div class = 'texxt' ref={nox}>  
@@ -128,13 +128,13 @@ function Dropdown(props) {
        </div>
 
        {/* third bar */}
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: le ? '#0087BD' : '',
         }}
         onClick={() => {
           zandleClick();
           zoggleF();
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
 
         <div class = 'texxt' ref={lox}>  
