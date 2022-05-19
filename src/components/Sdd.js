@@ -177,13 +177,13 @@ function Sdd(props) {
 
         {/* firt bar */}
 
-          <div class = 'dd'  style={{
+          <div class = 'kd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
         }}
         onClick={() => {
           handleClick();
           toggleF();
-        }}>  
+        }}>  <span id = 'spw'>How to create a new account?</span>
         </div>
 
        <div class = 'texxt' ref={box}>  
@@ -193,13 +193,13 @@ function Sdd(props) {
        {/* comment here */}
        {/* second bar */}
 
-        <div  class = 'dd'     style={{
+        <div  class = 'kd'     style={{
           backgroundColor: toggle ? '#0087BD' : '',
         }}
         onClick={() => {
           kandleClick();
           noggleF();
-        }}>
+        }}> <span id = 'spw'>If I do not have a computer can I use my mobile device to track my account?</span>
         </div>
 
         <div class = 'texxt' ref={nox}>  
@@ -209,14 +209,14 @@ function Sdd(props) {
        {/* comment here */}
        {/* third bar */}
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: le ? '#0087BD' : '',
         }}
         onClick={() => {
           zandleClick();
           zoggleF();
 
-        }}>
+        }}> <span id = 'spw'>How can I keep my account safe?</span>
         </div>
         <div class = 'texxt' ref={lox}>  
           <p>{tj}</p>
@@ -226,13 +226,13 @@ function Sdd(props) {
         {/* fourth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: ke ? '#0087BD' : '',
         }}
         onClick={() => {
           yandleClick();
           yoggleF();
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
         <div class = 'texxt' ref={mox}>  
           <p>No. you are allowed to create only one account. For special situations please contact our <a id = 'pxc' href='' style={mystyle}>Customer Support</a></p>
@@ -242,13 +242,13 @@ function Sdd(props) {
          {/* fifth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: je ? '#0087BD' : '',
         }}
         onClick={() => {
           xandleClick();
           xoggleF();
-        }}>
+        }}> <span id = 'spw'>How to change my password?</span>
         </div>
         <div class = 'texxt' ref={pox}>  
           <p>{yj}</p>
@@ -258,13 +258,13 @@ function Sdd(props) {
          {/* sixth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: be ? '#0087BD' : '',
         }}
         onClick={() => {
           bandleClick();
           boggleF();
-        }}>
+        }}> <span id = 'spw'>I forgot my password. What should I do?</span>
         </div>
         <div class = 'texxt' ref={vox}>  
           <p>{vn}</p>
