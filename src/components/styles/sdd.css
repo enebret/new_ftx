@@ -46,13 +46,8 @@
     transition: max-height 0.4s ease-in-out;
    }
 
-   a{
-    cursor: wait;
-    text-decoration: underline;
-    margin: 0px;
-    color: black;
-   }
-   a:hover{
+  
+   #pxc:hover{
     background-color: white;
     padding: 0px;
     text-decoration: underline;

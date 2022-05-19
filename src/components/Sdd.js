@@ -7,6 +7,15 @@ const colors = {
 };
 
 function Sdd(props) {
+
+
+  const mystyle = {
+    cursor: 'pointer',
+    textDecoration: 'underline',
+    margin: '0px',
+    color: 'black'
+  };
+
     const lk = props.tx;
 ///
 
@@ -226,7 +235,7 @@ function Sdd(props) {
         }}>
         </div>
         <div class = 'texxt' ref={mox}>  
-          <p>No. you are allowed to create only one account. For special situations please contact our <a href=''>Customer Support</a></p>
+          <p>No. you are allowed to create only one account. For special situations please contact our <a id = 'pxc' href='' style={mystyle}>Customer Support</a></p>
        </div>
 
          {/* comment here */}
