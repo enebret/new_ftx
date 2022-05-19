@@ -6,13 +6,12 @@ const colors = {
   Gray: '#F0F0F0',
 };
 
-function Fdd(props) {
+function Cdd(props) {
    
-  const pj = 'You can withdraw your money in your personal account in the Withdraw Section.';
-  const bn = 'Withdrawal requests for sums up to $500.00 will be paid in less than 2 hours. Withdrawal requests with more than $500 of amount will take up to 24 hours to be processed.';
-  const yj = 'No, there are no fees for withdrawing funds.';
-  const pk = 'Yes, a minimum amount you can request for a withdrawal is $1 US Dollar.';
-
+  const pj = 'You will earn up to 6% commission from the invested funds of your referred members. Any additional investment made by your affiliate will generate. Commission is credited to your account balance instantly, without any delays.';
+  const bn = 'All members have an individual referral link. You are able to promote your referral link by placing our banners or text ads on your website, blog or just put the affiliate link in message forum signatures, email signatures or any other places.';
+  const yj = 'No, as a standard member, you are not obligated to have an active investment in order to participate in affiliate program and earning commissions. However, as a standard member, you will earn 6% commission.';
+  const pt = 'No, it’s not an obligation to have an active deposit in order to become our regional representative. All you have to do is willing to promote TradeMax LTD in the best of your abilities. You will earn 6% commission for every investment making by your referrals';
 
     //hooks for the dropdowns
     const [isActive, setIsActive] = useState(false);
@@ -96,7 +95,7 @@ function Fdd(props) {
       
     };
      //function for child element slidedown
-    const moggleF = () => {
+    const mkoggleF = () => {
       if(pox.current.style.maxHeight !== '100px'){
         pox.current.style.maxHeight = '100px';
       }else {
@@ -118,6 +117,7 @@ function Fdd(props) {
 
     return (
       <div class = 'qr'>
+
         {/* first bar */}
           <div class = 'kd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
@@ -125,7 +125,7 @@ function Fdd(props) {
         onClick={() => {
           handleClick();
           toggleF();
-        }}>  <span id = 'spw'>How to withdraw funds?</span>
+        }}>  <span id = 'spw'>How Affiliate Program Works?</span>
         </div>
 
        <div class = 'texxt' ref={box}>  
@@ -139,7 +139,7 @@ function Fdd(props) {
         onClick={() => {
           kandleClick();
           noggleF();
-        }}> <span id = 'spw'>How fast is my withdrawal processed?</span>
+        }}> <span id = 'spw'>How can I promote my referral link?</span>
         </div>
 
         <div class = 'texxt' ref={nox}>  
@@ -153,7 +153,7 @@ function Fdd(props) {
         onClick={() => {
           zandleClick();
           zoggleF();
-        }}> <span id = 'spw'>Are there any fees to make withdrawal?</span>
+        }}> <span id = 'spw'>Should I have an active investment to participate in the Referral program?</span>
         </div>
 
         <div class = 'texxt' ref={lox}>  
@@ -166,12 +166,12 @@ function Fdd(props) {
         }}
         onClick={() => {
           mandleClick();
-          moggleF();
-        }}> <span id = 'spw'>Is there a minimum sum for withdrawal?</span>
+          mkoggleF();
+        }}> <span id = 'spw'>Should I have an active investment to participate in the Representatives program?</span>
         </div>
 
         <div class = 'texxt' ref={pox}>  
-          <p>{pk}</p>
+          <p>{yj}</p>
        </div>
 
 
@@ -188,4 +188,4 @@ function Fdd(props) {
     )
   };
 
-  export default Fdd;
+  export default Cdd;

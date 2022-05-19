@@ -6,24 +6,31 @@
 
     .qr{
         
-        height: 400px;
-        width: 600px;
+        vertical-align: middle;
+       
     }
 
-    .dd{
+    #spw{
+        
+        padding-left: 30px;
+        line-height: 35px;
+    }
+
+    .kd{
         margin-bottom: 5px;
         background-color: #F0F0F0;
         height: 40px;
-        width: 600px;
+        width: 700px;
         cursor: pointer;
         border-radius: 5px;
+        vertical-align: bottom;
     }
 
     .dap{
         margin-bottom: 5px;
         background-color: #F0F0F0;
         height: 40px;
-        width: 600px;
+        width: 800px;
         cursor: pointer;
         border-radius: 5px;
     }

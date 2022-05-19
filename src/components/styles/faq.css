@@ -2,27 +2,35 @@
     .second_tier_content{
         position: absolute;
         top: 530px;
-        left: 280px;
+        left: 180px;
         
     }
 
     .accountquestions{
         position: absolute;
         top: 940px;
-        left: 280px;
+        left: 180px;
     }
 
     .investmentquestions{
         position: absolute;
         top: 1450px;
-        left: 280px;
+        left: 180px;
     }
 
     .withdrawalquestions{
         position: absolute;
-        top: 1750px;
-        left: 280px;
+        top: 2200px;
+        left: 180px;
     }
+
+    .affiliatequestions{
+        position: absolute;
+        top: 2700px;
+        left: 180px;
+    }
+
+
 
     .ffqtc{
         position: absolute;

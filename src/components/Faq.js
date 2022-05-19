@@ -9,6 +9,7 @@ import Dropdown from './Dropdown.js';
 import Sdd from './Sdd.js';
 import Tdd from './Tdd.js';
 import Fdd from './Fdd.js';
+import Cdd from './Cdd.js';
 import Boardcomponent from './Boardcomponent.js';
 
 
@@ -57,7 +58,7 @@ function Faq () {
           <Fdd />
           </div>
           <div class = 'affiliatequestions'>
-
+          <Cdd />
           </div>
 
           <div class = 'ffqtc'>
