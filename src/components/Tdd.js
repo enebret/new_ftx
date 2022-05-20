@@ -339,7 +339,7 @@ function Tdd() {
           bandleClick();
           boggleF();
           
-        }}> <span id = 'spw'>Can I create more than one account?</span>
+        }}> <span id = 'spw'>How is the interest calculated?</span>
         </div>
         <div class = 'texxt' ref={vox}>  
           <p>{vn}</p>
@@ -355,7 +355,7 @@ function Tdd() {
         onClick={() => {
           landleClick();
           loggleF();
-        }}> <span id = 'spw'>Can I create more than one account?</span>
+        }}> <span id = 'spw'>How to check my account balance?</span>
         </div>
         <div class = 'texxt' ref={qox}>  
           <p>{xj}</p>
@@ -371,7 +371,7 @@ function Tdd() {
         onClick={() => {
           mandleClick();
           moggleF();
-        }}> <span id = 'spw'>Can I create more than one account?</span>
+        }}> <span id = 'spw'>Are there risks to lose money?</span>
         </div>
         <div class = 'texxt' ref={xox}>  
           <p>{xn}</p>
@@ -388,7 +388,7 @@ function Tdd() {
         onClick={() => {
           fandleClick();
           foggleF();
-        }}> <span id = 'spw'>Can I create more than one account?</span>
+        }}> <span id = 'spw'>Who manages the funds?</span>
         </div>
         <div class = 'texxt' ref={zox}>  
           <p>{xq}</p>

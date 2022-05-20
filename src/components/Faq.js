@@ -11,7 +11,7 @@ import Tdd from './Tdd.js';
 import Fdd from './Fdd.js';
 import Cdd from './Cdd.js';
 import Boardcomponent from './Boardcomponent.js';
-
+import Textcomponent from './Textcomponent.js';
 
 function Faq () {
   const navigate = useNavigate();
@@ -62,7 +62,7 @@ function Faq () {
           </div>
 
           <div class = 'ffqtc'>
-
+          <Textcomponent />
           </div>
           
           <div class = 'board'>

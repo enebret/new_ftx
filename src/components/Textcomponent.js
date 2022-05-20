@@ -1,4 +1,4 @@
-import './styles/textcomponent.css';
+import './styles/Dropdown.css';
 import { useState, useRef} from 'react';
 
 
@@ -9,7 +9,7 @@ function Textcomponent(props) {
 
     return (
       <div>
-        <p id = 'fqtext'></p>
+        <p id = 'fqtext'>{lk}</p>
       </div>
       
     )
