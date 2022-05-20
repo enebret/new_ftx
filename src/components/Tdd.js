@@ -251,13 +251,13 @@ function Tdd() {
 
         {/* firt bar */}
 
-          <div class = 'dd'  style={{
+          <div class = 'kd'  style={{
           backgroundColor: isActive ? '#0087BD' : '',
         }}
         onClick={() => {
           handleClick();
           toggleF();
-        }}>  
+        }}>  <span id = 'spw'>What is the process of investing?</span>
         </div>
 
        <div class = 'texxt' ref={box}>  
@@ -267,13 +267,13 @@ function Tdd() {
        {/* comment here */}
        {/* second bar */}
 
-        <div  class = 'dd'     style={{
+        <div  class = 'kd'     style={{
           backgroundColor: toggle ? '#0087BD' : '',
         }}
         onClick={() => {
           kandleClick();
           noggleF();
-        }}>
+        }}> <span id = 'spw'>What Currencies can I use to invest?</span>
         </div>
 
         <div class = 'texxt' ref={nox}>  
@@ -283,14 +283,14 @@ function Tdd() {
        {/* comment here */}
        {/* third bar */}
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: le ? '#0087BD' : '',
         }}
         onClick={() => {
           zandleClick();
           zoggleF();
 
-        }}>
+        }}> <span id = 'spw'>How much is the minimum allowed amount to start investing?</span>
         </div>
         <div class = 'texxt' ref={lox}>  
           <p>{tj}</p>
@@ -300,13 +300,13 @@ function Tdd() {
         {/* fourth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: ke ? '#0087BD' : '',
         }}
         onClick={() => {
           yandleClick();
           yoggleF();
-        }}>
+        }}> <span id = 'spw'>How fast are my deposits added to my account?</span>
         </div>
         <div class = 'texxt' ref={mox}>  
           <p>{tg}</p>
@@ -316,13 +316,13 @@ function Tdd() {
          {/* fifth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: je ? '#0087BD' : '',
         }}
         onClick={() => {
           xandleClick();
           xoggleF();
-        }}>
+        }}> <span id = 'spw'>Is our initial investment guaranteed?</span>
         </div>
         <div class = 'texxt' ref={pox}>  
           <p>{yj}</p>
@@ -332,14 +332,14 @@ function Tdd() {
          {/* sixth bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: be ? '#0087BD' : '',
         }}
         onClick={() => {
           bandleClick();
           boggleF();
           
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
         <div class = 'texxt' ref={vox}>  
           <p>{vn}</p>
@@ -349,13 +349,13 @@ function Tdd() {
          {/* seventh bar */}
 
 
-       <div  class = 'dd'     style={{
+       <div  class = 'kd'     style={{
           backgroundColor: ye ? '#0087BD' : '',
         }}
         onClick={() => {
           landleClick();
           loggleF();
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
         <div class = 'texxt' ref={qox}>  
           <p>{xj}</p>
@@ -365,13 +365,13 @@ function Tdd() {
          {/* eigth bar */}
 
 
-         <div  class = 'dd'     style={{
+         <div  class = 'kd'     style={{
           backgroundColor: ze ? '#0087BD' : '',
         }}
         onClick={() => {
           mandleClick();
           moggleF();
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
         <div class = 'texxt' ref={xox}>  
           <p>{xn}</p>
@@ -382,13 +382,13 @@ function Tdd() {
          {/* eigth bar */}
 
 
-         <div  class = 'dd'     style={{
+         <div  class = 'kd'     style={{
           backgroundColor: xe ? '#0087BD' : '',
         }}
         onClick={() => {
           fandleClick();
           foggleF();
-        }}>
+        }}> <span id = 'spw'>Can I create more than one account?</span>
         </div>
         <div class = 'texxt' ref={zox}>  
           <p>{xq}</p>
