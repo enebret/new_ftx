@@ -15,7 +15,13 @@ import Textcomponent from './Textcomponent.js';
 
 function Faq () {
   const navigate = useNavigate();
-  
+  const ty = 'General Questions';
+  const tv = 'Account Questions';
+  const tx = 'Investment Questions';
+  const tz = 'Withdrawal Questions';
+  const td = 'Affiliate Program questions';
+
+
 
     return (
     <div>
@@ -42,7 +48,7 @@ function Faq () {
             </div>
             </div>
 
-          <div class = 'second_tier_content'>
+          <div class = 'sq'>
           <Dropdown />
           </div>
 
@@ -61,13 +67,30 @@ function Faq () {
           <Cdd />
           </div>
 
-          <div class = 'ffqtc'>
-          <Textcomponent />
-          </div>
-          
           <div class = 'board'>
           <Boardcomponent />
           </div>
+
+          <div class = 'ffqtc'>
+          <Textcomponent text = {ty} />
+          </div>
+          
+          <div class = 'ffqtd'>
+          <Textcomponent text = {tv} />
+          </div>
+
+          <div class = 'ffqte'>
+          <Textcomponent text = {tx} />
+          </div>
+
+          <div class = 'ffqtf'>
+          <Textcomponent text = {tz} />
+          </div>
+
+          <div class = 'ffqtg'>
+          <Textcomponent text = {td} />
+          </div>
+         
 
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
