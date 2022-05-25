@@ -26,23 +26,23 @@
     
     /* end of first tier */
 
-    .second_tier_content{
+    .stx{
         position: absolute;
         top: 440px;
-        height: 700px;
-        width: 1800px;
+        width: 1500px;
+        right: 400px;
     }
 
     .first_text{
         position: absolute;
         top: 10px;
-        left: 300px
+        left: 100px
     }
 
     .second_text{
         position: absolute;
         top: 50px;
-        left: 300px;
+        left: 100px;
     }
 
     .main_text{
@@ -57,10 +57,11 @@
     }
 
     /* end of second tier */
-    .third_tier_content{
+    .thx{
         position: absolute;
-        top: 700px;
+        top: 830px;
         height: 700px;
+        left: 240px;
     }
     
     .first_ttc{
@@ -73,43 +74,46 @@
         width: 400px;
     }
 
-    img#sd{
+    #xfd{
         height: 400px;
-        width: 400px;
+        width: 350px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
     }
 
-    .img_ttc{
+    .imc{
         position: absolute;
-        left:10px;
+        left: 660px;
     }
 
 
     /* end of third tier */
-    .fourth_tier_content{
+    .ftc{
         position: absolute;
-        top: 1200px;
+        top: 1400px;
         height: 700px;
     }
     
-    .ft_heading{
+    .fng{
         position: absolute;
         width: 400px;
-    }
-
-    .ft_main{
-        position: absolute;
-        width: 400px;
-    }
-
-    .ft_img{
-        position: absolute;
         left: 300px;
     }
 
-    img#fg{
+    .fmg{
+        top: 50px;
+        position: absolute;
+        width: 400px;
+        left: 300px;
+    }
+
+    .ftg{
+        position: absolute;
+        left: 700px;
+    }
+
+    #xfg{
         height: 300px;
         width: 300px;
          /* use props below so that image quality will not be distorted */

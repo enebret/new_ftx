@@ -39,7 +39,7 @@ function AboutUs () {
 
             </div>
 
-          <div class = 'second_tier_content'>
+          <div class = 'stx'>
             <div class = 'first_text'>
               <h1>Open Leveraged CFD</h1>
             </div>
@@ -52,7 +52,7 @@ function AboutUs () {
             <div class = 'icons'></div>
           </div>
 
-          <div class = 'third_tier_content'>
+          <div class = 'thx'>
            <div class = 'first_ttc'>
            <h1>Who Can Trade Cryptocurrencies?</h1>
            </div>
@@ -60,20 +60,20 @@ function AboutUs () {
              <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.</p>
              <p>Many of Trade Max Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The Trade Max Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
            </div>
-           <div class = 'img_ttc'>
-           <img id="sd" src={secondDiv} alt="secondDiv" />
+           <div class = 'imc'>
+           <img id="xfd" src={secondDiv} alt="secondDiv" />
            </div>
           </div>
 
-          <div class = 'fourth_tier_content'>
-            <div class ='ft_heading'>
+          <div class = 'ftc'>
+            <div class ='fng'>
               <h1>Cryptocurrency Trading</h1>
             </div>
-            <div class = 'ft_main'>
+            <div class = 'fmg'>
             <p>By the end of 2016, more than 700 digital currencies were introduced and co-existed. Bearing that in mind, it came as no surprise that during 2017 the total trading volume of the digital currency market has reached a very high value. This phenomenal sum is even more astonishing when considering the simple fact that this market started only 8 years before. A big advantage of digital currencies is that they are not tied to a specific country or bank, therefore allowing them to be liquid not only during traditional trading hours, but also throughout weekend and holidays, allowing people to trade on them 24/7*.</p>
             </div>
-            <div class = 'ft_img'>
-            <img id="fg" src={firstPng} alt="firstPng" />
+            <div class = 'ftg'>
+            <img id="xfg" src={firstPng} alt="firstPng" />
             </div>
           </div>
 

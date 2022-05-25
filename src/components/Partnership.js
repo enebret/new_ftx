@@ -22,7 +22,7 @@ function Partnership () {
                <nav>
                  <img id="lg" src={logo} alt="logo" />
                  <a onClick={ () => navigate('/')}>HOME</a>
-                 <a >COMPANY</a>
+                 <a onClick={() => navigate('/aboutus')}>COMPANY</a>
                  <a onClick={() => navigate('/investment')}>INVESTMENT</a>
                  <a onClick={() => navigate('/faq')}>FAQ</a>
                  <a onClick={() => navigate('/platform')}>PLATFORM</a>
