@@ -23,11 +23,11 @@ function Partnership () {
                  <img id="lg" src={logo} alt="logo" />
                  <a onClick={ () => navigate('/')}>HOME</a>
                  <a >COMPANY</a>
-                 <a href="#">INVESTMENT</a>
-                 <a href="#">FAQ</a>
-                 <a href="#">PLATFORM</a>
-                 <a href="#">PARTNERSHIP</a>
-                 <a href="#">CONTACT US</a>
+                 <a onClick={() => navigate('/investment')}>INVESTMENT</a>
+                 <a onClick={() => navigate('/faq')}>FAQ</a>
+                 <a onClick={() => navigate('/platform')}>PLATFORM</a>
+                 <a onClick={() => navigate('/partnership')}>PARTNERSHIP</a>
+                 <a onClick={() => navigate('/contactus')}>CONTACT US</a>
                  <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
                </nav>
               </div>
