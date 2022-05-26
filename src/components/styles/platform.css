@@ -26,6 +26,13 @@
     
     /* end of first tier */
 
+    .text-success {
+        color: #3c763d;
+    }
+
+    #fextt{
+        font-weight: 1000;
+    }
     .stx{
         position: absolute;
         top: 440px;
@@ -40,7 +47,7 @@
 
     .dext{
         position: absolute;
-        top: 30px;
+        top: 40px;
         left: 700px;
     }
 
@@ -67,6 +74,11 @@
         position: absolute;
         width: 400px;
         left: 100px;
+        top: 40px;
+    }
+
+    #rstt{
+        font-weight: 900;
     }
 
     .sttc{
@@ -102,7 +114,7 @@
     
     .fng{
         position: absolute;
-        width: 400px;
+        width: 500px;
         left: 200px;
     }
 

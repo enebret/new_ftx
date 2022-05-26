@@ -1,6 +1,6 @@
 /*jshint esversion: 8 */
 
-import './styles/about_us.css';
+import './styles/platform.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 import firstDiv from './util/aboutusimages/first_div.jpg';
@@ -41,24 +41,24 @@ function Platform () {
 
           <div class = 'stx'>
             <div class = 'fext'>
-              <h1>Open Leveraged CFD</h1>
+              <h1 id = 'fextt'>Discover Smart Investing</h1>
             </div>
             <div class = 'dext'>
-              <h1> Trades on Cryptocurrencies</h1>
+              <h1><span class="text-success">With the FTX Limited.</span></h1>
             </div>
             <div class = 'mext'>
-              <p>FXT Trading Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using FXT Trading Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
+              <p>The FTX Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
             </div>
             <div class = 'icons'></div>
           </div>
 
           <div class = 'thx'>
            <div class = 'rst'>
-           <h1>Who Can Trade Cryptocurrencies?</h1>
+           <h1 id = 'rstt'>Economic Calender</h1>
            </div>
            <div class = 'sttc'>
-             <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.</p>
-             <p>Many of Trade Max Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The Trade Max Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
+             <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
+             
            </div>
            <div class = 'imc'>
            <img id="xfd" src={secondDiv} alt="secondDiv" />
@@ -67,10 +67,10 @@ function Platform () {
 
           <div class = 'ftc'>
             <div class ='fng'>
-              <h1>Cryptocurrency Trading</h1>
+              <h1 id = 'rstt'>Price Alerts and Analysis</h1>
             </div>
             <div class = 'fmg'>
-            <p>By the end of 2016, more than 700 digital currencies were introduced and co-existed. Bearing that in mind, it came as no surprise that during 2017 the total trading volume of the digital currency market has reached a very high value. This phenomenal sum is even more astonishing when considering the simple fact that this market started only 8 years before. A big advantage of digital currencies is that they are not tied to a specific country or bank, therefore allowing them to be liquid not only during traditional trading hours, but also throughout weekend and holidays, allowing people to trade on them 24/7*.</p>
+            <p>Trade Max Limited price alerts give you the freedom to step back from the markets until they meet your requirements. Set the rate at which you want to enter the markets and receive immediate notification when it’s time to trade.</p>
             </div>
             <div class = 'ftg'>
             <img id="xfg" src={firstPng} alt="firstPng" />
@@ -79,10 +79,10 @@ function Platform () {
 
           <div class = 'ftq'>
             <div class = 'fch'>  
-              <h2>Why You Need To Be A Member</h2>
+              <h2 id = 'rstt'>Risk Management</h2>
             </div>
             <div class = 'fcxt'>
-              <p>Unless you trade stocks full-time, you likely do not have the time and/or know-how needed to successfully select the right cannabis, gold, forex and cryptocurrency stock and know when to buy or sell for maximum profits. Our member-only model portfolio shows stocks have been handpicked by experienced financial advisor and experienced stock traders. We will continuously monitor the markets and review current and potential investments. Members will have professional insight at their fingertips.</p>
+              <p>The automatic stop loss, take profit and order entry tools allow you to maximise your profit potential while reducing your risk of loss. The ‘set and forget’ tools will run in the background, relieving you from the need to monitor open trades.</p>
             </div>
             <div class = 'fimg'>
             <img id="fvx" src={fourthDiv} alt="fourth_div" />
