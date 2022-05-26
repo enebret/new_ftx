@@ -10,7 +10,7 @@ import fourthDiv from './util/aboutusimages/fourth_div.jpg';
 import qOption from './util/aboutusimages/q_option.png';
 
 
-function AboutUs () {
+function Platform () {
   const navigate = useNavigate();
 
     return (
@@ -170,4 +170,4 @@ function AboutUs () {
     )
 }
 
-export default AboutUs;
+export default Platform;

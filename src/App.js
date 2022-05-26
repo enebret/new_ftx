@@ -8,6 +8,7 @@ import Investment from './components/Investment.js';
 import ContactUs from './components/ContactUs.js';
 import Faq from './components/Faq.js';
 import Partnership from './components/Partnership';
+import Platform from './components/Platform.js';
 import { Routes, Route, Link } from "react-router-dom";
 //errors are due to js file extension
 /* eslint no-unused-vars : "off" */
@@ -24,6 +25,7 @@ function App() {
           <Route path="aboutus" element={<AboutUs />}></Route>
           <Route path="investment" element={<Investment />}></Route>
           <Route path="partnership" element={<Partnership />}></Route>
+          <Route path="platform" element={<Platform />}></Route>
           <Route path="contactus" element={<ContactUs />}></Route>
           <Route path="faq" element={<Faq />}></Route>
 
