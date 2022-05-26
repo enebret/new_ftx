@@ -63,9 +63,10 @@
         left: 240px;
     }
     
-    .first_ttc{
+    .rst{
         position: absolute;
         width: 400px;
+        left: 100px;
     }
 
     .sttc{
@@ -73,11 +74,12 @@
         width: 500px;
         left: 100px;
         top: 100px;
+        text-align: justify;
     }
 
     #xfd{
         height: 400px;
-        width: 390px;
+        width: 490px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
@@ -85,7 +87,7 @@
 
     .imc{
         position: absolute;
-        left: 660px;
+        left: 630px;
         top: 90px;
     }
 
@@ -101,14 +103,14 @@
     .fng{
         position: absolute;
         width: 400px;
-        left: 340px;
+        left: 200px;
     }
 
     .fmg{
         top: 50px;
         position: absolute;
         width: 500px;
-        left: 240px;
+        left: 200px;
         text-align: justify;
     }
 
@@ -143,20 +145,21 @@
 
     .fcxt{
         position: absolute;
-        width: 400px;
+        width: 500px;
         left: 820px;
         top: 70px;
+        text-align: justify;
     }
 
     .fimg{
         position: absolute;
-        left: 390px;
+        left: 240px;
         top: 20px;
     }
 
     #fvx{
         height: 500px;
-        width: 400px;
+        width: 550px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
@@ -171,24 +174,28 @@
         left: 200px;
     }
 
-    .sc_heading{
+    .sgg{
         position: absolute; 
         width: 400px; 
+        left: 150px;
     }
     
-    .sc_main{
+    .smain{
         position: absolute;  
-        width: 400px;
+        width: 500px;
+        top: 100px;
+        left: 150px;
+        text-align: justify;
     }
     
     .sig{
         position: absolute; 
-        left: 750px; 
+        left: 670px; 
     }
     
-    img#qn{
+    #qnp{
         height: 300px;
-        width: 300px;
+        width: 500px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;

@@ -53,7 +53,7 @@ function AboutUs () {
           </div>
 
           <div class = 'thx'>
-           <div class = 'first_ttc'>
+           <div class = 'rst'>
            <h1>Who Can Trade Cryptocurrencies?</h1>
            </div>
            <div class = 'sttc'>
@@ -90,14 +90,14 @@ function AboutUs () {
           </div>
 
           <div class = 'stq'>
-            <div class = 'sc_heading'>
+            <div class = 'sgg'>
               <h1>No Experience Trading, Can I Be A Member</h1>
             </div>
-            <div class = 'sc_main'>
+            <div class = 'smain'>
               <p>Everyone has to start somewhere, and FXT Trading is a great place to begin. Our Team od experts clearly lays out the moves his is making in his model portfolio and why. We back it all up with simple-to-understand analysis. Even if you have yet to establish a brokerage account, following along as a member can help give you insight and understanding of the exciting, and often volatile stock industry.</p>
             </div>
             <div class = 'sig'>
-            <img id="qn" src={qOption} alt="q_option" />
+            <img id="qnp" src={qOption} alt="q_option" />
             </div>
           </div>
 
