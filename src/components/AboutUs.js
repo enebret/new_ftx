@@ -40,13 +40,13 @@ function AboutUs () {
             </div>
 
           <div class = 'stx'>
-            <div class = 'first_text'>
+            <div class = 'fext'>
               <h1>Open Leveraged CFD</h1>
             </div>
-            <div class = 'second_text'>
+            <div class = 'dext'>
               <h1> Trades on Cryptocurrencies</h1>
             </div>
-            <div class = 'main_text'>
+            <div class = 'mext'>
               <p>FXT Trading Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using FXT Trading Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
             </div>
             <div class = 'icons'></div>
@@ -56,7 +56,7 @@ function AboutUs () {
            <div class = 'first_ttc'>
            <h1>Who Can Trade Cryptocurrencies?</h1>
            </div>
-           <div class = 'second_ttc'>
+           <div class = 'sttc'>
              <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.</p>
              <p>Many of Trade Max Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The Trade Max Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
            </div>
@@ -77,26 +77,26 @@ function AboutUs () {
             </div>
           </div>
 
-          <div class = 'fifth_tier_content'>
-            <div class = 'fc_heading'>
+          <div class = 'ftq'>
+            <div class = 'fch'>  
               <h2>Why You Need To Be A Member</h2>
             </div>
-            <div class = 'fc_text'>
+            <div class = 'fcxt'>
               <p>Unless you trade stocks full-time, you likely do not have the time and/or know-how needed to successfully select the right cannabis, gold, forex and cryptocurrency stock and know when to buy or sell for maximum profits. Our member-only model portfolio shows stocks have been handpicked by experienced financial advisor and experienced stock traders. We will continuously monitor the markets and review current and potential investments. Members will have professional insight at their fingertips.</p>
             </div>
-            <div class = 'fc_img'>
-            <img id="fv" src={fourthDiv} alt="fourth_div" />
+            <div class = 'fimg'>
+            <img id="fvx" src={fourthDiv} alt="fourth_div" />
             </div>
           </div>
 
-          <div class = 'sixth_tier_content'>
+          <div class = 'stq'>
             <div class = 'sc_heading'>
               <h1>No Experience Trading, Can I Be A Member</h1>
             </div>
             <div class = 'sc_main'>
               <p>Everyone has to start somewhere, and FXT Trading is a great place to begin. Our Team od experts clearly lays out the moves his is making in his model portfolio and why. We back it all up with simple-to-understand analysis. Even if you have yet to establish a brokerage account, following along as a member can help give you insight and understanding of the exciting, and often volatile stock industry.</p>
             </div>
-            <div class = 'sc_img'>
+            <div class = 'sig'>
             <img id="qn" src={qOption} alt="q_option" />
             </div>
           </div>

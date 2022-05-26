@@ -33,23 +33,22 @@
         right: 400px;
     }
 
-    .first_text{
+    .fext{
         position: absolute;
-        top: 10px;
-        left: 100px
+        left: 700px
     }
 
-    .second_text{
+    .dext{
         position: absolute;
-        top: 50px;
-        left: 100px;
+        top: 30px;
+        left: 700px;
     }
 
-    .main_text{
+    .mext{
         position: absolute;
         width: 500px;
         top: 100px;
-        left: 300px;
+        left: 700px;
     }
 
     .icon{
@@ -59,7 +58,7 @@
     /* end of second tier */
     .thx{
         position: absolute;
-        top: 830px;
+        top: 730px;
         height: 700px;
         left: 240px;
     }
@@ -69,14 +68,16 @@
         width: 400px;
     }
 
-    .second_ttc{
+    .sttc{
         position: absolute;
-        width: 400px;
+        width: 500px;
+        left: 100px;
+        top: 100px;
     }
 
     #xfd{
         height: 400px;
-        width: 350px;
+        width: 390px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
@@ -85,6 +86,7 @@
     .imc{
         position: absolute;
         left: 660px;
+        top: 90px;
     }
 
 
@@ -93,24 +95,26 @@
         position: absolute;
         top: 1400px;
         height: 700px;
+        left: 150px;
     }
     
     .fng{
         position: absolute;
         width: 400px;
-        left: 300px;
+        left: 340px;
     }
 
     .fmg{
         top: 50px;
         position: absolute;
-        width: 400px;
-        left: 300px;
+        width: 500px;
+        left: 240px;
+        text-align: justify;
     }
 
     .ftg{
         position: absolute;
-        left: 700px;
+        left: 800px;
     }
 
     #xfg{
@@ -123,29 +127,36 @@
 
 
     /* end of fourth tier */
-    .fifth_tier_content{
+    .ftq{
         position: absolute;
-        top: 1900px;
+        top: 1800px;
         height: 700px;
+        right: 1450px;
     }
 
-    .fc_heading{
+    .fch{
         position: absolute;
         width: 700px;
+        left: 820px;
+        top: 30px;
     }
 
-    .fc_text{
+    .fcxt{
         position: absolute;
         width: 400px;
+        left: 820px;
+        top: 70px;
     }
 
-    .fc_img{
+    .fimg{
         position: absolute;
+        left: 390px;
+        top: 20px;
     }
 
-    img#fv{
-        height: 300px;
-        width: 300px;
+    #fvx{
+        height: 500px;
+        width: 400px;
          /* use props below so that image quality will not be distorted */
         object-fit:cover;
         object-position:50% 50%;
@@ -153,10 +164,11 @@
 
 
     /* end of fifth tier */
-    .sixth_tier_content{
+    .stq{
         position: absolute;
-        top: 2300px;
+        top: 2400px;
         height: 700px;
+        left: 200px;
     }
 
     .sc_heading{
@@ -169,8 +181,9 @@
         width: 400px;
     }
     
-    .sc_img{
-        position: absolute;  
+    .sig{
+        position: absolute; 
+        left: 750px; 
     }
     
     img#qn{
