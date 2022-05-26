@@ -190,12 +190,13 @@
         position: absolute; 
         width: 400px; 
         left: 150px;
+
     }
     
     .smain{
         position: absolute;  
         width: 500px;
-        top: 100px;
+        top: 50px;
         left: 150px;
         text-align: justify;
     }
