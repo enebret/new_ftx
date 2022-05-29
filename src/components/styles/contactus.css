@@ -12,6 +12,20 @@
         left:50px;
     }
 
+   
+
+    .fuyt{
+        position: absolute;
+        padding: 2%;
+        top: 40%;
+    }
+
+    
+
+    .mx-0{
+        top: 40%; 
+    }
+
     /* end of first tier */
 
     .stc{
@@ -119,6 +133,16 @@
     font-weight: normal;
     border-radius: 8px;
     width: 200px;
+   }
+
+   #ast{
+       text-align: center;
+       margin-top: 2px;
+   }
+
+   .dont{
+       padding-left: 5%;
+       padding-right: 8%;
    }
 
 

@@ -1,13 +1,18 @@
 /*jshint esversion: 8 */
-
-
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import FloatingLabel from 'react-bootstrap/FloatingLabel'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import firstDiv from './util/aboutusimages/first_div.jpg';
 import './styles/contactus.css';
-import './styles/about_us.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 
-function ContactUs () {
+function ContactT () {
   const navigate = useNavigate();
 
     return (
@@ -28,75 +33,73 @@ function ContactUs () {
                </nav>
               </div>
             </div>
-            <div class = 'first_tier_content'>
-            <img id="fd" src={firstDiv} alt="firstDiv" />
-            <div class = 'firstDivText'>
-              <h2>CFD Trading - <strong>Cryptocurrency</strong></h2>
-            </div>
-            </div>
+         
 
-        
-          <div class = 'fm'>
-              <h1>Contact Form</h1>
-            </div>
+         {/*X-Small	None	<576px
+                Small	sm	≥576px
+              Medium	md	≥768px
+                Large	lg	≥992px
+        Extra large	xl	≥1200px
+      Extra extra large	xxl	≥1400px */}
+            
+
+          <div class = 'cont'>
+          <Container >
+              <Row >
+                <Col ><h1 id = 'ast' style={{ textTransform: 'uppercase' }}>Contact Form</h1></Col>
+              </Row>
+            </Container>
+
+          </div>
+
+          <div class = 'dont'>
+          <Row className="g-2">
+  <Col md>
+  <Form.Label>*FullName</Form.Label>
+    <FloatingLabel controlId="floatingInputGrid" label="*enter full-name">
+      <Form.Control type="email" placeholder="name@example.com" />
+    </FloatingLabel>
+  </Col>
+  <Col md>
+  <Form.Label>Email</Form.Label>
+    <FloatingLabel controlId="floatingSelectGrid" label="*enter email">
+    <Form.Control type="password" placeholder="name@example.com" />
+    </FloatingLabel>
+  </Col>
+</Row>
+
+<Row className="g-2">
+  <Col md>
+  <Form.Label>*Subject</Form.Label>
+    <FloatingLabel controlId="floatingInputGrid" label="*enter subject">
       
+      <Form.Control type="email" placeholder="name@example.com" />
+    </FloatingLabel>
+  </Col>
+  
+</Row>
 
-          <div class = 'formclass'>
-              <form>
-                <div class = 'lb'>
-              <label for="fnam">First Name*</label>
-                </div>
-              <div class = 'tb'> 
-              <input type="text" id="fnam" name="firstname" placeholder="Your name.."></input>
-              </div>
-              
-              <div class = 'cb'>
-              <label for="fnam">Your Email Address*</label>
-                </div>
-              <div class = 'db'> 
-              <input type="text" id="fdb" name="firstname" placeholder="Your email.."></input>
-              </div>
-
-
-              <div class = 'sb'>
-              <label for="fnam">Subject*</label>
-                </div>
-              <div class = 'vb'> 
-              <input type="text" id="sdb" name="firstname" placeholder="Enter subject.."></input>
-              </div>
-
-
-              <div class = 'mb'>
-              <label for="fnam">Message*</label>
-                </div>
-              <div class = 'xb'> 
-              <input type="text" id="mdb" name="firstname" placeholder=".."></input>
-              </div>
-
-
-              <div class = 'btz'>
-              <button class = 'btx'>Submit</button>
-                </div>
-
-
-              </form>
+<Row className="g-2">
+  <Col md>
+  <Form.Label>*Message</Form.Label>
+    <FloatingLabel controlId="floatingInputGrid" label="*type message here">
+      <Form.Control type="email" placeholder="name@example.com" 
+      style={{ height: '200px' }}
+      />
+    </FloatingLabel>
+  </Col>
+  
+</Row>
+<Button variant="primary" type="submit">
+    Submit
+  </Button>
           </div>
 
-          <div class = 'fourth_tier_content'>
 
-          </div>
 
-          <div class = 'fifth_tier_content'>
 
-          </div>
 
-          <div class = 'sixth_tier_content'>
 
-          </div>
-
-          <div class = 'seventh_tier_content'>
-
-          </div>
           
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
@@ -158,4 +161,4 @@ function ContactUs () {
     )
 }
 
-export default ContactUs;
+export default ContactT;
