@@ -41,10 +41,10 @@ function Platform () {
             </Container>
     
     <Container id = 'fmain'>
-    <Row md={{ gutterX: 2 }}>
-      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+    <Row id = 'npm'>
+      <Col md={4} ><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
 
-              <Col md={{ span: 4, offset: 2 }}>  <Row id = 'fta'>
+              <Col md={{ span: 6, }}>  <Row id = 'fta'>
               <h2>Discover Smart Investing 
               With the FTX
               Limited.
@@ -80,7 +80,7 @@ Experience.</h2>
               </Row>
 
     </Col>
-    <Col md={4}>md=4</Col>
+    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
   </Row>
   
 
