@@ -8,7 +8,9 @@ import secondDiv from './util/aboutusimages/second_div.jpg';
 import firstPng from './util/aboutusimages/first_png.png';
 import fourthDiv from './util/aboutusimages/fourth_div.jpg';
 import qOption from './util/aboutusimages/q_option.png';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Platform () {
   const navigate = useNavigate();
@@ -31,85 +33,39 @@ function Platform () {
                </nav>
               </div>
             </div>
-            <div class = 'first_tier_content'>
-            <img id="fd" src={firstDiv} alt="firstDiv" />
-            <div class = 'firstDivText'>
-              <h2>CFD Trading - <strong>Cryptocurrency</strong></h2>
-            </div>
+            <Container fluid id = 'ftx'>
+              <Row>
+            <Col>1 of 1</Col>
+              </Row>
+            </Container>
+    
+    <Container id = 'fmain'>
+    <Row>
+      <Col md={4}>md=4</Col>
 
-            </div>
+              <Col md={{ span: 4, offset: 3 }}>  <Row id = 'fta'>
+              <h2>Discover Smart Investing 
+              With the FTX
+              Limited.
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>The Trade Max Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
+              </Row>
 
-          <div class = 'stx'>
-            <div class = 'fext'>
-              <h1 id = 'fextt'>Discover Smart Investing</h1>
-            </div>
-            <div class = 'dext'>
-              <h1><span class="text-success">With the FTX Limited.</span></h1>
-            </div>
-            <div class = 'mext'>
-              <p>The FTX Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
-            </div>
-            <div class = 'icons'></div>
-          </div>
+    </Col>
 
-          <div class = 'thx'>
-           <div class = 'rst'>
-           <h1 id = 'rstt'>Economic Calender</h1>
-           </div>
-           <div class = 'sttc'>
-             <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
-             
-           </div>
-           <div class = 'imc'>
-           <img id="xfd" src={secondDiv} alt="secondDiv" />
-           </div>
-          </div>
-
-          <div class = 'ftc'>
-            <div class ='fng'>
-              <h1 id = 'rstt'>Price Alerts and Analysis</h1>
-            </div>
-            <div class = 'fmg'>
-            <p>Trade Max Limited price alerts give you the freedom to step back from the markets until they meet your requirements. Set the rate at which you want to enter the markets and receive immediate notification when it’s time to trade.</p>
-            </div>
-            <div class = 'ftg'>
-            <img id="xfg" src={firstPng} alt="firstPng" />
-            </div>
-          </div>
-
-          <div class = 'ftq'>
-            <div class = 'fch'>  
-              <h2 id = 'rstt'>Risk Management</h2>
-            </div>
-            <div class = 'fcxt'>
-              <p>The automatic stop loss, take profit and order entry tools allow you to maximise your profit potential while reducing your risk of loss. The ‘set and forget’ tools will run in the background, relieving you from the need to monitor open trades.</p>
-            </div>
-            <div class = 'fimg'>
-            <img id="fvx" src={fourthDiv} alt="fourth_div" />
-            </div>
-          </div>
-
-          <div class = 'stq'>
-            <div class = 'sgg'>
-              <h1  id = 'rstt'>Trading Signals</h1>
-            </div>
-            <div class = 'smain'>
-              <p>Everyone has to start somewhere, and FXT Trading is a great place to begin. Our Team od experts clearly lays out the moves his is making in his model portfolio and why. We back it all up with simple-to-understand analysis. Even if you have yet to establish a brokerage account, following along as a member can help give you insight and understanding of the exciting, and often volatile stock industry.</p>
-            </div>
-            <div class = 'sig'>
-            <img id="qnp" src={qOption} alt="q_option" />
-            </div>
-          </div>
-
-          <div class = 'svc'>
-            <div class = 'sv_text'>
-              <h3>Click Here to Get</h3>
-            </div>
-            <div class = 'sv_button'>
+  </Row>
+  <Row id = 'ftg'>
+    <h2>Optimise your Trading
+Experience.</h2>
+    <p>The Trade Max Limited platform is flexible enough to meet every trading style and requirement.</p>
+  </Row>
+ 
+</Container>
             
-            </div>
-          </div>
-          
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
        <div class = 'first_box'>
