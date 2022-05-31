@@ -6,6 +6,7 @@
 
 #fmain{
     margin-top: 2%;
+    text-align: justify;
 }
 
 #fta{
@@ -24,7 +25,9 @@
     margin-top: 5%;
     text-align: center;
 }
-
+#fth{
+    margin-top: 5%;
+}
 
 
 
