@@ -68,8 +68,8 @@ Experience.</h2>
  
 
 
-  <Row id = 'fth'>
-      <Col md={{ span: 4, offset: 3 }}>  <Row id = 'fta'>
+  <Row id = 'npm'>
+      <Col md={{ span: 6, }}>  <Row id = 'fta'>
               <h2>Economic Calender
                 </h2> 
               </Row>
@@ -84,10 +84,10 @@ Experience.</h2>
   </Row>
   
 
-  <Row id = 'fth'>
-      <Col md={4}>md=4</Col>
+  <Row id = 'npm'>
+      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
 
-              <Col md={{ span: 4, offset: 3 }}>  <Row id = 'fta'>
+              <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Price Alerts and
                   Analysis
                 </h2> 
@@ -102,8 +102,8 @@ Experience.</h2>
 
   </Row>
 
-  <Row id = 'fth'>
-      <Col md={{ span: 4, offset: 3 }}>  <Row id = 'fta'>
+  <Row id = 'npm'>
+      <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Risk Management
                 </h2> 
               </Row>
@@ -114,13 +114,13 @@ Experience.</h2>
               </Row>
 
     </Col>
-    <Col md={4}>md=4</Col>
+    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
   </Row>
 
-  <Row id = 'fth'>
-      <Col md={4}>md=4</Col>
+  <Row id = 'npm'>
+      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
 
-              <Col md={{ span: 4, offset: 3 }}>  <Row id = 'fta'>
+              <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Trading Signals
                 </h2> 
               </Row>
