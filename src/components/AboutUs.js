@@ -1,6 +1,6 @@
 /*jshint esversion: 8 */
 
-import './styles/about_us.css';
+import './styles/platform.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
 import firstDiv from './util/aboutusimages/first_div.jpg';
@@ -8,9 +8,12 @@ import secondDiv from './util/aboutusimages/second_div.jpg';
 import firstPng from './util/aboutusimages/first_png.png';
 import fourthDiv from './util/aboutusimages/fourth_div.jpg';
 import qOption from './util/aboutusimages/q_option.png';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
-function AboutUs () {
+function Platform () {
   const navigate = useNavigate();
 
     return (
@@ -31,85 +34,110 @@ function AboutUs () {
                </nav>
               </div>
             </div>
-            <div class = 'first_tier_content'>
-            <img id="fd" src={firstDiv} alt="firstDiv" />
-            <div class = 'firstDivText'>
-              <h2>CFD Trading - <strong>Cryptocurrency</strong></h2>
-            </div>
+            <Container fluid id = 'ftx'>
+              <Row>
+            <h2>CFD Trading - Cryptocurrency</h2>
+              </Row>
+            </Container>
+    
+    <Container id = 'fmain'>
+    <Row id = 'npm'>
+      
 
-            </div>
+              <Col md={{ span: 6, }}>  <Row id = 'fta'>
+              <h2>Open Leveraged CFD 
+                Trades on Cryptocurrencies
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>FTX Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using Trade Max Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
+              </Row>
 
-          <div class = 'stx'>
-            <div class = 'fext'>
-              <h1>Open Leveraged CFD</h1>
-            </div>
-            <div class = 'dext'>
-              <h1> Trades on Cryptocurrencies</h1>
-            </div>
-            <div class = 'mext'>
-              <p>FXT Trading Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using FXT Trading Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
-            </div>
-            <div class = 'icons'></div>
-          </div>
+    </Col>
 
-          <div class = 'thx'>
-           <div class = 'rst'>
-           <h1>Who Can Trade Cryptocurrencies?</h1>
-           </div>
-           <div class = 'sttc'>
-             <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.</p>
-             <p>Many of Trade Max Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The Trade Max Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
-           </div>
-           <div class = 'imc'>
-           <img id="xfd" src={secondDiv} alt="secondDiv" />
-           </div>
-          </div>
+    <Col md={4} ><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+  </Row>
 
-          <div class = 'ftc'>
-            <div class ='fng'>
-              <h1>Cryptocurrency Trading</h1>
-            </div>
-            <div class = 'fmg'>
-            <p>By the end of 2016, more than 700 digital currencies were introduced and co-existed. Bearing that in mind, it came as no surprise that during 2017 the total trading volume of the digital currency market has reached a very high value. This phenomenal sum is even more astonishing when considering the simple fact that this market started only 8 years before. A big advantage of digital currencies is that they are not tied to a specific country or bank, therefore allowing them to be liquid not only during traditional trading hours, but also throughout weekend and holidays, allowing people to trade on them 24/7*.</p>
-            </div>
-            <div class = 'ftg'>
-            <img id="xfg" src={firstPng} alt="firstPng" />
-            </div>
-          </div>
+  <Row id = 'ftg'>
+    <h2>Who Can Trade Cryptocurrencies?</h2>
+    <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.
 
-          <div class = 'ftq'>
-            <div class = 'fch'>  
-              <h2>Why You Need To Be A Member</h2>
-            </div>
-            <div class = 'fcxt'>
-              <p>Unless you trade stocks full-time, you likely do not have the time and/or know-how needed to successfully select the right cannabis, gold, forex and cryptocurrency stock and know when to buy or sell for maximum profits. Our member-only model portfolio shows stocks have been handpicked by experienced financial advisor and experienced stock traders. We will continuously monitor the markets and review current and potential investments. Members will have professional insight at their fingertips.</p>
-            </div>
-            <div class = 'fimg'>
-            <img id="fvx" src={fourthDiv} alt="fourth_div" />
-            </div>
-          </div>
+Many of FTX Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The FTX Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
+  </Row>
+ 
 
-          <div class = 'stq'>
-            <div class = 'sgg'>
-              <h1>No Experience Trading, Can I Be A Member</h1>
-            </div>
-            <div class = 'smain'>
-              <p>Everyone has to start somewhere, and FXT Trading is a great place to begin. Our Team od experts clearly lays out the moves his is making in his model portfolio and why. We back it all up with simple-to-understand analysis. Even if you have yet to establish a brokerage account, following along as a member can help give you insight and understanding of the exciting, and often volatile stock industry.</p>
-            </div>
-            <div class = 'sig'>
-            <img id="qnp" src={qOption} alt="q_option" />
-            </div>
-          </div>
 
-          <div class = 'svc'>
-            <div class = 'sv_text'>
-              <h3>Click Here to Get</h3>
-            </div>
-            <div class = 'sv_button'>
+  <Row id = 'npm'>
+      <Col md={{ span: 6, }}>  <Row id = 'fta'>
+              <h2>Who Can Trade Cryptocurrencies?
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
+              </Row>
+
+    </Col>
+    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+  </Row>
+  
+
+  <Row id = 'npm'>
+      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+
+              <Col md={{ span: 6}}>  <Row id = 'fta'>
+              <h2>Price Alerts and
+                  Analysis
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>FTX Limited price alerts give you the freedom to step back from the markets until they meet your requirements. Set the rate at which you want to enter the markets and receive immediate notification when it’s time to trade.</p>
+              </Row>
+
+    </Col>
+
+  </Row>
+
+  <Row id = 'npm'>
+      <Col md={{ span: 6}}>  <Row id = 'fta'>
+              <h2>Risk Management
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>The automatic stop loss, take profit and order entry tools allow you to maximise your profit potential while reducing your risk of loss. The ‘set and forget’ tools will run in the background, relieving you from the need to monitor open trades.</p>
+              </Row>
+
+    </Col>
+    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+  </Row>
+
+  <Row id = 'npm'>
+      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+
+              <Col md={{ span: 6}}>  <Row id = 'fta'>
+              <h2>Trading Signals
+                </h2> 
+              </Row>
+              <Row id = 'ftc'>
+                </Row>
+              <Row id = 'ftd'>
+            <p>Trading signals are provided by one of the financial industry’s leading research houses. They immediately alert you about possible trading opportunities on a real time basis. Although not infallible, trading signals are used by many experienced investors to enhance their own trading strategies.</p>
+              </Row>
+
+    </Col>
+
+  </Row>
+
+
+</Container>
             
-            </div>
-          </div>
-          
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
        <div class = 'first_box'>
@@ -170,4 +198,4 @@ function AboutUs () {
     )
 }
 
-export default AboutUs;
+export default Platform;
