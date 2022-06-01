@@ -1,181 +1,27 @@
-@media only screen and (max-width: 1600px) {
 
- .first_tier_content{
-        position: absolute;
-        top: 210px;
-        height: 600px;
-    }
+#rftc{
+    height: 3%;
+    background-color: aquamarine;
+}
+#btr0{
+    margin-top: 2%;
+    margin-left: 9%;
+}
+#btr1{
+    margin-left: 9%;
+    margin-top: 2%;
+}
+#rftd{
+    margin-top: 4%;
+    margin-left: 9%;
+}
 
-    .firstDivText{
-        position: absolute;
-        top: 70px;
-        color: white;
-        left:50px;
-    }
-
-    /* end of first tier */
-
-    .second_tier_content{
-        position: absolute;
-        top: 440px;
-        height: 700px;
-        width: 1800px;
-    }
-
-    .first_text{
-        position: absolute;
-        top: 10px;
-        left: 800px
-    }
-
-    .second_text{
-        position: absolute;
-        top: 50px;
-        width: 400px;
-        left: 800px;
-    }
-
-    .main_text{
-        position: absolute;
-        width: 400px;
-        top: 200px;
-        left: 800px;
-    }
-
-    img#st{
-        height: 400px;
-        width: 700px;
-         /* use props below so that image quality will not be distorted */
-        object-fit:cover;
-        object-position:50% 50%;
-    }
-
-    .img_stc{
-        position: absolute;
-        left:100px;
-    }
-
-        /* end of second tier */
-        .third_tier_content{
-            position: absolute;
-            top: 900px;
-            height: 700px;
-            left: 300px;
-        }
-        
-        .first_ttc{
-            position: absolute;
-            width: 500px;
-        }
+#rfte{
+    padding-left: 10%;
+    padding-right: 10%;
     
-        .second_ttc{
-            position: absolute;
-            width: 400px;
-        }
-
-            /* end of third tier */
-    .fourth_tier_content{
-        position: absolute;
-        top: 1200px;
-        height: 700px;
-    }
+}
+#rftf{
+    margin-top: 4%;
     
-    .ft_heading{
-        position: absolute;
-        width: 400px;
-        left: 200px;
-    }
-
-    .ft_main{
-        position: absolute;
-        width: 400px;
-        left: 200px;
-    }
-
-    .ft_img{
-        position: absolute;
-        left: 800px;
-    }
-
-    img#fg{
-        height: 300px;
-        width: 300px;
-         /* use props below so that image quality will not be distorted */
-        object-fit:cover;
-        object-position:50% 50%;
-    }
-
-     /* end of fourth tier */
-     .fifth_tier_content{
-        position: absolute;
-        top: 1500px;
-        height: 700px;
-    }
-
-    .fc_heading{
-        position: absolute;
-        width: 700px;
-        left: 800px;
-    }
-
-    .fc_text{
-        position: absolute;
-        width: 400px;
-        left: 800px;
-    }
-
-    .fc_img{
-        position: absolute;
-        left: 300px;
-        top: 100px;
-    }
-
-    img#fv{
-        height: 400px;
-        width: 400px;
-         /* use props below so that image quality will not be distorted */
-        object-fit:cover;
-        object-position:50% 50%;
-    }
-
-    /* end of fifth tier */
-    .sixth_tier_content{
-        position: absolute;
-        top: 2100px;
-        height: 700px;
-    }
-
-    .sc_heading{
-        position: absolute; 
-        width: 400px;
-        left: 300px;
-    }
-    
-    .sc_main{
-        position: absolute;  
-        width: 400px;
-        left: 300px;
-    }
-    
-    .sc_img{
-        position: absolute;
-        left: 900px;  
-    }
-    
-    img#qn{
-        height: 300px;
-        width: 300px;
-         /* use props below so that image quality will not be distorted */
-        object-fit:cover;
-        object-position:50% 50%;
-    }
-
-
-
-
-
-
-
-
-
 }

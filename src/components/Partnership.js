@@ -9,7 +9,10 @@ import secondDiv from './util/partnershipimages/cryptocurrency.png';
 import thirdDiv from './util/partnershipimages/remote.png';
 import fourthDiv from './util/partnershipimages/slack.png';
 import fifthDiv from './util/partnershipimages/spreadsheet.png';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function Partnership () {
   const navigate = useNavigate();
@@ -32,78 +35,36 @@ function Partnership () {
                </nav>
               </div>
             </div>
-            <div class = 'first_tier_content'>
-            <img id="fd" src={firstDiv} alt="firstDiv" />
-            <div class = 'firstDivText'>
-              <h2>CFD Trading - <strong>Cryptocurrency</strong></h2>
-            </div>
-            </div>
+            <Container fluid id = 'ftx'>
+              <Row >
+            <h2 id = 'btr0'>Use the leverage of <span style={{ color: 'green',  fontWeight: '1000'}}>Referrals</span></h2>
+              </Row>
+              <Row md={4} id = 'btr1'>
+              <Button variant="primary" type="submit"  style={{ backgroundColor: 'green',  fontWeight: '600'}}>
+                  START EARNING TODAY
+              </Button>
+              </Row>
+            </Container>
+            <Container fluid id = 'rftc'>
+              <Row >
+                <h2 id = 'rftd' style={{ color: 'white',  fontWeight: '200'}}>Affiliate Program</h2>
+              </Row>
+            </Container>
+            <Container fluid id = 'rfte'>
+              <Row >
+                <p id = 'rftf'>With our affiliate program you can make money by referring clients to TradeMax LTD platform. Promote TradeMax LTD website by placing our banners or text ads on your website, blog or just put the affiliate link in message forum signatures, email signatures or any other places.</p>
+                <p id = 'rftf'>If any visitor clicks on the banner or text ad, opens a new account with TradeMax LTD and makes an investment, you will get a 6% commission from the total of their invested funds. Any additional investment made by your affiliate will generate further 6% commission. Commission is credited to your account balance instantly, without any delays.</p>
+              </Row>
+            </Container>
+            <Container id = 'fmain'>
+              <Row>
 
-          <div class = 'second_tier_content'>
-          <div class = 'first_text'>
-              <h1>Discover Smart Investing</h1>
-            </div>
-            <div class = 'second_text'>
-              <h1>Completely with FTX Trade Limited</h1>
-            </div>
-            <div class = 'main_text'>
-              <p>The FTX Limited trading platform combines simplicity with sophistication to connect you to the world’s most volatile financial markets. Our dashboard display delivers one-click order execution and is equipped with the latest trading tools. Your trading is backed up by live charts and real-time data feeds, as well as trading signals and the latest market news and analysis.</p>
-            </div>
-            <div class = 'img_stc'>
-            <img id="st" src={secondDiv} alt="secondDiv" />
-            </div>
-          </div>
+              </Row>
 
-          <div class = 'third_tier_content'>
-          <div class = 'first_ttc'>
-           <h1>Optimize your Trading Experience</h1>
-           </div>
-           <div class = 'second_ttc'>
-             <p>FTX trading Limited's platform is flexible enough to meet every trading style and requirement.</p>
-           </div>
-           
-          </div>
+              <Row></Row>
+            </Container>
 
-          <div class = 'fourth_tier_content'>
-          <div class ='ft_heading'>
-              <h1>Economic Calendar</h1>
-            </div>
-            <div class = 'ft_main'>
-            <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
-            </div>
-            <div class = 'ft_img'>
-            <img id="fg" src={thirdDiv} alt="firstPng" />
-            </div>
-          </div>
 
-          <div class = 'fifth_tier_content'>
-          <div class = 'fc_heading'>
-              <h2>Price Alerts and Analysis</h2>
-            </div>
-            <div class = 'fc_text'>
-              <p>FTX trading Limited's price alerts give you the freedom to step back from the markets until they meet your requirements. Set the rate at which you want to enter the markets and receive immediate notification when it’s time to trade.</p>
-            </div>
-            <div class = 'fc_img'>
-            <img id="fv" src={fourthDiv} alt="fourth_div" />
-            </div>
-          </div>
-
-          <div class = 'sixth_tier_content'>
-          <div class = 'sc_heading'>
-              <h1>Risk Management</h1>
-            </div>
-            <div class = 'sc_main'>
-              <p>The automatic stop loss, take profit and order entry tools allow you to maximise your profit potential while reducing your risk of loss. The ‘set and forget’ tools will run in the background, relieving you from the need to monitor open trades.</p>
-            </div>
-            <div class = 'sc_img'>
-            <img id="qn" src={fifthDiv} alt="q_option" />
-            </div>
-          </div>
-
-          <div class = 'seventh_tier_content'>
-            
-          </div>
-          
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
        <div class = 'first_box'>
