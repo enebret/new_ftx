@@ -57,22 +57,13 @@ function Platform () {
 
     </Col>
 
-    <Col md={4} ><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+    <Col md={4} ><Row><img id="npq" src={firstDiv} alt="q_option" /></Row></Col>
   </Row>
 
-  <Row id = 'ftg'>
-    <h2>Who Can Trade Cryptocurrencies?</h2>
-    <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.
-
-Many of FTX Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The FTX Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
-  </Row>
  
-
-
   <Row id = 'npm'>
       <Col md={{ span: 6, }}>  <Row id = 'fta'>
-              <h2>Who Can Trade Cryptocurrencies?
-                </h2> 
+              <h2>Who Can Trade Cryptocurrencies?</h2> 
               </Row>
               <Row id = 'ftc'>
                 </Row>
@@ -81,12 +72,12 @@ Many of FTX Limited top investors signed up as absolute beginners with no experi
               </Row>
 
     </Col>
-    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+    <Col md={4}><Row><img id="npq" src={secondDiv} alt="q_option" /></Row></Col>
   </Row>
   
 
   <Row id = 'npm'>
-      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+      <Col md={4}><Row><img id="npq" src={fourthDiv} alt="q_option" /></Row></Col>
 
               <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Price Alerts and
@@ -115,7 +106,7 @@ Many of FTX Limited top investors signed up as absolute beginners with no experi
               </Row>
 
     </Col>
-    <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+    <Col md={4}><Row><img id="npq" src={firstPng} alt="q_option" /></Row></Col>
   </Row>
 
   <Row id = 'npm'>
