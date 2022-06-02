@@ -19,7 +19,7 @@
 #rfte{
     padding-left: 10%;
     padding-right: 10%;
-    
+    color: #777;
 }
 #rftf{
     margin-top: 4%;
@@ -34,4 +34,22 @@
 
 #btr4{
     margin-left: 2%;
+}
+
+#lrow{
+    height: 200px;
+    background-color: aliceblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 6px;
+    color: #777;
+}
+#mgx{
+    margin-top: 2%;  
 }
