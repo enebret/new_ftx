@@ -62,7 +62,7 @@ function Investment () {
       
       <Container  id = 'xct'>
       <Row id = ''>
-      <Col md={4} ><Row>
+      <Col md={{ span: 3, }} ><Row>
       <Card style={{ width: '18rem' }}>
       
         <Card.Body>
@@ -91,25 +91,101 @@ function Investment () {
 </Card>  
         </Row></Col>
 
-        <Col md={4}> <Row id = ''> 
+        <Col md={{ span: 3, }}> <Row id = ''> 
               
         <Card style={{ width: '18rem' }}>
       
-      <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
-  </Card.Text>
-  <Button variant="primary">Invest Now</Button>
-</Card.Body>
-</Card>
+        <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Text>
+        $300 - $9,999K
+    </Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Button variant="primary">Invest Now</Button>  
+  </Card.Body>
+</Card>  
               </Row>
 
     </Col>
 
+    <Col md={{ span: 3, }}> <Row id = ''> 
+              
+              <Card style={{ width: '18rem' }}>
+            
+              <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Text>
+              $300 - $9,999K
+          </Card.Text>
+          <Card.Text>
+          All contracts are valid for 1 year and 100% guaranteed.
+          </Card.Text>
+          <Card.Text id = 'fcd'></Card.Text>
+          <Card.Text>
+          All contracts are valid for 1 year and 100% guaranteed.
+          </Card.Text>
+          <Card.Text id = 'fcd'></Card.Text>
+          <Card.Text>
+          All contracts are valid for 1 year and 100% guaranteed.
+          </Card.Text>
+          <Card.Text id = 'fcd'></Card.Text>
+          <Card.Text>
+          All contracts are valid for 1 year and 100% guaranteed.
+          </Card.Text>
+          <Button variant="primary">Invest Now</Button>  
+        </Card.Body>
+      </Card>  
+                    </Row>
+      
+          </Col>
 
+          <Col md={{ span: 3, }}> <Row id = ''> 
+              
+        <Card style={{ width: '18rem' }}>
+      
+        <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Text>
+        $300 - $9,999K
+    </Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Card.Text id = 'fcd'></Card.Text>
+    <Card.Text>
+    All contracts are valid for 1 year and 100% guaranteed.
+    </Card.Text>
+    <Button variant="primary">Invest Now</Button>  
+  </Card.Body>
+</Card>  
+              </Row>
+
+    </Col>
 
 
 
