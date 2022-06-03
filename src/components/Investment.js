@@ -66,27 +66,27 @@ function Investment () {
       <Card style={{ width: '18rem' }}>
       
         <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title style={{ textAlign: 'center', }}>Classic</Card.Title>
         <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Text>
+        <Card.Text  style={{ textAlign: 'center', }}>
         $300 - $9,999K
     </Card.Text>
-    <Card.Text>
+    <Card.Text  style={{ textAlign: 'center', }}>
     All contracts are valid for 1 year and 100% guaranteed.
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    12% ROI
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Unlimited Daily Trade
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Personal Account Manager
     </Card.Text>
-    <Button variant="primary">Invest Now</Button>  
+    <Button variant="primary" id = 'yjk'>Invest Now</Button>  
   </Card.Body>
 </Card>  
         </Row></Col>
@@ -96,27 +96,27 @@ function Investment () {
         <Card style={{ width: '18rem' }}>
       
         <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title style={{ textAlign: 'center', }}>Platinum</Card.Title>
         <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Text>
-        $300 - $9,999K
+        <Card.Text  style={{ textAlign: 'center', }}>
+        $10,000K - $49,999K
     </Card.Text>
-    <Card.Text>
+    <Card.Text  style={{ textAlign: 'center', }}>
     All contracts are valid for 1 year and 100% guaranteed.
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    14% ROI
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Unlimited Daily Trade
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Personal Account Manager
     </Card.Text>
-    <Button variant="primary">Invest Now</Button>  
+    <Button variant="primary" id = 'yjk'>Invest Now</Button>  
   </Card.Body>
 </Card>  
               </Row>
@@ -128,27 +128,27 @@ function Investment () {
               <Card style={{ width: '18rem' }}>
             
               <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title style={{ textAlign: 'center', }}>Gold</Card.Title>
               <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Text>
-              $300 - $9,999K
+              <Card.Text  style={{ textAlign: 'center', }}>
+              $50K - $99,999K
           </Card.Text>
-          <Card.Text>
+          <Card.Text  style={{ textAlign: 'center', }}>
           All contracts are valid for 1 year and 100% guaranteed.
           </Card.Text>
           <Card.Text id = 'fcd'></Card.Text>
-          <Card.Text>
-          All contracts are valid for 1 year and 100% guaranteed.
+          <Card.Text  style={{ textAlign: 'center', }}>
+          16% ROI
           </Card.Text>
           <Card.Text id = 'fcd'></Card.Text>
-          <Card.Text>
-          All contracts are valid for 1 year and 100% guaranteed.
+          <Card.Text  style={{ textAlign: 'center', }}>
+          Unlimited Daily Trade
           </Card.Text>
           <Card.Text id = 'fcd'></Card.Text>
-          <Card.Text>
-          All contracts are valid for 1 year and 100% guaranteed.
+          <Card.Text  style={{ textAlign: 'center', }}>
+          Personal Account Manager
           </Card.Text>
-          <Button variant="primary">Invest Now</Button>  
+          <Button variant="primary" id = 'yjk'>Invest Now</Button>  
         </Card.Body>
       </Card>  
                     </Row>
@@ -160,27 +160,27 @@ function Investment () {
         <Card style={{ width: '18rem' }}>
       
         <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title style={{ textAlign: 'center', }}>Diamond</Card.Title>
         <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Text>
-        $300 - $9,999K
+        <Card.Text  style={{ textAlign: 'center', }}>
+        $100K - $1M
     </Card.Text>
-    <Card.Text>
+    <Card.Text  style={{ textAlign: 'center', }}>
     All contracts are valid for 1 year and 100% guaranteed.
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    18% ROI
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Unlimited Daily Trade
     </Card.Text>
     <Card.Text id = 'fcd'></Card.Text>
-    <Card.Text>
-    All contracts are valid for 1 year and 100% guaranteed.
+    <Card.Text  style={{ textAlign: 'center', }}>
+    Personal Account Manager
     </Card.Text>
-    <Button variant="primary">Invest Now</Button>  
+    <Button variant="primary" id = 'yjk'>Invest Now</Button>  
   </Card.Body>
 </Card>  
               </Row>
