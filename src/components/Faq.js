@@ -5,24 +5,18 @@ import firstDiv from './util/aboutusimages/first_div.jpg';
 import './styles/faq.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './util/logo.JPG';
-import Dropdown from './Dropdown.js';
-import Sdd from './Sdd.js';
-import Tdd from './Tdd.js';
-import Fdd from './Fdd.js';
-import Cdd from './Cdd.js';
-import Boardcomponent from './Boardcomponent.js';
-import Textcomponent from './Textcomponent.js';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
+
 
 function Faq () {
   const navigate = useNavigate();
-  const ty = 'General Questions';
-  const tv = 'Account Questions';
-  const tx = 'Investment Questions';
-  const tz = 'Withdrawal Questions';
-  const td = 'Affiliate Program questions';
-
-
-
+ 
     return (
     <div>
         <div class = 'main'>
@@ -41,56 +35,7 @@ function Faq () {
                </nav>
               </div>
             </div>
-            <div class = 'first_tier_content'>
-            <img id="fd" src={firstDiv} alt="firstDiv" />
-            <div class = 'firstDivText'>
-              <h2>Frequent Questions</h2>
-            </div>
-            </div>
-
-          <div class = 'sq'>
-          <Dropdown />
-          </div>
-
-          <div class = 'accountquestions'>
-          <Sdd />
-          </div>
-
-          <div class = 'investmentquestions'>
-          <Tdd />
-          </div>
-
-          <div class = 'withdrawalquestions'>
-          <Fdd />
-          </div>
-          <div class = 'affiliatequestions'>
-          <Cdd />
-          </div>
-
-          <div class = 'board'>
-          <Boardcomponent />
-          </div>
-
-          <div class = 'ffqtc'>
-          <Textcomponent text = {ty} />
-          </div>
-          
-          <div class = 'ffqtd'>
-          <Textcomponent text = {tv} />
-          </div>
-
-          <div class = 'ffqte'>
-          <Textcomponent text = {tx} />
-          </div>
-
-          <div class = 'ffqtf'>
-          <Textcomponent text = {tz} />
-          </div>
-
-          <div class = 'ffqtg'>
-          <Textcomponent text = {td} />
-          </div>
-         
+            
 
             <div class = 'main_footer'>
      <div class = 'mid_footer'>
