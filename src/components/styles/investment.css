@@ -26,3 +26,12 @@
     margin-top: 5%;
     margin-left: 10%;
 }
+
+#xct{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#fcd{
+    border-bottom:2px solid red;
+}
