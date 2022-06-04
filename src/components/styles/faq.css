@@ -1,99 +1,42 @@
-@media only screen and (max-width: 1600px) {
-    .sq{
-        position: absolute;
-        top: 630px;
-        left: 180px;
-        
-    }
-
-    .ffqtc{
-        position: absolute;
-        top: 530px;
-        left: 180px;
-    }
-
-
-    .accountquestions{
-        position: absolute;
-        top: 940px;
-        left: 180px;
-    }
-
-    .ffqtd{
-        position: absolute;
-        top: 840px;
-        left: 180px;
-    }
-
-    .investmentquestions{
-        position: absolute;
-        top: 1350px;
-        left: 180px;
-    }
-
-
-    .ffqte{
-        position: absolute;
-        top: 1250px;
-        left: 180px;
-    }
-
-    .withdrawalquestions{
-        position: absolute;
-        top: 2000px;
-        left: 180px;
-    }
-
-    .ffqtf{
-        position: absolute;
-        top: 1900px;
-        left: 180px;
-    }
-
-
-    .affiliatequestions{
-        position: absolute;
-        top: 2400px;
-        left: 180px;
-    }
-
-
-    
-    .ffqtg{
-        position: absolute;
-        top: 2300px;
-        left: 180px;
-    }
-    
-    .board{
-        position: absolute;
-        top: 530px;
-        left: 980px;
-        
-    }
-
-  
-   
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+#fax{
+    height: 5%;
+    background-color: #78807A;
+    color: white;
 }
 
+#faxd{
+    margin-top: 5%;
+    margin-left: 12%;
+}
 
+#faxe{
+    height: 2%;
+    background-color: greenyellow;
+    color: white;
+}
+
+#faxee{
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+#raq{
+    margin-top: 2%;
+    color: #777;
+}
+
+#rex{
+    
+    background-color:limegreen;
+    text-align: center;
+    color: green;
+    border-radius: 2%;
+}
+
+#tdr{
+    margin-left: 5%;
+}
+
+#dfg{
+    margin-top: 5%;
+}

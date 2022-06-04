@@ -12,6 +12,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Accordion from 'react-bootstrap/Accordion';
 
 
 function Faq () {
@@ -36,55 +37,93 @@ function Faq () {
               </div>
             </div>
             
+<Container fluid id = 'fax'>
+      <Row >
+        <h2 id = 'faxd'>Frequent <span  style={{ fontWeight: '1000'}}>Questions.</span></h2>
+      </Row>
+</Container>
 
-            <div class = 'main_footer'>
-     <div class = 'mid_footer'>
-       <div class = 'first_box'>
-         <ul id = 'footer'>
-           <li id = 'margin'>Our Company</li>
-           <li>About Us</li>
-           <li>Terms of Use</li>
-           <li>Privacy Policy</li>
-         </ul>
-       </div>
-       <div class = 'sec_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Earning Opportunities</li>
-           <li>Investment Packages</li>
-           <li>Partnership Program</li>
-         </ul>
-       </div>
-       <div class = 'third_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Support</li>
-           <li>Contact Us</li>
-           <li>Frequently asked questions</li>
-           <li>Platform</li>
-         </ul>
-       </div>
-       <div class = 'fourth_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Account Management</li>
-           <li>Create Account</li>
-           <li>Login</li>
-           <li>Forgot Password</li>
-         </ul>
-       </div>
-       <div class = 'fifth_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Contact us</li>
-           <li>Address: 4096 N Highland St, Arlington, Tx, USA.</li>
-           <li>support@fxt.com</li>
-         </ul>
+<Container fluid id = 'faxe'>
+      <Row >
+        <h2 id = 'faxee'>Frequent Questions.</h2>
+      </Row>
+</Container>
 
-                </div>
-            <div class = 'sixth_box'></div>
-            </div>
-                <div class="footer">
-                <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
-                </div>
-          </div>
+<Container id = 'raq'>
+      <Row>
+        <h3>If we see that this section is useful for you and there is a need, we will add new questions here. Please, before contacting <span  style={{ fontWeight: '1000', color: 'yellowgreen'}}>Customer Support</span> read carefully this section.</h3>
+      </Row>
+      <Row></Row>
+      <Row>
+        <Col  md={8}><Row >
+            <h2  style={{ color: 'black'}}>General Questions</h2>
+          </Row>
+          <Row>
+          <Accordion defaultActiveKey="0" flush>
+             <Accordion.Item eventKey="0">
+                <Accordion.Header>Accordion Item #1</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum.
+                                                    </Accordion.Body>
+                                                  </Accordion.Item>
+                                              </Accordion>
+                                            </Row>
 
+                                            <Row id = 'dfg'>
+                                                <Accordion defaultActiveKey="0" flush>
+                                                  <Accordion.Item eventKey="0">
+                                                      <Accordion.Header>Accordion Item #1</Accordion.Header>
+                                                          <Accordion.Body>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                                            est laborum.
+                                                    </Accordion.Body>
+                                                  </Accordion.Item>
+                                              </Accordion>
+                                            </Row>
+
+                                            <Row id = 'dfg'>
+                                                <Accordion defaultActiveKey="0" flush>
+                                                  <Accordion.Item eventKey="0">
+                                                      <Accordion.Header>Accordion Item #1</Accordion.Header>
+                                                          <Accordion.Body>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                                            est laborum.
+                                                    </Accordion.Body>
+                                                  </Accordion.Item>
+                                              </Accordion>
+                                            </Row>
+
+                                            <Row></Row>
+          </Col>
+                <Col md = {3} id = 'tdr'><Row id = 'rex'>
+                      <p  style={{ marginTop: '15%'}}>CAN'T FIND YOUR QUESTION?</p>
+                      <p  style={{  color: '#777'}}>Our customer support team are ready to answer your questions.</p>
+                      <Button variant="primary" type="submit"  style={{ backgroundColor: '#fff',  fontWeight: '600', color: 'green', border: '1px, white', marginBottom: '30%', width: '60%', marginLeft: '22%'}}>Contact us now</Button>
+                  </Row>
+                  <Row>
+                    
+                  </Row>
+                  <Row></Row>
+                  </Col>
+        </Row>
+            </Container>
+           
             {/*the below div is last div/ function component div*/}
             </div>
               
