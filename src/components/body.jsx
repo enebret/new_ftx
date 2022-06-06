@@ -1,6 +1,7 @@
 /*jshint esversion: 8 */
 //{/* use this to comment inside jsx*/}
 import './styles/body.css';
+import './styles/faq.css';
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cg from './coingecko/cg.js';
@@ -57,10 +58,10 @@ function Body () {
        </Col>
        </Container>
 
-       <Container id = 'lox'>
+       <Container id = 'gr'>
          <Col md={{ span: 3}}>
             <Row>
-              <h2 style={{ color: 'black',  fontWeight: '700'}}><span style={{ color: '#777',  }}>Trading made</span> easy with us</h2>
+              <h2 style={{ color: 'black',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: '#777',  }}>Trading made</span> easy with us</h2>
               <p  style={{ marginTop: '2%'}}>With us trading has been made easy. Choose from 250+ financial instruments with a trusted, award-winning broker.</p>
             </Row>
          </Col>
@@ -90,10 +91,44 @@ function Body () {
             <p  style={{ marginTop: '5%'}}>FTX LTD has turned cannabis stock trading into a very comfortable, speedy, easy, safe, and relatively risk free process</p>
           </Row>
          </Col>
+         <Row></Row>
        </Container>
-       <Container id = 'fox'>
+
+
+       <Container fluid id = 'msk'>
+       <Row></Row>
+         <Col md={5}>
+         <Row id = 'ct'>
+            <h2 style={{ color: 'black',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: '#777',}}>Reliability</span> & Security</h2>
+            <p  style={{ marginTop: '2%',}}>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
+         </Row>
+         </Col>
+         <Col></Col>
+       </Container>
+
+       <Container id = 'ifx'>
          <Row></Row>
-         <Row></Row>
+         <Row>
+           <Row><h2  style={{  fontWeight: '700', marginLeft: '30%', backgroundColor: 'green', color: 'white', width: '300px', textAlign: 'center'}}>Our Features</h2></Row>
+           <Col md={{ span: 3}}>
+            <Row>
+              <h2>Model Portfolio</h2>
+              <p>Diversified portfolio of cannabis stock hand-picked and thoroughly researched</p>
+            </Row>
+           </Col>
+           <Col md={{ span: 3}}  style={{ marginLeft: '5%'}}>
+           <Row>
+              <h2>Stock Analysis</h2>
+              <p>We tell you exactly when we're buying or selling a stock for our model portfolio</p>
+            </Row>
+           </Col>
+           <Col md={{ span: 4}} style={{ marginLeft: '5%'}}>
+           <Row>
+              <h2>Access to an expert</h2>
+              <p>Ask questions, make requests, and even chat with our customer service via life chat support</p>
+            </Row>
+           </Col>
+         </Row>
        </Container>
 
             {/*the below div is last div/ function component div*/}
