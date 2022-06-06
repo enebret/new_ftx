@@ -109,20 +109,20 @@ function Body () {
        <Container id = 'ifx'>
          <Row></Row>
          <Row>
-           <Row><h2  style={{  fontWeight: '700', marginLeft: '30%', backgroundColor: 'green', color: 'white', width: '300px', textAlign: 'center'}}>Our Features</h2></Row>
-           <Col md={{ span: 3}}>
+           <Row><h2  style={{  fontWeight: '700', marginLeft: '30%', backgroundColor: 'green', color: 'white', width: '300px', textAlign: 'center', }}>Our Features</h2></Row>
+           <Col md={{ span: 3}} style={{ marginTop: '2%',}}>
             <Row>
               <h2>Model Portfolio</h2>
               <p>Diversified portfolio of cannabis stock hand-picked and thoroughly researched</p>
             </Row>
            </Col>
-           <Col md={{ span: 3}}  style={{ marginLeft: '5%'}}>
+           <Col md={{ span: 3}}  style={{ marginLeft: '5%', marginTop: '2%'}} >
            <Row>
               <h2>Stock Analysis</h2>
               <p>We tell you exactly when we're buying or selling a stock for our model portfolio</p>
             </Row>
            </Col>
-           <Col md={{ span: 4}} style={{ marginLeft: '5%'}}>
+           <Col md={{ span: 4}} style={{ marginLeft: '5%', marginTop: '2%'}}>
            <Row>
               <h2>Access to an expert</h2>
               <p>Ask questions, make requests, and even chat with our customer service via life chat support</p>
@@ -131,6 +131,32 @@ function Body () {
          </Row>
        </Container>
 
+      <Container>
+        <Row  style={{ marginTop: '10%'}}>
+          <h2 style={{ marginLeft: '28%', fontWeight: '700'}}>COMPANY SUCCESS</h2>
+          <h3 style={{ marginLeft: '22%', fontWeight: '700', marginTop: '10%'}}>Some fun facts about our company</h3>
+          <Col  md={{ span: 3}}>
+            <h2 style={{ marginLeft: '24%', fontWeight: '700'}}>5</h2>
+            <p>Years of Excellence</p>
+          </Col>
+          <Col  md={{ span: 3}}>
+          <h2 style={{ marginLeft: '12%', fontWeight: '700'}}>100%</h2>
+            <p>Client Satisfaction</p>
+          </Col>
+          <Col  md={{ span: 3}}>
+          <h2 style={{ marginLeft: '3%', fontWeight: '700'}}>1023k</h2>
+            <p>Active Clients</p>
+          </Col>
+          <Col  md={{ span: 3}}>
+          <h2 style={{ marginLeft: '2%', fontWeight: '700'}}>590500</h2>
+            <p>Payouts (USD)</p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+
+      </Container>
             {/*the below div is last div/ function component div*/}
           </div>
     )
