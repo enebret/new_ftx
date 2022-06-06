@@ -38,5 +38,22 @@
 }
 
 #dfg{
+    margin-top: 1%;
+    
+}
+
+#hox{
     margin-top: 5%;
 }
+
+#ekk{
+    background-color: #777;
+    color: white;
+}
+
+.accordion-button {
+    background-color: gray !important;
+    color: white;
+    border-radius: 40%;
+  }
+  
