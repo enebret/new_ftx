@@ -1,4 +1,3 @@
-/*design for only two screen type; min 100 and min 768*/
 
 .App {
   text-align: center;
@@ -9,13 +8,6 @@
   height: 4000px;
   font-family: "Open Sans", Arial, sans-serif;
 }
-/*overall div holding body*/
-
-
-
-
-
- /*header*/
 
 .App-logo {
   height: 40vmin;
