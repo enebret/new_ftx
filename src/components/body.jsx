@@ -38,8 +38,8 @@ function Body () {
                  <a  onClick={() => navigate('aboutus')}>COMPANY</a>
                  <a onClick={ () => navigate('/investment')}>INVESTMENT</a>
                  <a onClick={ () => navigate('/faq')}>FAQ</a>
-                 <a href="/platform">PLATFORM</a>
-                 <a onClick={ () => navigate('/platform')}>PARTNERSHIP</a>
+                 <a onClick={ () => navigate('/platform')}>PLATFORM</a>
+                 <a onClick={ () => navigate('/partnership')}>PARTNERSHIP</a>
                  <a onClick={ () => navigate('/contactus')}>CONTACT US</a>
                  <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
                </nav>
@@ -108,21 +108,21 @@ function Body () {
 
        <Container id = 'ifx'>
          <Row></Row>
-         <Row>
-           <Row><h2  style={{  fontWeight: '700', marginLeft: '30%', backgroundColor: 'green', color: 'white', width: '300px', textAlign: 'center', }}>Our Features</h2></Row>
-           <Col md={{ span: 3}} style={{ marginTop: '2%',}}>
+         <Row style={{ textAlign: 'center', }}>
+           <Row md = {3} ><h2  style={{  fontWeight: '700',  backgroundColor: 'green', color: 'white', width: '300px', margin: 'auto'}}>Our Features</h2></Row>
+           <Col md={{ span: 4}} style={{ marginTop: '4%',}}>
             <Row>
               <h2>Model Portfolio</h2>
               <p>Diversified portfolio of cannabis stock hand-picked and thoroughly researched</p>
             </Row>
            </Col>
-           <Col md={{ span: 3}}  style={{ marginLeft: '5%', marginTop: '2%'}} >
+           <Col md={{ span: 4}}  style={{  marginTop: '4%'}} >
            <Row>
               <h2>Stock Analysis</h2>
               <p>We tell you exactly when we're buying or selling a stock for our model portfolio</p>
             </Row>
            </Col>
-           <Col md={{ span: 4}} style={{ marginLeft: '5%', marginTop: '2%'}}>
+           <Col md={{ span: 4}} style={{  marginTop: '4%'}}>
            <Row>
               <h2>Access to an expert</h2>
               <p>Ask questions, make requests, and even chat with our customer service via life chat support</p>
@@ -133,29 +133,81 @@ function Body () {
 
       <Container>
         <Row  style={{ marginTop: '10%'}}>
-          <h2 style={{ marginLeft: '28%', fontWeight: '700'}}>COMPANY SUCCESS</h2>
-          <h3 style={{ marginLeft: '22%', fontWeight: '700', marginTop: '10%'}}>Some fun facts about our company</h3>
+          <h2 style={{ textAlign: 'center', fontWeight: '700'}}>COMPANY SUCCESS</h2>
+          <h3 style={{ textAlign: 'center', fontWeight: '700', marginTop: '5%'}}>Some fun facts about our company</h3>
           <Col  md={{ span: 3}}>
-            <h2 style={{ marginLeft: '24%', fontWeight: '700'}}>5</h2>
-            <p>Years of Excellence</p>
+            <h2 style={{ textAlign: 'center', fontWeight: '700', marginTop: '8%'}}>5</h2>
+            <p  style={{ textAlign: 'center', }}>Years of Excellence</p>
           </Col>
           <Col  md={{ span: 3}}>
-          <h2 style={{ marginLeft: '12%', fontWeight: '700'}}>100%</h2>
-            <p>Client Satisfaction</p>
+          <h2 style={{ textAlign: 'center', fontWeight: '700', marginTop: '8%'}}>100%</h2>
+            <p  style={{ textAlign: 'center', }}>Client Satisfaction</p>
           </Col>
           <Col  md={{ span: 3}}>
-          <h2 style={{ marginLeft: '3%', fontWeight: '700'}}>1023k</h2>
-            <p>Active Clients</p>
+          <h2 style={{ textAlign: 'center', fontWeight: '700', marginTop: '8%'}}>1023k</h2>
+            <p  style={{ textAlign: 'center', }}>Active Clients</p>
           </Col>
           <Col  md={{ span: 3}}>
-          <h2 style={{ marginLeft: '2%', fontWeight: '700'}}>590500</h2>
-            <p>Payouts (USD)</p>
+          <h2 style={{ textAlign: 'center', fontWeight: '700', marginTop: '8%'}}>590500</h2>
+            <p  style={{ textAlign: 'center', }}>Payouts (USD)</p>
           </Col>
         </Row>
       </Container>
+        <Row id = 'cl'>
+          <h2 style={{ fontWeight: '700',  textAlign: 'center'}}>What Our Client Say?</h2>
+          
+        </Row>
+        <Row >
+        <h6  style={{ fontWeight: '700',textAlign: 'center', width: '600px', margin: 'auto'}}>View the testimonials of our happy clients who have worked with us and enjoyed the trading system with FTX LTD</h6>
+        </Row>
 
-      <Container>
-
+       
+      <Container  >
+      <Row  >
+          <Col md={{ span: 4}} >
+          <Card style={{ width: '18rem', margin: 'auto' }}>
+      
+      <Card.Body>
+      
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
+      <Card.Text  style={{ textAlign: 'center', }}>
+      I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
+          </Card.Text>
+  
+        </Card.Body>
+          </Card>  
+      
+          </Col>
+          <Col md={{ span: 4}}>
+          <Card style={{ width: '18rem', margin: 'auto' }}>
+      
+      <Card.Body>
+      
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
+      <Card.Text  style={{ textAlign: 'center', }}>
+      I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
+          </Card.Text>
+  
+        </Card.Body>
+          </Card> 
+          </Col>
+          <Col md={{ span: 4}}>
+          <Card style={{ width: '18rem', margin: 'auto' }}>
+      
+      <Card.Body>
+      
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
+      <Card.Text  style={{ textAlign: 'center', }}>
+      I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
+          </Card.Text>
+  
+        </Card.Body>
+          </Card> 
+          </Col>
+        </Row>
       </Container>
             {/*the below div is last div/ function component div*/}
           </div>
