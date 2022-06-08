@@ -17,9 +17,9 @@ import Card from 'react-bootstrap/Card';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Accordion from 'react-bootstrap/Accordion';
-
-
-
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 
@@ -29,24 +29,33 @@ function Body () {
 
     return (
      <div class='main'>
-          <div class="header">
-            
-            <div class ='nav'>
-               <nav>
-                 <img id="lg" src={logo} alt="logo" />
-                 <a href="#" >HOME</a>
-                 <a  onClick={() => navigate('aboutus')}>COMPANY</a>
-                 <a onClick={ () => navigate('/investment')}>INVESTMENT</a>
-                 <a onClick={ () => navigate('/faq')}>FAQ</a>
-                 <a onClick={ () => navigate('/platform')}>PLATFORM</a>
-                 <a onClick={ () => navigate('/partnership')}>PARTNERSHIP</a>
-                 <a onClick={ () => navigate('/contactus')}>CONTACT US</a>
-                 <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
-               </nav>
-              </div>
-            </div>
-       
-       <Container fluid id = 'hep'>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Container>
+  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        Dank memes
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
+
+       <Container fluid id = 'gep'>
        <Col md={{ span: 5}}>
        <Row  id = 'hel'>
             <h2 id = 'het'  style={{ color: 'white',  fontWeight: '700'}}>Automate Cryptocurrency trading with our <span  style={{ color: 'black'}}>Simple</span> & flexible platform.</h2>
@@ -58,8 +67,9 @@ function Body () {
        </Col>
        </Container>
 
-       <Container id = 'gr'>
-         <Col md={{ span: 3}}>
+       <Container id = 'pr'>
+        <Row>
+        <Col md={{ span: 3}}>
             <Row>
               <h2 style={{ color: 'black',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: '#777',  }}>Trading made</span> easy with us</h2>
               <p  style={{ marginTop: '2%'}}>With us trading has been made easy. Choose from 250+ financial instruments with a trusted, award-winning broker.</p>
@@ -91,6 +101,7 @@ function Body () {
             <p  style={{ marginTop: '5%'}}>FTX LTD has turned cannabis stock trading into a very comfortable, speedy, easy, safe, and relatively risk free process</p>
           </Row>
          </Col>
+        </Row>
          <Row></Row>
        </Container>
 
@@ -109,7 +120,7 @@ function Body () {
        <Container id = 'ifx'>
          <Row></Row>
          <Row style={{ textAlign: 'center', }}>
-           <Row md = {3} ><h2  style={{  fontWeight: '700',  backgroundColor: 'green', color: 'white', width: '300px', margin: 'auto'}}>Our Features</h2></Row>
+           <Row md = {4} style={{ padding: '8%',}}><h2  style={{  fontWeight: '700',  backgroundColor: 'green', color: 'white', padding: '2%', margin: 'auto'}}>Our Features</h2></Row>
            <Col md={{ span: 4}} style={{ marginTop: '4%',}}>
             <Row>
               <h2>Model Portfolio</h2>
@@ -162,7 +173,7 @@ function Body () {
         </Row>
 
        
-      <Container  >
+      <Container  id = 'qt'>
       <Row  >
           <Col md={{ span: 4}} >
           <Card style={{ width: '18rem', margin: 'auto' }}>

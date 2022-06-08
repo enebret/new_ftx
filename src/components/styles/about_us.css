@@ -220,13 +220,6 @@
         height: 600px;
     }
 
-    a{
-        margin-left: 70px;
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: bold;
-        cursor: pointer;
-      }
 
         /*login button*/
     #login-button {
