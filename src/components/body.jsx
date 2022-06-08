@@ -35,8 +35,13 @@ function Body () {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link onClick={ () => navigate('/')}>Home</Nav.Link>
+      <Nav.Link onClick={() => navigate('/aboutus')}>Company</Nav.Link>
+      <Nav.Link onClick={() => navigate('/invtestment')}>Investment</Nav.Link>
+      <Nav.Link onClick={() => navigate('/faq')}>Faq</Nav.Link>
+      <Nav.Link onClick={() => navigate('/platform')}>Platform</Nav.Link>
+      <Nav.Link onClick={() => navigate('/partnership')}>Partnership</Nav.Link>
+      <Nav.Link onClick={() => navigate('/contactus')}>Contact us</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -60,7 +65,7 @@ function Body () {
        <Row  id = 'hel'>
             <h2 id = 'het'  style={{ color: 'white',  fontWeight: '700'}}>Automate Cryptocurrency trading with our <span  style={{ color: 'black'}}>Simple</span> & flexible platform.</h2>
             <p style={{ color: 'white',  fontWeight: '200'}}>Our team of experienced traders does the research and trading for all ours members with our winning business models to skyroket earnings.</p>
-            <Button variant="primary" type="submit"  style={{ backgroundColor: 'green',  fontWeight: '600', color: 'white', border: 'none', width: '200px', marginTop: '4%'}}>
+            <Button variant="primary" type="submit"  style={{ backgroundColor: '#5cb85c',  fontWeight: '600', color: 'white', border: 'none', width: '200px', marginTop: '4%'}}>
                   GET STARTED TODAY
               </Button>
         </Row>
@@ -110,8 +115,8 @@ function Body () {
        <Row></Row>
          <Col md={5}>
          <Row id = 'ct'>
-            <h2 style={{ color: 'black',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: '#777',}}>Reliability</span> & Security</h2>
-            <p  style={{ marginTop: '2%',}}>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
+            <h2 style={{ color: '#fff',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: 'black',}}>Reliability</span> & Security</h2>
+            <p  style={{ marginTop: '2%', color: '#fff'}}>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
          </Row>
          </Col>
          <Col></Col>
@@ -120,7 +125,7 @@ function Body () {
        <Container id = 'ifx'>
          <Row></Row>
          <Row style={{ textAlign: 'center', }}>
-           <Row md = {4} style={{ padding: '8%',}}><h2  style={{  fontWeight: '700',  backgroundColor: 'green', color: 'white', padding: '2%', margin: 'auto'}}>Our Features</h2></Row>
+           <Row md = {4} style={{ padding: '8%',}}><h2  style={{  fontWeight: '700',  backgroundColor: '#5cb85c', color: 'white', padding: '2%', margin: 'auto', borderRadius: '5px'}}>Our Features</h2></Row>
            <Col md={{ span: 4}} style={{ marginTop: '4%',}}>
             <Row>
               <h2>Model Portfolio</h2>
@@ -175,8 +180,8 @@ function Body () {
        
       <Container  id = 'qt'>
       <Row  >
-          <Col md={{ span: 4}} >
-          <Card style={{ width: '18rem', margin: 'auto' }}>
+          <Col md={{ span: 4,}} >
+          <Card style={{ width: '18rem',  marginTop: '3%'}}>
       
       <Card.Body>
       
@@ -191,7 +196,7 @@ function Body () {
       
           </Col>
           <Col md={{ span: 4}}>
-          <Card style={{ width: '18rem', margin: 'auto' }}>
+          <Card style={{ width: '18rem', marginTop: '3%'}}>
       
       <Card.Body>
       
@@ -205,7 +210,7 @@ function Body () {
           </Card> 
           </Col>
           <Col md={{ span: 4}}>
-          <Card style={{ width: '18rem', margin: 'auto' }}>
+          <Card style={{ width: '18rem', marginTop: '3%'}}>
       
       <Card.Body>
       

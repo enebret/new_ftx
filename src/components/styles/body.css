@@ -13,6 +13,9 @@
 
 #msk{
     padding: 5%;
+    margin-top: 2%;
+    background-color: #5cb85c;
+    color: #fff;
 }
 
 #qt{
@@ -49,11 +52,7 @@
     color: #777;
 }
 
-#msk{
-    height: 10%;
-    margin-top: 2%;
-    background-color: #5cb85c;
-}
+
 
 #ifx{
     margin-top: 5%;
