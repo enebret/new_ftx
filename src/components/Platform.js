@@ -11,6 +11,15 @@ import qOption from './util/aboutusimages/q_option.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Accordion from 'react-bootstrap/Accordion';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 function Platform () {
@@ -18,22 +27,37 @@ function Platform () {
 
     return (
     <div>
-        <div class = 'main'>
-            <div class="header">
-            <div class ='nav'>
-               <nav>
-                 <img id="lg" src={logo} alt="logo" />
-                 <a onClick={ () => navigate('/')}>HOME</a>
-                 <a onClick={() => navigate('/aboutus')}>COMPANY</a>
-                 <a onClick={() => navigate('/investment')}>INVESTMENT</a>
-                 <a onClick={() => navigate('/faq')}>FAQ</a>
-                 <a onClick={() => navigate('/platform')}>PLATFORM</a>
-                 <a onClick={() => navigate('/partnership')}>PARTNERSHIP</a>
-                 <a onClick={() => navigate('/contactus')}>CONTACT US</a>
-                 <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
-               </nav>
-              </div>
-            </div>
+        
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Container>
+  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link onClick={ () => navigate('/')}>Home</Nav.Link>
+      <Nav.Link onClick={() => navigate('/aboutus')}>Company</Nav.Link>
+      <Nav.Link onClick={() => navigate('/investment')}>Investment</Nav.Link>
+      <Nav.Link onClick={() => navigate('/faq')}>Faq</Nav.Link>
+      <Nav.Link onClick={() => navigate('/platform')}>Platform</Nav.Link>
+      <Nav.Link onClick={() => navigate('/partnership')}>Partnership</Nav.Link>
+      <Nav.Link onClick={() => navigate('/contactus')}>Contact us</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        Dank memes
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
             <Container fluid id = 'ftx'>
               <Row>
             <Col>1 of 1</Col>
@@ -137,60 +161,7 @@ Experience.</h2>
 
 </Container>
             
-            <div class = 'main_footer'>
-     <div class = 'mid_footer'>
-       <div class = 'first_box'>
-         <ul id = 'footer'>
-           <li id = 'margin'>Our Company</li>
-           <li>About Us</li>
-           <li>Terms of Use</li>
-           <li>Privacy Policy</li>
-         </ul>
-       </div>
-       <div class = 'sec_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Earning Opportunities</li>
-           <li>Investment Packages</li>
-           <li>Partnership Program</li>
-         </ul>
-       </div>
-       <div class = 'third_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Support</li>
-           <li>Contact Us</li>
-           <li>Frequently asked questions</li>
-           <li>Platform</li>
-         </ul>
-       </div>
-       <div class = 'fourth_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Account Management</li>
-           <li>Create Account</li>
-           <li>Login</li>
-           <li>Forgot Password</li>
-         </ul>
-       </div>
-       <div class = 'fifth_box'>
-       <ul id = 'footer'>
-           <li id = 'margin'>Contact us</li>
-           <li>Address: 4096 N Highland St, Arlington, Tx, USA.</li>
-           <li>support@fxt.com</li>
-         </ul>
-
-                </div>
-            <div class = 'sixth_box'></div>
-            </div>
-                <div class="footer">
-                <p>FTX cloud mining is a fully registered company.All rights reserved.</p>
-                </div>
-          </div>
-
-            {/*the below div is last div/ function component div*/}
-            </div>
-              
-
-
-
+            
 
           
         </div>

@@ -13,6 +13,10 @@ import Card from 'react-bootstrap/Card';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Accordion from 'react-bootstrap/Accordion';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 function Faq () {
@@ -20,22 +24,37 @@ function Faq () {
  
     return (
     <div>
-        <div class = 'main'>
-            <div class="header">
-            <div class ='nav'>
-               <nav>
-                 <img id="lg" src={logo} alt="logo" />
-                 <a onClick={() => navigate('/')}>HOME</a>
-                 <a onClick={() => navigate('/aboutus')}>COMPANY</a>
-                 <a onClick={() => navigate('/investment')}>INVESTMENT</a>
-                 <a onClick={() => navigate('/faq')}>FAQ</a>
-                 <a onClick={() => navigate('/')}>PLATFORM</a>
-                 <a onClick={() => navigate('/partnership')}>PARTNERSHIP</a>
-                 <a onClick={() => navigate('/contactus')}>CONTACT US</a>
-                 <button id = 'login-button' onClick={() => navigate("form")}>Login</button>
-               </nav>
-              </div>
-            </div>
+        
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Container>
+  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link onClick={ () => navigate('/')}>Home</Nav.Link>
+      <Nav.Link onClick={() => navigate('/aboutus')}>Company</Nav.Link>
+      <Nav.Link onClick={() => navigate('/investment')}>Investment</Nav.Link>
+      <Nav.Link onClick={() => navigate('/faq')}>Faq</Nav.Link>
+      <Nav.Link onClick={() => navigate('/platform')}>Platform</Nav.Link>
+      <Nav.Link onClick={() => navigate('/partnership')}>Partnership</Nav.Link>
+      <Nav.Link onClick={() => navigate('/contactus')}>Contact us</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        Dank memes
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
             
 <Container fluid id = 'fax'>
       <Row >
@@ -366,8 +385,7 @@ function Faq () {
         </Row>
             </Container>
            
-            {/*the below div is last div/ function component div*/}
-            </div>
+            
               
 
 

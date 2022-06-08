@@ -28,7 +28,7 @@ function Body () {
   const navigate = useNavigate();
 
     return (
-     <div class='main'>
+     <div class=''>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -37,7 +37,7 @@ function Body () {
     <Nav className="me-auto">
       <Nav.Link onClick={ () => navigate('/')}>Home</Nav.Link>
       <Nav.Link onClick={() => navigate('/aboutus')}>Company</Nav.Link>
-      <Nav.Link onClick={() => navigate('/invtestment')}>Investment</Nav.Link>
+      <Nav.Link onClick={() => navigate('/investment')}>Investment</Nav.Link>
       <Nav.Link onClick={() => navigate('/faq')}>Faq</Nav.Link>
       <Nav.Link onClick={() => navigate('/platform')}>Platform</Nav.Link>
       <Nav.Link onClick={() => navigate('/partnership')}>Partnership</Nav.Link>
