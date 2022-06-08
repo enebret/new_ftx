@@ -22,8 +22,8 @@ function ContactT () {
   const navigate = useNavigate();
 
     return (
-    <div>
-       
+    
+       <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -55,65 +55,28 @@ function ContactT () {
   </Container>
 </Navbar>
          
+<Container id = 'max'>
+<Form id = 'fax'>
+  <Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Text className="text-muted">
+      We'll never share your email with anyone else.
+    </Form.Text>
+  </Form.Group>
 
-            
-
-          <div class = 'cont'>
-          <Container >
-              <Row >
-                <Col ><h1 id = 'ast' style={{ textTransform: 'uppercase' }}>Contact Form</h1></Col>
-              </Row>
-            </Container>
-
-          </div>
-
-          <div class = 'dont'>
-          <Row className="g-2">
-  <Col md>
-  <Form.Label>*FullName</Form.Label>
-    <FloatingLabel controlId="floatingInputGrid" label="*enter full-name">
-      <Form.Control type="email" placeholder="name@example.com" />
-    </FloatingLabel>
-  </Col>
-  <Col md>
-  <Form.Label>Email</Form.Label>
-    <FloatingLabel controlId="floatingSelectGrid" label="*enter email">
-    <Form.Control type="password" placeholder="name@example.com" />
-    </FloatingLabel>
-  </Col>
-</Row>
-
-<Row className="g-2">
-  <Col md>
-  <Form.Label>*Subject</Form.Label>
-    <FloatingLabel controlId="floatingInputGrid" label="*enter subject">
-      
-      <Form.Control type="email" placeholder="name@example.com" />
-    </FloatingLabel>
-  </Col>
-  
-</Row>
-
-<Row className="g-2">
-  <Col md>
-  <Form.Label>*Message</Form.Label>
-    <FloatingLabel controlId="floatingInputGrid" label="*type message here">
-      <Form.Control type="email" placeholder="name@example.com" 
-      style={{ height: '200px' }}
-      />
-    </FloatingLabel>
-  </Col>
-  
-</Row>
-<Button variant="primary" type="submit">
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label>Password</Form.Label>
+    <Form.Control type="password" placeholder="Password" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+    <Form.Check type="checkbox" label="Check me out" />
+  </Form.Group>
+  <Button variant="primary" type="submit">
     Submit
   </Button>
-          </div>
-
-
-
-
-
+</Form>
+</Container>
 
 
           
