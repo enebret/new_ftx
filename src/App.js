@@ -3,7 +3,7 @@ import * as React from 'react';
 import './App.css';
 import Body from './components/body.jsx';
 import Form from './components/login.js';
-import Reg from './components/signup.jsx';
+import Signup from './components/Signup.jsx';
 import AboutUs from './components/AboutUs.js';
 import Investment from './components/Investment.js';
 import ContactUs from './components/ContactUs.js';
@@ -24,7 +24,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Body />}></Route>
           <Route path="form" element={<Form />}></Route>
-          <Route path="registration" element={<Reg />}></Route>
+          <Route path="signup" element={<Signup />}></Route>
           <Route path="aboutus" element={<AboutUs />}></Route>
           <Route path="investment" element={<Investment />}></Route>
           <Route path="partnership" element={<Partnership />}></Route>

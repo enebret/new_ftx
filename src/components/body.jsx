@@ -67,7 +67,7 @@ function Body () {
   </Button>
   <Form.Group id = 'txy' >
   <Form.Text >
-  Don't have an account yet? <a href='' onClick={() => navigate('/contactus')}>CREATE AN ACCOUNT NOW</a>
+  Don't have an account yet? <a href='' onClick={() => navigate('/signup')}>CREATE AN ACCOUNT NOW</a>
     </Form.Text>
   </Form.Group>
 </Form>

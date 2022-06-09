@@ -4,7 +4,7 @@ import './signupStyles.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
   
-function Reg () {
+function Signup () {
     const [Email, setUserEmail] = useState('');
     const [Password, setPassword] = useState('');
     const [Firstname, setFirstname] = useState('');
@@ -62,4 +62,4 @@ function Reg () {
     )
 }
 
-export default Reg;
+export default Signup;
