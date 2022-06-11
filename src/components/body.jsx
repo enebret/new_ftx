@@ -9,7 +9,7 @@ import logo from './util/logo.JPG';
 import usplash from './util/usplash.jpg';
 
 import ab from './pix/ab.jpg';
-import map from './util/map.png';
+import mp from './pix/mp.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -171,7 +171,7 @@ function Body () {
          </Row>
        </Container>
 
-      <Container>
+      <Container  fluid style={{ backgroundImage: `url(${mp})` }}>
         <Row  style={{ marginTop: '10%'}}>
           <h2 style={{ textAlign: 'center', fontWeight: '700'}}>COMPANY SUCCESS</h2>
           <h3 style={{ textAlign: 'center', fontWeight: '700', marginTop: '5%'}}>Some fun facts about our company</h3>
@@ -204,12 +204,12 @@ function Body () {
        
       <Container  id = 'qt'>
       <Row  >
-          <Col md={{ span: 4,}} >
-          <Card style={{ width: '18rem',  marginTop: '3%'}}>
+          <Col md={{ span: 4,}} style={{ margin: 'auto' }}>
+          <Card style={{   marginTop: '3%', }} >
       
-      <Card.Body>
+      <Card.Body  >
       
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Row md = {2}><img src="/pix/ke.png" style={{ margin: 'auto' }} /></Row>
       <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
       <Card.Text  style={{ textAlign: 'center', }}>
       I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
@@ -220,12 +220,12 @@ function Body () {
       
           </Col>
           <Col md={{ span: 4}}>
-          <Card style={{ width: '18rem', marginTop: '3%'}}>
+          <Card style={{  marginTop: '3%'}}>
       
       <Card.Body>
       
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
+      <Row md = {2}><img src="/pix/ke.png" style={{ margin: 'auto' }} /></Row>
+      <Card.Title style={{ textAlign: 'center', }}>PAUL BLISS</Card.Title>
       <Card.Text  style={{ textAlign: 'center', }}>
       I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
           </Card.Text>
@@ -234,12 +234,12 @@ function Body () {
           </Card> 
           </Col>
           <Col md={{ span: 4}}>
-          <Card style={{ width: '18rem', marginTop: '3%'}}>
+          <Card style={{ marginTop: '3%'}}>
       
       <Card.Body>
       
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Title style={{ textAlign: 'center', }}>ADAMS WILSON</Card.Title>
+      <Row md = {2}><img src="/pix/kate.png" style={{ margin: 'auto' }} /></Row>
+      <Card.Title style={{ textAlign: 'center', }}>MATHIAS KATE</Card.Title>
       <Card.Text  style={{ textAlign: 'center', }}>
       I am in a group who has made a number of investments in FTX LTD. I find them to be quite knowledgeable and professional about their business. They run it profitably, and they pay on time.
           </Card.Text>
