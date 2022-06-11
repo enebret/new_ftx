@@ -22,7 +22,7 @@ function Signup () {
             password: Password
           };
 
-          axios.post('http://localhost:8082/signup', user)
+          axios.post('http://localhost:8082/user/signup', user)
           .then(response => {
             if(response.data!=='already registered'){
               //redirect to homepage or dashboard page

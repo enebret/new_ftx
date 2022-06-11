@@ -7,7 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import Cg from './coingecko/cg.js';
 import logo from './util/logo.JPG';
 import usplash from './util/usplash.jpg';
-import fx from './util/fx.png';
+
+import ab from './pix/ab.jpg';
 import map from './util/map.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -31,7 +32,7 @@ function Body () {
      <div class=''>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">FTX</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
@@ -77,7 +78,7 @@ function Body () {
   </Container>
 </Navbar>
 
-       <Container fluid id = 'gep'>
+       <Container fluid id = 'gep'  style={{ backgroundImage: `url(${ab})` }}>
        <Col md={{ span: 5}}>
        <Row  id = 'hel'>
             <h2 id = 'het'  style={{ color: 'white',  fontWeight: '700'}}>Automate Cryptocurrency trading with our <span  style={{ color: 'black'}}>Simple</span> & flexible platform.</h2>
@@ -97,29 +98,31 @@ function Body () {
               <p  style={{ marginTop: '2%'}}>With us trading has been made easy. Choose from 250+ financial instruments with a trusted, award-winning broker.</p>
             </Row>
          </Col>
-
+         
          <Col md={{ span: 3}}>
+         
           <Row id = 'tex'>
-            <h4 style={{ color: '#777',  fontWeight: '700'}}><img></img>GOLD</h4>
+          
+            <h4 style={{ color: '#777',  fontWeight: '700'}}><img src= '/pix/fp.png' />GOLD</h4>
             <p  style={{ marginTop: '5%'}}>We offer a wide range of gold stock trading. Based on our business model we ensure and guarantee returns on every trade</p>
           </Row>
           <Row id = 'tex'>
-            <h5 style={{ color: '#777',  fontWeight: '700'}}><img></img>CRYPTOCURRENCY</h5>
+            <h5 style={{ color: '#777',  fontWeight: '700'}}><img src= '/pix/spp.png' />CRYPTOCURRENCY</h5>
             <p  style={{ marginTop: '5%'}}>We also trade on other Cryptocurrencies to help increase our clients profit margin.</p>
           </Row>
          </Col>
 
          <Col md={{ span: 4}}>
           <Row id = 'lex'>
-            <h4 style={{ color: '#777',  fontWeight: '700'}}><img></img>FOREX</h4>
+            <h4 style={{ color: '#777',  fontWeight: '700'}}><img src= '/pix/sp.png' />FOREX</h4>
             <p  style={{ marginTop: '5%'}}>With our experience in trading, we have been able to build trust with over 4k clients all over the world, as we do the tasking job for you.</p>
           </Row>
           <Row id = 'dex'>
-            <h4 style={{ color: '#777',  fontWeight: '700'}}><img></img>STOCK BOND</h4>
+            <h4 style={{ color: '#777',  fontWeight: '700'}}><img src= '/pix/th.png' />STOCK BOND</h4>
             <p  style={{ marginTop: '5%'}}>Invest in Stock and Bonds, the safest and widely accepted investment platform.</p>
           </Row>
           <Row id = 'lex'>
-            <h4 style={{ color: '#777',  fontWeight: '700'}}><img></img>CANABIS</h4>
+            <h4 style={{ color: '#777',  fontWeight: '700'}}><img src= '/pix/thh.png' />CANABIS</h4>
             <p  style={{ marginTop: '5%'}}>FTX LTD has turned cannabis stock trading into a very comfortable, speedy, easy, safe, and relatively risk free process</p>
           </Row>
          </Col>
@@ -129,14 +132,16 @@ function Body () {
 
 
        <Container fluid id = 'msk'>
-       <Row></Row>
-         <Col md={5}>
+       <Row>
+       <Col md={5}>
          <Row id = 'ct'>
             <h2 style={{ color: '#fff',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: 'black',}}>Reliability</span> & Security</h2>
             <p  style={{ marginTop: '2%', color: '#fff'}}>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
          </Row>
          </Col>
          <Col></Col>
+       </Row>
+         
        </Container>
 
        <Container id = 'ifx'>
