@@ -131,23 +131,25 @@ function Body () {
        </Container>
 
 
-       <Container fluid id = 'msk'>
-       <Row>
+       <Container fluid id = 'msk'  >
+       <Row style={{ padding: '5%'}}>
        <Col md={5}>
          <Row id = 'ct'>
             <h2 style={{ color: '#fff',  fontWeight: '700', fontFamily: 'cursive'}}><span style={{ color: 'black',}}>Reliability</span> & Security</h2>
             <p  style={{ marginTop: '2%', color: '#fff'}}>We take pride in our solutions. And this because we have contributed numerous resources and efforts in designing, testing and modeling them. For our automized arbitrage bot, exchanges have been carefully studied and selected based on specific characteristics such as reliability and trustworthiness, among others. A similar strict selection process has been allocated to the cryptocurrencies that the bot takes into account. These currencies must demonstrate real foundations.</p>
          </Row>
          </Col>
-         <Col></Col>
+         <Col md={7}>
+         <img src= '/pix/lp.png' style={{ height: 'auto', width: '100%'}}/>
+         </Col>
        </Row>
          
        </Container>
 
        <Container id = 'ifx'>
          <Row></Row>
-         <Row style={{ textAlign: 'center', }}>
-           <Row md = {4} style={{ padding: '8%',}}><h2  style={{  fontWeight: '700',  backgroundColor: '#5cb85c', color: 'white', padding: '2%', margin: 'auto', borderRadius: '5px'}}>Our Features</h2></Row>
+         <Row style={{  textAlign: 'center'}}>
+           <Row  md = {4} style={{ marginTop: '4%',margin: 'auto'}}><h2  style={{  fontWeight: '700',  backgroundColor: '#5cb85c', color: 'white', padding: '2%', borderRadius: '5px',  margin: 'auto'}}>Our Features</h2></Row>
            <Col md={{ span: 4}} style={{ marginTop: '4%',}}>
             <Row>
               <h2>Model Portfolio</h2>
