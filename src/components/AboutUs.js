@@ -97,7 +97,7 @@ function Platform () {
        </Row>
       
        <Row id = 'ftd'>
-     <p>FTX Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using Trade Max Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
+     <p style={{ lineHeight: "2" }}>FTX Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using Trade Max Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
        </Row>
        <img src= '/pix/btc.png' style={{ marginLeft: "5%" }}/>      
        <img src= '/pix/rp.png' style={{ marginLeft: "5%" }}/>
@@ -115,8 +115,9 @@ function Platform () {
               <h2>Who Can Trade Cryptocurrencies?</h2> 
               </Row>
               
-              <Row id = 'ftd'>
-            <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
+              <Row style={{ lineHeight: "2" }}>
+            <p>Online Cryptocurrency trading is already a highly popular form of investment with millions of traders worldwide. Almost anybody can trade Cryptocurrencies if they are willing to apply the basic principles of risk management. The Arbitrage Compass online Education Center contains all the learning tools and educational resources that you need to begin online Cryptocurrency trading.</p>
+            <p> Many of Trade Max Limited top investors signed up as absolute beginners with no experience of the financial markets. They used the Education Center and free Demo Account to master the basics of Cryptocurrency trading. Cryptocurrency traders range from novice investors who trade part time, to expert investors who manage complex personal portfolios on a full time basis. The Trade Max Limited platform gives you the freedom to set your own financial goals and manage your own investments.</p>
               </Row>
 
     </Col>
@@ -125,7 +126,7 @@ function Platform () {
   
 </Container>
 
-<Container  fluid  style={{ padding: "5%" }}>
+<Container  fluid  style={{ padding: "5%", lineHeight: "2" }}>
 <Row >
       <Col md={6}><Row><img id="npq" src={fourthDiv} alt="q_option" /></Row></Col>
 
@@ -145,7 +146,7 @@ function Platform () {
   </Row>
 </Container>
 
-<Container  style={{ padding: "5%" }}>
+<Container  style={{ padding: "5%", lineHeight: "2" }}>
 <Row>
       <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Risk Management
@@ -162,7 +163,7 @@ function Platform () {
   </Row>
 </Container>
 
-<Container fluid  style={{ padding: "5%" }}>
+<Container fluid  style={{ padding: "5%", lineHeight: "2"  }}>
   
   <Row >
       <Col md={6}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
