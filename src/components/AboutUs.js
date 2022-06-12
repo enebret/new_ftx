@@ -21,7 +21,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import ab from './pix/lapy.jpg';
-
+import mapy from './pix/mapy.png';
 
 
 
@@ -87,7 +87,7 @@ function Platform () {
               </Row>
             </Container>
     
-    <Container fluid  style={{ padding: "5%" }}>
+    <Container fluid  style={{ padding: "5%", backgroundColor:'#eee'  }}>
     <Row >
       
       <Col md={{ span: 6, }}>  <Row id = 'fta'>
@@ -105,7 +105,7 @@ function Platform () {
        <img src= '/pix/lt.png' style={{ marginLeft: "5%" }}/>
        </Col>
 
-<Col md={6} ><Row><img id="npq" src={firstDiv} alt="q_option" /></Row></Col>
+<Col md={6} ><Row><img id="npq" src={mapy} alt="q_option" /></Row></Col>
 </Row>
 </Container>
 
