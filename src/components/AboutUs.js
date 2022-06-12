@@ -87,44 +87,47 @@ function Platform () {
               </Row>
             </Container>
     
-    <Container id = 'fmain'>
-    <Row id = 'npm'>
+    <Container fluid  style={{ padding: "5%" }}>
+    <Row >
       
+      <Col md={{ span: 6, }}>  <Row id = 'fta'>
+       <h2>Open Leveraged CFD 
+         Trades on Cryptocurrencies
+         </h2> 
+       </Row>
+      
+       <Row id = 'ftd'>
+     <p>FTX Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using Trade Max Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
+       </Row>
+       <img src= '/pix/btc.png' style={{ marginLeft: "5%" }}/>      
+       <img src= '/pix/rp.png' style={{ marginLeft: "5%" }}/>
+       <img src= '/pix/dg.png' style={{ marginLeft: "5%" }}/>
+       <img src= '/pix/lt.png' style={{ marginLeft: "5%" }}/>
+       </Col>
 
-              <Col md={{ span: 6, }}>  <Row id = 'fta'>
-              <h2>Open Leveraged CFD 
-                Trades on Cryptocurrencies
-                </h2> 
-              </Row>
-              <Row id = 'ftc'>
-                </Row>
-              <Row id = 'ftd'>
-            <p>FTX Limited allows you to gain high levels of exposure with relatively small investment sums, using up to x200 leverage. When you open leveraged positions you are basically investing using Trade Max Limited`s money and can make much higher profits. We strongly recommend that you visit our education center to learn more about how to use leverage effectively.</p>
-              </Row>
+<Col md={6} ><Row><img id="npq" src={firstDiv} alt="q_option" /></Row></Col>
+</Row>
+</Container>
 
-    </Col>
-
-    <Col md={4} ><Row><img id="npq" src={firstDiv} alt="q_option" /></Row></Col>
-  </Row>
-
- 
-  <Row id = 'npm'>
+<Container  fluid  style={{ padding: "5%" }}>
+<Row style={{ margin: "auto" }}>
       <Col md={{ span: 6, }}>  <Row id = 'fta'>
               <h2>Who Can Trade Cryptocurrencies?</h2> 
               </Row>
-              <Row id = 'ftc'>
-                </Row>
+              
               <Row id = 'ftd'>
             <p>Create a personal investment schedule and prepare for market volatility around key economic events, news and major decisions. The economic calendar is continually updated and events are rated by importance and relevance.</p>
               </Row>
 
     </Col>
-    <Col md={4}><Row><img id="npq" src={secondDiv} alt="q_option" /></Row></Col>
+    <Col md={6}><Row><img id="npq" src={secondDiv} alt="q_option" /></Row></Col>
   </Row>
   
+</Container>
 
-  <Row id = 'npm'>
-      <Col md={4}><Row><img id="npq" src={fourthDiv} alt="q_option" /></Row></Col>
+<Container  fluid  style={{ padding: "5%" }}>
+<Row >
+      <Col md={6}><Row><img id="npq" src={fourthDiv} alt="q_option" /></Row></Col>
 
               <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Price Alerts and
@@ -140,8 +143,10 @@ function Platform () {
     </Col>
 
   </Row>
+</Container>
 
-  <Row id = 'npm'>
+<Container  style={{ padding: "5%" }}>
+<Row>
       <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Risk Management
                 </h2> 
@@ -153,11 +158,14 @@ function Platform () {
               </Row>
 
     </Col>
-    <Col md={4}><Row><img id="npq" src={firstPng} alt="q_option" /></Row></Col>
+    <Col md={6}><Row><img id="npq" src={firstPng} alt="q_option" /></Row></Col>
   </Row>
+</Container>
 
-  <Row id = 'npm'>
-      <Col md={4}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
+<Container fluid  style={{ padding: "5%" }}>
+  
+  <Row >
+      <Col md={6}><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
 
               <Col md={{ span: 6}}>  <Row id = 'fta'>
               <h2>Trading Signals

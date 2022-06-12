@@ -4,10 +4,6 @@
     background-color: beige;
 }
 
-#fmain{
-    margin-top: 2%;
-    text-align: justify;
-}
 
 #fta{
     font-weight: 1000;
@@ -17,9 +13,7 @@
 #ftb{
     font-weight: 1000;
 }
-#ftc{
-    font-weight: 1000;
-}
+
 #ftd{
     margin-top: 5%;
 }
@@ -27,15 +21,9 @@
     margin-top: 5%;
     text-align: center;
 }
-#fth{
-    margin-top: 5%;
-}
+
 
 #npq{
     left: 7%;
-}
-#npm{
-    padding-left: 20%;
-    margin-top: 5%;
 }
 
