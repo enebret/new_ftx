@@ -22,6 +22,9 @@
     text-align: center;
 }
 
+#fcd{
+    border-bottom:2px solid red;
+}
 
 #npq{
     left: 7%;
