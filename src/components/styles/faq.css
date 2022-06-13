@@ -1,32 +1,37 @@
 #fax{
-    height: 5%;
+    padding : 5%;
     background-color: #78807A;
     color: white;
 }
 
+#lox{
+    padding : 6%;
+    color: white;
+}
+
 #faxd{
-    margin-top: 5%;
     margin-left: 12%;
 }
 
 #faxe{
-    height: 2%;
+    
     background-color: greenyellow;
     color: white;
 }
 
 #faxee{
-    margin-top: 2%;
+    
     margin-left: 12%;
 }
 
 #raq{
     margin-top: 2%;
     color: #777;
+    margin-bottom: 2%;
 }
 
 #rex{
-    
+    padding: 10%;
     background-color:limegreen;
     text-align: center;
     color: green;
@@ -34,13 +39,22 @@
 }
 
 #tdr{
-    margin-left: 5%;
+   color: white; 
 }
 
 #dfg{
-    margin-top: 1%;
+    margin-top: 0.5%;
+   
     
 }
+
+.accordion-header{
+    color: white;
+}
+
+
+
+ 
 
 #hox{
     margin-top: 5%;
@@ -53,7 +67,7 @@
 
 .accordion-button {
     background-color: gray !important;
-    color: white;
+    color: white   !important ;
     border-radius: 40%;
   }
   
