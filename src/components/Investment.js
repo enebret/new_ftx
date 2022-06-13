@@ -1,7 +1,7 @@
 /*jshint esversion: 8 */
 
 
-import './styles/investment.css';
+import './styles/aboutus.css';
 import firstDiv from './util/aboutusimages/first_div.jpg';
 import vgDiv from './util/investment/undraw.png';
 import pgDiv from './util/investment/external.png';
@@ -19,7 +19,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
-
+import vw from './pix/vw.jpg';
 
 
 
@@ -60,9 +60,9 @@ function Investment () {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-            <Container fluid id = 'ftxx'>
+            <Container fluid id = 'ftx' style={{ backgroundImage: `url(${vw})`,  backgroundSize: '100% 100%', }}>
               <Row  >
-                <h2 style={{}} id='hdx'>Our <span style={{ fontWeight: '1000'}}>Investment Plan.</span></h2>
+            <h2 style={{ color: "white" }}>CFD Trading - Cryptocurrency</h2>
               </Row>
             </Container>
 
