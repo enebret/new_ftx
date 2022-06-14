@@ -1,7 +1,7 @@
 
 #ftx{
-    height: 5%;
-    background-color: beige;
+    padding: 5%;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
 #fmain{
