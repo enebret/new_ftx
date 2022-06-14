@@ -4,40 +4,14 @@
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
-#fmain{
-    margin-top: 2%;
-    text-align: justify;
+#ltx{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-
-#fta{
-    font-weight: 1000;
-    
-}
-
-#ftb{
-    font-weight: 1000;
-}
-#ftc{
-    font-weight: 1000;
-}
-#ftd{
-    margin-top: 5%;
-}
-#ftg{
-    margin-top: 5%;
-    text-align: center;
-}
-#fth{
-    margin-top: 5%;
-}
-
 #npq{
     left: 7%;
 }
-#npm{
-    padding-left: 20%;
-    margin-top: 5%;
-}
+
 
 
 

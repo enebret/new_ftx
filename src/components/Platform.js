@@ -84,7 +84,7 @@ function Platform () {
               </Row>
             </Container>
     
-    <Container>
+    <Container id = 'ltx'>
     <Row id = ''>
       <Col md={6} ><Row><img id="npq" src={qOption} alt="q_option" /></Row></Col>
 
@@ -103,7 +103,7 @@ function Platform () {
   </Row>
     </Container>
 
-      <Container>
+      <Container style={{ paddingBottom: '4%', }}>
       <Row id = 'ftg'>
           <h2>Optimise your Trading
           Experience.</h2>
