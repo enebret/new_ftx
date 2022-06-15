@@ -75,7 +75,9 @@ function ContactT () {
   <Container fluid id = 'ftx' style={{ backgroundImage: `url(${pol})`,  backgroundSize: '100% 100%', }}>
           <h2   style={{ color: 'white',  fontWeight: '200'}}>Get in Touch.</h2>
             </Container>     
-
+<Container fluid id = 'xrp'>
+  <h2 style={{ color: 'white',  fontWeight: '1000'}}>Contact us</h2>
+</Container>
 <Container id = 'max'>
 <Form id = 'fax'>
   <Form.Group className="mb-3" controlId="formBasicEmail">
