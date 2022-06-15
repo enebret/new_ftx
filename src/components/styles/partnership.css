@@ -1,15 +1,17 @@
 
+#ftx{
+    padding: 5%;
+}
+
 #rftc{
-    height: 3%;
+    padding: 2%;
     background-color: aquamarine;
 }
-#btr0{
-    margin-top: 2%;
-    margin-left: 9%;
+#tr{
+    margin-left: 8%;
 }
 #btr1{
-    margin-left: 9%;
-    margin-top: 2%;
+   
 }
 #rftd{
     margin-top: 4%;
@@ -17,14 +19,15 @@
 }
 
 #rfte{
+    margin-top: 2%;
     padding-left: 10%;
     padding-right: 10%;
     color: #777;
     text-align: justify;
 }
-#rftf{
-    margin-top: 4%;
-    
+#tf{
+
+    margin-left: 5%;
 }
 
 #rftg{
@@ -38,13 +41,11 @@
 }
 
 #lrow{
-    height: 200px;
+    padding: 5%;
     background-color: aliceblue;
-    padding-left: 2%;
-    padding-right: 2%;
+   
     margin-top: 2%;
-    
-    width: 80%;
+    margin-bottom: 2%;
     border-radius: 5px;
     border-style: solid;
     border-color: burlywood;
