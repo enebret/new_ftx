@@ -10,7 +10,7 @@ import ContactUs from './components/ContactUs.js';
 import Faq from './components/Faq.js';
 import Partnership from './components/Partnership';
 import Platform from './components/Platform.js';
-import Contact from './components/ContactT.js';
+
 import SignT from './components/SignT.js';
 import { Routes, Route, Link } from "react-router-dom";
 //errors are due to js file extension
@@ -30,7 +30,7 @@ function App() {
           <Route path="partnership" element={<Partnership />}></Route>
           <Route path="platform" element={<Platform />}></Route>
           <Route path="contactus" element={<ContactUs />}></Route>
-          <Route path="contact" element={<Contact />}></Route>
+          
           <Route path="faq" element={<Faq />}></Route>
           <Route path="SignT" element={<SignT />}></Route>
           
