@@ -119,7 +119,12 @@ function ContactT () {
   </Col>
   <Col md={6}>
     <h1>FTX LIMITED</h1>
-    <img src= {cal} style={{ height: 'auto', width: '100%'}}/>
+    <Col md= {8}><img src= {cal} style={{ height: 'auto', width: '100%'}}/></Col>
+    <p> <b>Address:</b> 118 South H Street, Lompac, <br></br>
+California USA 93436</p>
+      <h5><b>Contact Us</b></h5>
+      <p  style={{marginBottom: '0%'}}><b>General: </b><a href=''>suppocomrt@ftxltd.com</a></p>
+      <p  ><b>Phone: </b><a href=''>+1(209) 457-6290</a></p>
   </Col>
   </Row>
 </Container>
