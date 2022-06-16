@@ -119,6 +119,7 @@ function ContactT () {
   </Col>
   <Col md={6}>
     <h1>FTX LIMITED</h1>
+    <img src= {cal} style={{ height: 'auto', width: '100%'}}/>
   </Col>
   </Row>
 </Container>
