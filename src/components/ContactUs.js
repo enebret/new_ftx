@@ -13,7 +13,7 @@ import logo from './util/logo.JPG';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
-import pol from './pix/pol.png';
+import ctr from './pix/abk.png';
 import cal from './pix/cal.jpeg';
 
 
@@ -72,7 +72,7 @@ function ContactT () {
   </Container>
 </Navbar>
 
-  <Container fluid id = 'ftx' style={{ backgroundImage: `url(${pol})`,  backgroundSize: '100% 100%', }}>
+  <Container fluid id = 'kpr' style={{ backgroundImage: `url(${ctr})`,  backgroundSize: '100% 100%', }}>
           <h2   style={{ color: 'white',  fontWeight: '200'}}>Get in Touch.</h2>
             </Container>     
 <Container fluid id = 'xrp'>
